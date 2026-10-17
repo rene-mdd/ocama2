@@ -1,0 +1,33 @@
+{
+  "header": {
+    "primaryNav": "Principal",
+    "openMenu": "Abrir menú"
+  },
+  "languageSwitcher": {
+    "short": "EN",
+    "label": "View this page in English"
+  },
+  "offer": {
+    "validUntil": "Válida hasta el {date}"
+  },
+  "plan": {
+    "mailSubject": "Consulta de estadía - Ocama",
+    "mailBody": "Fechas preferidas: {dates}\nHuéspedes: {guests}\nOcasión: {occasion}\nPreferencia de villa: {villa}\n\n{notes}",
+    "heliNote": "Me interesa llegar en helicóptero.",
+    "heliMarker": "helic"
+  },
+  "map": {
+    "ocamaTitle": "Ocama",
+    "ocamaText": "Un hotel boutique escondido sobre la bahía de Rincón: ocho villas privadas en la punta de la península de Samaná, con helipuerto propio.",
+    "azsTitle": "AZS · Samaná El Catey",
+    "azsText": "La puerta de entrada más cercana: unos 90 minutos por carretera hasta Ocama. Conductores de confianza o una SUV de alquiler pueden recibir su vuelo.",
+    "sdqTitle": "SDQ · Las Américas",
+    "sdqText": "Un trayecto escénico de unas 3 horas desde Santo Domingo, con conductores de confianza o una SUV de alquiler.",
+    "pujTitle": "PUJ · Punta Cana",
+    "pujText": "La puerta de entrada internacional más transitada de la isla: de 4 a 5 horas por carretera con conductores de confianza, o llegue en helicóptero.",
+    "ocamaLabel": "Ocama",
+    "azsLabel": "AZS · 90 min",
+    "sdqLabel": "SDQ · 3 h",
+    "pujLabel": "PUJ · 4–5 h"
+  }
+}

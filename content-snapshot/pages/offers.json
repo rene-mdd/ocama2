@@ -1,0 +1,54 @@
+{
+  "key": "offers",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/wpbackend.ocama.com/wp-content/uploads/Social-media-preview/preview_home.jpg"
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "Exclusive Offers at Ocama.",
+      "meta_title": "Exclusive Offers at Ocama. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Exclusive Offers",
+          "title": "Exclusive Offers <em>at Ocama.</em>",
+          "subtitle": "Backed by lush jungle and fronted by a sweep of endless golden sand, Ocama is a coastal refuge, with several exclusive offers designed to help each guest experience the very best of the hotel's serene setting, whether exploring above or below the waves.",
+          "alt": "Rincón Bay seen from the hills of Ocama",
+          "mobile_intro": "Backed by lush jungle and fronted by a sweep of endless golden sand, Ocama is a coastal refuge, with several exclusive offers designed to help each guest experience the very best of the hotel's serene setting, whether exploring above or below the waves.",
+          "cta_inquiry": "Make an Inquiry"
+        },
+        "card_label": "Discover More",
+        "footnote": {
+          "before": "All offers are subject to availability and valid for direct reservations. For tailored stays such as retreats, buyouts, and celebrations, ",
+          "link_label": "begin a conversation with our team",
+          "after": "."
+        }
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "Ofertas exclusivas en Ocama.",
+      "meta_title": "Ofertas exclusivas en Ocama. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Ofertas exclusivas",
+          "title": "Ofertas exclusivas <em>en Ocama.</em>",
+          "subtitle": "Respaldado por selva exuberante y frente a una franja interminable de arena dorada, Ocama es un refugio costero, con varias ofertas exclusivas diseñadas para que cada huésped viva lo mejor del sereno entorno del hotel, ya sea explorando sobre las olas o bajo ellas.",
+          "alt": "Rincón Bay seen from the hills of Ocama",
+          "mobile_intro": "Respaldado por selva exuberante y frente a una franja interminable de arena dorada, Ocama es un refugio costero, con varias ofertas exclusivas diseñadas para que cada huésped viva lo mejor del sereno entorno del hotel, ya sea explorando sobre las olas o bajo ellas.",
+          "cta_inquiry": "Haga su consulta"
+        },
+        "card_label": "Descubra más",
+        "footnote": {
+          "before": "Todas las ofertas están sujetas a disponibilidad y son válidas para reservaciones directas. Para estadías a la medida, como retiros, reservas exclusivas y celebraciones, ",
+          "link_label": "inicie una conversación con nuestro equipo",
+          "after": "."
+        }
+      }
+    }
+  ]
+}

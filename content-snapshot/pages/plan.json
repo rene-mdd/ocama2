@@ -1,0 +1,283 @@
+{
+  "key": "plan",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/upload/home-page/villa-from-gallery.jpg",
+    "air": "https://ocama.com/upload/home-page/ocama-helicopter.jpg"
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "Tell us what brings you to Ocama.",
+      "meta_title": "Tell us what brings you to Ocama. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Plan Your Stay",
+          "title": "Tell us what brings you <em>to Ocama.</em>",
+          "subtitle": "Whether you are planning a quiet escape, a honeymoon, a family gathering, or a full-property retreat, our reservations team will help guide you toward the villa, rhythm, and experiences that best fit your stay.",
+          "alt": "An Ocama villa interior opening onto the forest",
+          "mobile_intro": "Whether you are planning a quiet escape, a honeymoon, a family gathering, or a full-property retreat, our reservations team will help guide you toward the villa, rhythm, and experiences that best fit your stay."
+        },
+        "inquiry": {
+          "eyebrow": "Send an Inquiry",
+          "dates": {
+            "label": "Preferred Dates",
+            "placeholder": "e.g. 12–18 January"
+          },
+          "guests": {
+            "label": "Guests",
+            "placeholder": "2 adults"
+          },
+          "occasion": {
+            "label": "Occasion",
+            "options": [
+              "Quiet escape",
+              "Honeymoon / romance",
+              "Family gathering",
+              "Group of friends",
+              "Retreat or buyout",
+              "Celebration"
+            ]
+          },
+          "villa": {
+            "label": "Villa Preference",
+            "options": [
+              "Help me choose",
+              "Casa Tanama (1BR)",
+              "Casa Bagua (2BR)",
+              "Casa Turey (2BR)",
+              "Casa Guama (2BR)",
+              "Casa Ana (2BR)",
+              "Casa Guada (2BR)",
+              "Casa Bajacú (3BR)",
+              "Casa Kachi (3BR)",
+              "Full property"
+            ]
+          },
+          "notes": {
+            "label": "Anything else: dining, wellness, adventure, transfers?",
+            "placeholder": "Tell us what you're imagining…"
+          },
+          "send_label": "Send an Inquiry",
+          "availability_label": "Or Check Availability Directly"
+        },
+        "arrival": {
+          "eyebrow": "Getting Here",
+          "map_label": "Interactive map of arrival routes to Ocama",
+          "caption": "Arrival routes to Ocama across the Samaná Peninsula. Tap a marker for details.",
+          "items": [
+            {
+              "value": "3 hrs",
+              "label": "Las Américas · SDQ",
+              "text": "A scenic drive from Santo Domingo. Trusted drivers, or a rental SUV delivered to the airport."
+            },
+            {
+              "value": "90 min",
+              "label": "Samaná El Catey · AZS",
+              "text": "The closest airport, with seasonal direct flights from Canada."
+            },
+            {
+              "value": "4–5 hrs",
+              "label": "Punta Cana · PUJ",
+              "text": "The island's busiest international gateway. Trusted drivers for the cross-country drive, or arrive by helicopter instead."
+            },
+            {
+              "value": "On site",
+              "label": "Private Helipad",
+              "text": "Land within the retreat itself, arranged privately by our concierge. See \"Arrive by Air\" below."
+            }
+          ],
+          "road_note": "A note on the road: Ocama is genuinely remote, and that is the point. The final two kilometers climb an unpaved hillside track, so a high-clearance SUV is essential. Our trusted drivers know every turn, or we can have a 4x4 delivered to meet you; either way, the last stretch of dirt road is where the arrival truly begins.",
+          "reservations_title": "Speak With Reservations",
+          "whatsapp_display": "+1 (888) 257-4093",
+          "whatsapp_tel": "+18882574093",
+          "whatsapp_label": "WhatsApp"
+        },
+        "air": {
+          "eyebrow": "Arrive by Air",
+          "headline": "The peninsula from above, <em>then home.</em>",
+          "body": [
+            "Ocama has its own private landing area within the retreat. Arriving by helicopter turns the journey itself into the first experience of your stay, tracing the coastline of the Samaná Peninsula, its bays, waterfalls, and forest ridges, before touching down minutes from your villa. No mountain road, no transfers; you step out, and our team walks you home.",
+            "Flights are arranged privately through our concierge with trusted operators, from Santo Domingo, Punta Cana, El Catey, and other points across the island. Scenic flights over the bay can also be composed during your stay, including whale season from the air."
+          ],
+          "rates_note": "Routes, flight times, and rates: [to be confirmed by Ocama]",
+          "cta_helicopter": "Request a Helicopter Arrival",
+          "cta_offers": "See Our Invitations",
+          "image_alt": "Helicopter arriving at Ocama's private landing area"
+        },
+        "faq": {
+          "eyebrow": "Good to Know",
+          "headline": "Before you arrive",
+          "items": [
+            {
+              "question": "How far are the villas from the beach?",
+              "answer": "Each villa is a 6–15 minute walk from Playa del Amor through forest trails. Not in the mood to walk? Call for a lift and one of our team will drive you down. Lounges, simple meals, and cocktails await at the beach."
+            },
+            {
+              "question": "Are meals included?",
+              "answer": "Villa rates do not include meals or beverages. These are ordered from our menu and charged separately, delivered as room service or served as private dinners. Let us know preferences and dietary needs in advance so our chefs can plan."
+            },
+            {
+              "question": "Do I need a car?",
+              "answer": "Many guests let us handle all transportation with trusted local drivers. If you prefer independence, we recommend a small 4x4 SUV (about $80/day, fully insured, delivered to the airport or your villa), as the retreat sits at the end of an adventurous dirt road."
+            },
+            {
+              "question": "Is there a TV? Wi-Fi?",
+              "answer": "High-speed Wi-Fi, yes. Televisions, intentionally no. Ocama is designed for reconnection with nature and each other. Board games, books, yoga gear, and beach days fill the space beautifully. A TV can be arranged on request, subject to availability."
+            },
+            {
+              "question": "What about cash, groceries, and essentials?",
+              "answer": "Las Galeras is largely cash-based; we'll guide you to ATMs en route. We recommend a supermarket stop on the drive in (your driver knows the way), offer pre-arrival grocery shopping subject to availability, and stock forgotten essentials at our on-site shop, La Pulpería. Everything can be billed to your villa and settled at check-out."
+            },
+            {
+              "question": "Are children welcome at Ocama?",
+              "answer": "Families are warmly welcome. Children under 3 stay free of charge; ages 3 to 12 are charged half of the additional-guest fee, and guests 12 and above are charged as adults. One honest note from our hillside: the villas are built into steep tropical terrain, with open stairways, terraces, and pools designed with adults in mind. Little explorers will find plenty of wonder here, and they need close adult supervision at all times. Parents and guardians remain responsible for their children's safety throughout the stay, and our team is always happy to help you choose the villa best suited to traveling with young ones."
+            },
+            {
+              "question": "Can I bring my dog?",
+              "answer": "Yes, up to two dogs per villa, each weighing up to 25 lb (12 kg). A pet fee of $200 per stay applies for stays of up to five nights; stays of six nights or more include an additional $200 deep-cleaning fee. We ask that dogs remain leashed when walking around the retreat and are never left unattended; in the exceptional case that your dog stays behind in the villa, it must be secured in an appropriate kennel. Please pick up after your dog anywhere on the property and help us protect the quiet that everyone comes here for. Housekeeping is provided only when your dog is kenneled or out of the villa, and for health regulations dogs cannot join you in the pools. Additional charges apply should any damage occur, such as scratch or bite marks, holes dug in the garden, or excessive staining. Cats, we are sorry to say, are unable to join."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "Cuéntenos qué lo trae a Ocama.",
+      "meta_title": "Cuéntenos qué lo trae a Ocama. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Planifique su estadía",
+          "title": "Cuéntenos qué lo trae <em>a Ocama.</em>",
+          "subtitle": "Ya sea que esté planificando una escapada tranquila, una luna de miel, una reunión familiar o un retiro con la propiedad completa, nuestro equipo de reservaciones lo guiará hacia la villa, el ritmo y las experiencias que mejor se ajusten a su estadía.",
+          "alt": "An Ocama villa interior opening onto the forest",
+          "mobile_intro": "Ya sea que esté planificando una escapada tranquila, una luna de miel, una reunión familiar o un retiro con la propiedad completa, nuestro equipo de reservaciones lo guiará hacia la villa, el ritmo y las experiencias que mejor se ajusten a su estadía."
+        },
+        "inquiry": {
+          "eyebrow": "Envíe su consulta",
+          "dates": {
+            "label": "Fechas preferidas",
+            "placeholder": "p. ej. 12–18 de enero"
+          },
+          "guests": {
+            "label": "Huéspedes",
+            "placeholder": "2 adultos"
+          },
+          "occasion": {
+            "label": "Ocasión",
+            "options": [
+              "Escapada tranquila",
+              "Luna de miel / romance",
+              "Reunión familiar",
+              "Grupo de amigos",
+              "Retiro o reserva exclusiva",
+              "Celebración"
+            ]
+          },
+          "villa": {
+            "label": "Preferencia de villa",
+            "options": [
+              "Ayúdenme a elegir",
+              "Casa Tanama (1 hab.)",
+              "Casa Bagua (2 hab.)",
+              "Casa Turey (2 hab.)",
+              "Casa Guama (2 hab.)",
+              "Casa Ana (2 hab.)",
+              "Casa Guada (2 hab.)",
+              "Casa Bajacú (3 hab.)",
+              "Casa Kachi (3 hab.)",
+              "Propiedad completa"
+            ]
+          },
+          "notes": {
+            "label": "¿Algo más: gastronomía, bienestar, aventura, traslados?",
+            "placeholder": "Cuéntenos lo que está imaginando…"
+          },
+          "send_label": "Enviar consulta",
+          "availability_label": "O consulte la disponibilidad directamente"
+        },
+        "arrival": {
+          "eyebrow": "Cómo llegar",
+          "map_label": "Interactive map of arrival routes to Ocama",
+          "caption": "Rutas de llegada a Ocama a través de la península de Samaná. Toque un marcador para ver los detalles.",
+          "items": [
+            {
+              "value": "3 h",
+              "label": "Las Américas · SDQ",
+              "text": "Un trayecto escénico desde Santo Domingo. Conductores de confianza, o una SUV de alquiler entregada en el aeropuerto."
+            },
+            {
+              "value": "90 min",
+              "label": "Samaná El Catey · AZS",
+              "text": "El aeropuerto más cercano, con vuelos directos de temporada desde Canadá."
+            },
+            {
+              "value": "4–5 h",
+              "label": "Punta Cana · PUJ",
+              "text": "La puerta de entrada internacional más transitada de la isla. Conductores de confianza para cruzar el país por carretera, o llegue en helicóptero."
+            },
+            {
+              "value": "En el sitio",
+              "label": "Helipuerto privado",
+              "text": "Aterrice dentro del propio retiro, coordinado de forma privada por nuestro concierge. Vea \"Llegue por aire\" más abajo."
+            }
+          ],
+          "road_note": "Una nota sobre el camino: Ocama es genuinamente remoto, y esa es la idea. Los últimos dos kilómetros suben la loma por un camino sin asfaltar, por lo que una SUV alta es esencial. Nuestros conductores de confianza conocen cada curva, o podemos coordinar la entrega de un 4x4; de cualquier manera, ese último tramo de camino de tierra es donde la llegada realmente comienza.",
+          "reservations_title": "Hable con reservaciones",
+          "whatsapp_display": "+1 (888) 257-4093",
+          "whatsapp_tel": "+18882574093",
+          "whatsapp_label": "WhatsApp"
+        },
+        "air": {
+          "eyebrow": "Llegue por aire",
+          "headline": "La península desde el aire, <em>y luego a casa.</em>",
+          "body": [
+            "Ocama cuenta con su propia área de aterrizaje dentro del retiro. Llegar en helicóptero convierte el trayecto en la primera experiencia de su estadía: recorre la costa de la península de Samaná, sus bahías, cascadas y crestas de bosque, antes de aterrizar a minutos de su villa. Sin carretera de montaña ni traslados; usted baja, y nuestro equipo lo acompaña a casa.",
+            "Los vuelos se coordinan de forma privada a través de nuestro concierge con operadores de confianza, desde Santo Domingo, Punta Cana, El Catey y otros puntos de la isla. También pueden componerse vuelos escénicos sobre la bahía durante su estadía, incluida la temporada de ballenas desde el aire."
+          ],
+          "rates_note": "Rutas, tiempos de vuelo y tarifas: [por confirmar por Ocama]",
+          "cta_helicopter": "Solicite una llegada en helicóptero",
+          "cta_offers": "Conozca nuestras invitaciones",
+          "image_alt": "Helicopter arriving at Ocama's private landing area"
+        },
+        "faq": {
+          "eyebrow": "Lo que conviene saber",
+          "headline": "Antes de su llegada",
+          "items": [
+            {
+              "question": "¿Qué tan lejos están las villas de la playa?",
+              "answer": "Cada villa está a una caminata de 6 a 15 minutos de Playa del Amor por senderos entre el bosque. ¿No tiene ánimo de caminar? Pida un traslado y alguien de nuestro equipo lo llevará. En la playa le esperan sillas de playa, comidas sencillas y cócteles."
+            },
+            {
+              "question": "¿Están incluidas las comidas?",
+              "answer": "Las tarifas de las villas no incluyen comidas ni bebidas. Estas se ordenan de nuestro menú y se cobran por separado, entregadas como servicio a la habitación o servidas como cenas privadas. Cuéntenos sus preferencias y necesidades dietéticas con antelación para que nuestros chefs puedan planificar."
+            },
+            {
+              "question": "¿Necesito un vehículo?",
+              "answer": "Muchos huéspedes dejan todo el transporte en nuestras manos, con conductores locales de confianza. Si prefiere independencia, recomendamos una SUV 4x4 pequeña (alrededor de US$80 por día, con seguro completo, entregada en el aeropuerto o en su villa), ya que el retiro se encuentra al final de un camino de tierra con espíritu de aventura."
+            },
+            {
+              "question": "¿Hay televisor? ¿Wi-Fi?",
+              "answer": "Wi-Fi de alta velocidad, sí. Televisores, intencionalmente no. Ocama está diseñado para reconectar con la naturaleza y con los suyos. Juegos de mesa, libros, equipo de yoga y días de playa llenan ese espacio de maravilla. Se puede coordinar un televisor a pedido, sujeto a disponibilidad."
+            },
+            {
+              "question": "¿Y el efectivo, las compras y lo esencial?",
+              "answer": "En Las Galeras se usa mayormente el efectivo; le indicaremos cajeros automáticos en el camino. Recomendamos una parada en el supermercado durante el trayecto (su conductor conoce el camino), ofrecemos compras previas a su llegada sujetas a disponibilidad, y en nuestra tienda de la propiedad, La Pulpería, encontrará lo esencial que se le haya olvidado. Todo puede cargarse a su villa y saldarse a la salida."
+            },
+            {
+              "question": "¿Son bienvenidos los niños en Ocama?",
+              "answer": "Las familias son muy bienvenidas. Los niños menores de 3 años se hospedan sin cargo; de 3 a 12 años pagan la mitad de la tarifa de huésped adicional, y a partir de los 12 años pagan como adultos. Una nota honesta desde estas alturas: las villas están construidas en un terreno tropical inclinado, con escaleras abiertas, terrazas y piscinas pensadas para adultos. Los pequeños exploradores encontrarán aquí mucho que descubrir, y necesitan supervisión adulta cercana en todo momento. Los padres y tutores son responsables de la seguridad de sus hijos durante toda la estadía, y nuestro equipo siempre estará encantado de ayudarle a elegir la villa más adecuada para viajar con niños."
+            },
+            {
+              "question": "¿Puedo traer a mi perro?",
+              "answer": "Sí, hasta dos perros por villa, cada uno de hasta 25 libras (12 kg). Se aplica un cargo por mascota de US$200 por estadía para estadías de hasta cinco noches; las estadías de seis noches o más incluyen un cargo adicional de US$200 por limpieza profunda. Le pedimos que su perro permanezca con correa al caminar por el retiro y que nunca se quede sin supervisión; en el caso excepcional de que su perro permanezca en la villa, deberá quedar asegurado en un kennel apropiado. Por favor recoja los desechos de su perro en cualquier punto de la propiedad y ayúdenos a proteger la tranquilidad que todos vienen a buscar. La limpieza se realiza únicamente cuando su perro está en su kennel o fuera de la villa, y por regulaciones sanitarias los perros no pueden entrar a las piscinas. Se aplicarán cargos adicionales en caso de daños, como marcas de rasguños o mordidas, hoyos excavados en el jardín o manchas excesivas. Los gatos, lamentamos decirlo, no pueden acompañarnos."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

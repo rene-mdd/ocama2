@@ -1,0 +1,98 @@
+{
+  "key": "hospitality",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/upload/home-page/kayak-and-beach.jpg"
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "Customized, caring hospitality.",
+      "meta_title": "Customized, caring hospitality. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Hospitality at Ocama",
+          "title": "Customized, caring <em>hospitality.</em>",
+          "subtitle": "Before you arrive, our team begins preparing the details of your stay. During your time at Ocama, hosts, chefs, housekeepers, guides, and local partners move quietly around your preferences, arranging meals, transfers, wellness, excursions, celebrations, and the simple comforts that make the retreat feel effortless.",
+          "alt": "Kayaks waiting on a quiet Ocama beach",
+          "mobile_intro": "Before you arrive, our team begins preparing the details of your stay. During your time at Ocama, hosts, chefs, housekeepers, guides, and local partners move quietly around your preferences, arranging meals, transfers, wellness, excursions, celebrations, and the simple comforts that make the retreat feel effortless."
+        },
+        "care": {
+          "eyebrow": "What We Take Care Of",
+          "headline": "What it means to be <em>our guest.</em>",
+          "included_title": "Included in Every Stay",
+          "included": [
+            "Pre-arrival planning with our concierge",
+            "Private WhatsApp line, before & during your stay",
+            "Daily housekeeping",
+            "Family & child-friendly set-ups",
+            "Remote-work support",
+            "On-site team, day and night"
+          ],
+          "carte_title": "Arranged À La Carte",
+          "carte": [
+            "Pre-arrival shopping, stocked before you land",
+            "Airport transfers with trusted drivers",
+            "Rental car delivered to your villa",
+            "Meal planning & private dinners",
+            "Wellness treatments, arranged 72 hours ahead",
+            "Excursions & boat charters, weather permitting",
+            "Celebrations & surprises"
+          ],
+          "note": "Your nightly rate includes the villa and the services above it. Everything à la carte is chosen and paid for only when you want it, so the stay is shaped entirely by you. Wellness services must be arranged at least 72 hours in advance, and excursions follow the weather."
+        },
+        "band": {
+          "headline": "No request too detailed, <em>or too grand.</em>",
+          "text": "Dietary needs, surprise celebrations, helicopter arrivals, or a full-property buyout for a retreat or wedding: tell us what you're imagining.",
+          "cta": "Speak With Our Team"
+        }
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "Hospitalidad atenta, hecha a su medida.",
+      "meta_title": "Hospitalidad atenta, hecha a su medida. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "La hospitalidad en Ocama",
+          "title": "Hospitalidad atenta, <em>hecha a su medida.</em>",
+          "subtitle": "Antes de su llegada, nuestro equipo comienza a preparar los detalles de su estadía. Durante su tiempo en Ocama, anfitriones, chefs, personal de limpieza, guías y aliados locales se mueven discretamente en torno a sus preferencias, coordinando comidas, traslados, bienestar, excursiones, celebraciones y esas comodidades sencillas que hacen que el retiro se sienta sin esfuerzo.",
+          "alt": "Kayaks waiting on a quiet Ocama beach",
+          "mobile_intro": "Antes de su llegada, nuestro equipo comienza a preparar los detalles de su estadía. Durante su tiempo en Ocama, anfitriones, chefs, personal de limpieza, guías y aliados locales se mueven discretamente en torno a sus preferencias, coordinando comidas, traslados, bienestar, excursiones, celebraciones y esas comodidades sencillas que hacen que el retiro se sienta sin esfuerzo."
+        },
+        "care": {
+          "eyebrow": "De qué nos ocupamos",
+          "headline": "Lo que significa ser <em>nuestro huésped.</em>",
+          "included_title": "Incluido en cada estadía",
+          "included": [
+            "Planificación previa a su llegada con nuestro concierge",
+            "Línea privada de WhatsApp, antes y durante su estadía",
+            "Limpieza diaria",
+            "Preparativos para familias y niños",
+            "Apoyo para trabajo remoto",
+            "Equipo en la propiedad, día y noche"
+          ],
+          "carte_title": "Disponible a la carta",
+          "carte": [
+            "Compras previas, su villa surtida antes de aterrizar",
+            "Traslados al aeropuerto con conductores de confianza",
+            "Vehículo de alquiler entregado en su villa",
+            "Planificación de comidas y cenas privadas",
+            "Tratamientos de bienestar, coordinados con 72 horas de antelación",
+            "Excursiones y botes privados, según el clima",
+            "Celebraciones y sorpresas"
+          ],
+          "note": "Su tarifa por noche incluye la villa y los servicios de la primera lista. Todo lo que es a la carta se elige y se paga solo cuando usted lo desea, de modo que la estadía toma la forma que usted le dé. Los servicios de bienestar deben coordinarse con al menos 72 horas de antelación, y las excursiones dependen del clima."
+        },
+        "band": {
+          "headline": "Ninguna solicitud es demasiado detallada, <em>ni demasiado grande.</em>",
+          "text": "Necesidades dietéticas, celebraciones sorpresa, llegadas en helicóptero o la reserva exclusiva de toda la propiedad para un retiro o una boda: cuéntenos lo que está imaginando.",
+          "cta": "Hable con nuestro equipo"
+        }
+      }
+    }
+  ]
+}

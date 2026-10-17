@@ -1,0 +1,340 @@
+{
+  "phone": "+1-849-581-4699",
+  "phone_display": "+1 (849) 581-4699",
+  "email": "reservations@ocama.com",
+  "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
+  "google_reviews_url": "https://www.google.com/maps/place/Ocama/@19.2820975,-69.2286959,17z/data=!4m11!3m10!1s0x8eaedde2a5cc96dd:0x6891fa0a35d9e29c!5m2!4m1!1i2!8m2!3d19.2820975!4d-69.226121!9m1!1b1!16s%2Fg%2F11h2ns2y1z",
+  "instagram_url": "https://www.instagram.com/ocama.rd",
+  "tiktok_url": "https://www.tiktok.com/@ocama.rd",
+  "same_as": [
+    "https://www.instagram.com/ocama.rd",
+    "https://www.tiktok.com/@ocama.rd",
+    "https://www.cntraveler.com/hotels/las-galeras/ocama"
+  ],
+  "latitude": 19.2820975,
+  "longitude": -69.226121,
+  "address": {
+    "locality": "Las Galeras",
+    "region": "Samaná",
+    "country": "DO"
+  },
+  "number_of_rooms": 8,
+  "pets_allowed": true,
+  "amenities": [
+    "Private pools",
+    "On-site helipad",
+    "Beach access",
+    "Plastic-free property"
+  ],
+  "og_image": "https://ocama.com/wpbackend.ocama.com/wp-content/uploads/Social-media-preview/preview_home.jpg",
+  "show_offers_banner": false,
+  "show_newsletter": false,
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "site_name": "Ocama",
+      "meta_title": "Ocama | Luxury Boutique Hotel in Las Galeras, Samaná, Dominican Republic",
+      "meta_description": "Ocama is a secluded luxury boutique hotel tucked into the hills above Rincón Bay in Las Galeras, Samaná, Dominican Republic. Eight private villas with pools, modern Dominican dining, wellness, and whale season excursions.",
+      "og_title": "Ocama | Luxury Boutique Hotel in Las Galeras, Samaná",
+      "og_description": "A secluded luxury retreat tucked into the hills above Rincón Bay. Eight private villas, modern Dominican dining, and the wild beauty of Samaná.",
+      "schema_description": "A secluded luxury boutique hotel tucked into the hills above Rincón Bay in Las Galeras, Samaná, Dominican Republic. Eight private villas across 35 hillside acres with private pools, modern Dominican dining, wellness, and whale season excursions.",
+      "reserve_label": "Reserve",
+      "reserve_long_label": "Reserve Your Stay",
+      "menu_eyebrow": "Ocama · Menu",
+      "header_nav": [
+        {
+          "key": "about",
+          "label": "The Hotel"
+        },
+        {
+          "key": "stay",
+          "label": "Stay"
+        },
+        {
+          "key": "dining",
+          "label": "Dining"
+        },
+        {
+          "key": "wellness",
+          "label": "Wellness"
+        },
+        {
+          "key": "experiences",
+          "label": "Experiences"
+        },
+        {
+          "key": "hospitality",
+          "label": "Hospitality"
+        },
+        {
+          "key": "sustainability",
+          "label": "Sustainability"
+        },
+        {
+          "key": "offers",
+          "label": "Offers"
+        },
+        {
+          "key": "plan",
+          "label": "Plan Your Stay"
+        }
+      ],
+      "mobile_nav": [
+        {
+          "key": "home",
+          "label": "Home"
+        },
+        {
+          "key": "about",
+          "label": "The Hotel"
+        },
+        {
+          "key": "stay",
+          "label": "Stay"
+        },
+        {
+          "key": "dining",
+          "label": "Dining"
+        },
+        {
+          "key": "wellness",
+          "label": "Wellness"
+        },
+        {
+          "key": "experiences",
+          "label": "Experiences"
+        },
+        {
+          "key": "hospitality",
+          "label": "Hospitality"
+        },
+        {
+          "key": "sustainability",
+          "label": "Sustainability"
+        },
+        {
+          "key": "offers",
+          "label": "Exclusive Offers"
+        },
+        {
+          "key": "plan",
+          "label": "Plan Your Stay"
+        }
+      ],
+      "footer_copy": "A luxury boutique hotel hidden above Rincón Bay, where eight private villas, thoughtful hospitality, modern Dominican cuisine, wellness, and the wild beauty of Samaná come together in an intimate tropical retreat.",
+      "footer_explore_title": "Explore",
+      "footer_explore": [
+        {
+          "key": "stay",
+          "label": "The Villas"
+        },
+        {
+          "key": "dining",
+          "label": "Dining"
+        },
+        {
+          "key": "wellness",
+          "label": "Wellness"
+        },
+        {
+          "key": "experiences",
+          "label": "Experiences"
+        },
+        {
+          "key": "offers",
+          "label": "Exclusive Offers"
+        },
+        {
+          "key": "about",
+          "label": "Our Story"
+        },
+        {
+          "key": "press",
+          "label": "Press & Media"
+        },
+        {
+          "key": "sustainability",
+          "label": "Sustainability"
+        }
+      ],
+      "footer_plan_title": "Plan",
+      "footer_plan_begin": "Begin Planning",
+      "footer_plan_getting_here": "Getting Here",
+      "footer_copyright": "© Copyright OCAMA · Las Galeras, Samaná, Dominican Republic",
+      "footer_reviews_label": "5.0 · Guest Reviews on Google",
+      "footer_meaning": "Ocama: \"to listen\" in the Taíno language",
+      "villa_inclusions": {
+        "eyebrow": "Included in Your Stay at Ocama",
+        "headline": "Your villa is private. <em>The experience is entirely Ocama.</em>",
+        "items": [
+          "Daily housekeeping",
+          "Host & concierge support",
+          "Private WhatsApp line before & during your stay",
+          "In-villa dining available",
+          "Beach & pool towels",
+          "Access to Ocama's trails & beach pathways",
+          "Experience planning",
+          "Wellness & spa arrangements",
+          "Transportation support",
+          "High-speed Wi-Fi",
+          "Yoga & fitness equipment on loan",
+          "On-site team assistance"
+        ],
+        "note": "Everything above comes with your stay. In-villa dining, spa treatments, excursions, and transfers are arranged à la carte through our concierge, and are best reserved in advance."
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "site_name": "Ocama",
+      "meta_title": "Ocama | Hotel Boutique de Lujo en Las Galeras, Samaná, República Dominicana",
+      "meta_description": "Ocama es un hotel boutique de lujo escondido entre las colinas sobre la bahía de Rincón, en Las Galeras, Samaná, República Dominicana. Ocho villas privadas con piscina, cocina dominicana contemporánea, bienestar y excursiones en temporada de ballenas.",
+      "og_title": "Ocama | Hotel Boutique de Lujo en Las Galeras, Samaná",
+      "og_description": "Un refugio de lujo escondido entre las colinas sobre la bahía de Rincón. Ocho villas privadas, cocina dominicana contemporánea y la belleza indómita de Samaná.",
+      "schema_description": "Un hotel boutique de lujo escondido entre las colinas sobre la bahía de Rincón, en Las Galeras, Samaná, República Dominicana. Ocho villas privadas en 35 acres de colina, con piscinas privadas, cocina dominicana contemporánea, bienestar y excursiones en temporada de ballenas.",
+      "reserve_label": "Reservar",
+      "reserve_long_label": "Reserve su estadía",
+      "menu_eyebrow": "Ocama · Menú",
+      "header_nav": [
+        {
+          "key": "about",
+          "label": "El Hotel"
+        },
+        {
+          "key": "stay",
+          "label": "Villas"
+        },
+        {
+          "key": "dining",
+          "label": "Gastronomía"
+        },
+        {
+          "key": "wellness",
+          "label": "Bienestar"
+        },
+        {
+          "key": "experiences",
+          "label": "Experiencias"
+        },
+        {
+          "key": "hospitality",
+          "label": "Hospitalidad"
+        },
+        {
+          "key": "sustainability",
+          "label": "Sostenibilidad"
+        },
+        {
+          "key": "offers",
+          "label": "Ofertas"
+        },
+        {
+          "key": "plan",
+          "label": "Planifique su Estadía"
+        }
+      ],
+      "mobile_nav": [
+        {
+          "key": "home",
+          "label": "Inicio"
+        },
+        {
+          "key": "about",
+          "label": "El Hotel"
+        },
+        {
+          "key": "stay",
+          "label": "Villas"
+        },
+        {
+          "key": "dining",
+          "label": "Gastronomía"
+        },
+        {
+          "key": "wellness",
+          "label": "Bienestar"
+        },
+        {
+          "key": "experiences",
+          "label": "Experiencias"
+        },
+        {
+          "key": "hospitality",
+          "label": "Hospitalidad"
+        },
+        {
+          "key": "sustainability",
+          "label": "Sostenibilidad"
+        },
+        {
+          "key": "offers",
+          "label": "Ofertas Exclusivas"
+        },
+        {
+          "key": "plan",
+          "label": "Planifique su Estadía"
+        }
+      ],
+      "footer_copy": "Un hotel boutique de lujo escondido sobre la bahía de Rincón, donde ocho villas privadas, una hospitalidad atenta, la cocina dominicana contemporánea, el bienestar y la belleza indómita de Samaná se unen en un íntimo retiro tropical.",
+      "footer_explore_title": "Explorar",
+      "footer_explore": [
+        {
+          "key": "stay",
+          "label": "Las Villas"
+        },
+        {
+          "key": "dining",
+          "label": "Gastronomía"
+        },
+        {
+          "key": "wellness",
+          "label": "Bienestar"
+        },
+        {
+          "key": "experiences",
+          "label": "Experiencias"
+        },
+        {
+          "key": "offers",
+          "label": "Ofertas Exclusivas"
+        },
+        {
+          "key": "about",
+          "label": "Nuestra Historia"
+        },
+        {
+          "key": "press",
+          "label": "Prensa y Medios"
+        },
+        {
+          "key": "sustainability",
+          "label": "Sostenibilidad"
+        }
+      ],
+      "footer_plan_title": "Planificar",
+      "footer_plan_begin": "Comience a planificar",
+      "footer_plan_getting_here": "Getting Here",
+      "footer_copyright": "© Copyright OCAMA · Las Galeras, Samaná, Dominican Republic",
+      "footer_reviews_label": "5.0 · Reseñas de huéspedes en Google",
+      "footer_meaning": "Ocama: \"escuchar\" en la lengua taína",
+      "villa_inclusions": {
+        "eyebrow": "Incluido en su estadía en Ocama",
+        "headline": "Su villa es privada. <em>La experiencia es enteramente Ocama.</em>",
+        "items": [
+          "Limpieza diaria",
+          "Acompañamiento de su anfitrión y concierge",
+          "Línea privada de WhatsApp antes y durante su estadía",
+          "Gastronomía disponible en su villa",
+          "Toallas de playa y piscina",
+          "Acceso a los senderos de Ocama y caminos a la playa",
+          "Planificación de experiencias",
+          "Coordinación de bienestar y spa",
+          "Apoyo con transporte",
+          "Wi-Fi de alta velocidad",
+          "Equipo de yoga y ejercicio en préstamo",
+          "Asistencia de nuestro equipo en la propiedad"
+        ],
+        "note": "Todo lo anterior viene con su estadía. La gastronomía en su villa, los tratamientos de spa, las excursiones y los traslados se coordinan a la carta con nuestro concierge, idealmente con reservación previa."
+      }
+    }
+  ]
+}

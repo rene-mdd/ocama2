@@ -1,0 +1,726 @@
+[
+  {
+    "id": "tanama",
+    "sort": 1,
+    "status": "published",
+    "header_image": {
+      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-tanama.jpg",
+      "fallback": null
+    },
+    "intro_image": {
+      "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_01.JPG",
+      "fallback": null
+    },
+    "gallery": [
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_02.JPG"
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_03.JPG"
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_04.JPG"
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_05.JPG"
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_06.JPG"
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_07.JPG"
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_08.JPG"
+      }
+    ],
+    "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
+    "related": [
+      "bagua",
+      "turey"
+    ],
+    "translations": [
+      {
+        "languages_code": "en-US",
+        "name": "Casa Tanama",
+        "slug": "casa-tanama",
+        "meta_title": "Casa Tanama | Ocama",
+        "meta_description": null,
+        "eyebrow": "Stay · One-Bedroom Villa",
+        "tagline": "\"Butterfly,\" in the Taíno language. Our most intimate villa: a king bedroom made for two, with a study with a full bed for one more guest.",
+        "mobile_intro": "\"Butterfly,\" in the Taíno language. Our most intimate villa: a king bedroom made for two, with a study with a full bed for one more guest.",
+        "header_alt": "Casa Tanama nestled in the forest",
+        "section_eyebrow": "Who This Villa Is For",
+        "headline": "A private world, <em>scaled for two.</em>",
+        "body": [
+          "Casa Tanama spans three indoor-outdoor levels cascading down the hillside, with a majestic panoramic view over Rincón Bay. The top floor holds the master bedroom with its live-edge king bed and floor-to-ceiling sliding doors; below, a full kitchen, a study with a full bed and ensuite, just right for a single guest or a child, and finally a sun deck with an 18-foot infinity pool in natural slate.",
+          "It offers the same privacy, intimacy, and spectacular ocean views as our larger villas. The only difference is a smaller study with a full bed, sized for one guest rather than a couple. Best for honeymoons, anniversaries, and small parties of three seeking true solitude."
+        ],
+        "meta_line": "1 King Bedroom · Study with Full Bed · Sleeps 3 · 119 sqm (1,280 sqft) · Ocean View · 6.65m Pool",
+        "intro_alt": "Casa Tanama interior with ocean view",
+        "gallery_eyebrow": "Inside Casa Tanama",
+        "gallery_alt": "Casa Tanama gallery view",
+        "quote": {
+          "text": "\"Peaceful, tastefully designed, and surrounded by lush tropical nature.\"",
+          "cite": "A Guest of Ocama"
+        },
+        "reserve_label": "Reserve Casa Tanama",
+        "all_villas_label": "All Eight Villas"
+      },
+      {
+        "languages_code": "es-ES",
+        "name": "Casa Tanama",
+        "slug": "casa-tanama",
+        "meta_title": "Casa Tanama | Ocama",
+        "meta_description": null,
+        "eyebrow": "Villas · Villa de una habitación",
+        "tagline": "\"Mariposa,\" en la lengua taína. Nuestra villa más íntima: una habitación con cama King para dos, y un estudio con cama Full para un huésped adicional.",
+        "mobile_intro": "\"Mariposa,\" en la lengua taína. Nuestra villa más íntima: una habitación con cama King para dos, y un estudio con cama Full para un huésped adicional.",
+        "header_alt": "Casa Tanama nestled in the forest",
+        "section_eyebrow": "Para quién es esta villa",
+        "headline": "Un mundo privado, <em>a escala de dos.</em>",
+        "body": [
+          "Casa Tanama se despliega en tres niveles interiores y exteriores que descienden en cascada monte abajo, con una majestuosa vista panorámica sobre la bahía de Rincón. El nivel superior alberga la habitación principal con su cama King de borde natural y puertas corredizas de piso a techo; abajo, una cocina completa, un estudio con cama Full y baño propio, ideal para un huésped adicional o un niño, y finalmente una terraza soleada con una piscina infinita de 5.5 metros en pizarra natural.",
+          "La misma privacidad y las mismas vistas espectaculares que nuestras villas mayores; la única diferencia es un estudio con cama Full, pensado para un solo huésped y no para una pareja. Ideal para lunas de miel, aniversarios y grupos pequeños de tres que buscan verdadera soledad."
+        ],
+        "meta_line": "1 habitación con cama King · Estudio con cama Full · Para 3 huéspedes · 119 m² (1,280 pies²) · Vista al mar · Piscina de 6.65 m",
+        "intro_alt": "Casa Tanama interior with ocean view",
+        "gallery_eyebrow": "Dentro de Casa Tanama",
+        "gallery_alt": "Casa Tanama vista de galería",
+        "quote": {
+          "text": "\"Un lugar apacible, diseñado con gusto y rodeado de exuberante naturaleza tropical.\"",
+          "cite": "Huésped de Ocama"
+        },
+        "reserve_label": "Reserve Casa Tanama",
+        "all_villas_label": "Las ocho villas"
+      }
+    ]
+  },
+  {
+    "id": "bagua",
+    "sort": 2,
+    "status": "published",
+    "header_image": {
+      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-bagua.jpg",
+      "fallback": "https://ocama.com/upload/villas-list/casa-bagua.jpg"
+    },
+    "intro_image": {
+      "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_01.JPG",
+      "fallback": "https://ocama.com/upload/villas-list/casa-bagua.jpg"
+    },
+    "gallery": [
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_02.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_03.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_04.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_05.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_06.JPG",
+        "hideOnError": true
+      }
+    ],
+    "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
+    "related": [
+      "tanama",
+      "turey"
+    ],
+    "translations": [
+      {
+        "languages_code": "en-US",
+        "name": "Casa Bagua",
+        "slug": "casa-bagua",
+        "meta_title": "Casa Bagua | Ocama",
+        "meta_description": null,
+        "eyebrow": "Stay · Two-Bedroom Villa",
+        "tagline": "\"Sea,\" in the Taíno language. Our beloved honeymoon villa, floating above the bay.",
+        "mobile_intro": null,
+        "header_alt": "Casa Bagua at Ocama",
+        "section_eyebrow": "Who This Villa Is For",
+        "headline": "Seclusion, <em>at the edge of the sea.</em>",
+        "body": [
+          "Affectionately known as our honeymoon villa, Casa Bagua is cherished for its deep seclusion and the sensation of floating above the ocean. Two bedrooms across three indoor-outdoor levels step down the hillside to a private infinity pool, with a full kitchen and a panoramic sweep of Rincón Bay beyond the terrace.",
+          "Bagua is the most secluded perch at Ocama: the villa guests choose for honeymoons, anniversaries, and the kind of days that never require shoes. Playa del Amor waits below through the forest trail."
+        ],
+        "meta_line": "2 Bedrooms · Sleeps 4 · Panoramic Bay · Private Infinity Pool",
+        "intro_alt": "Casa Bagua interior",
+        "gallery_eyebrow": "Inside Casa Bagua",
+        "gallery_alt": "Casa Bagua gallery view",
+        "quote": null,
+        "reserve_label": "Reserve Casa Bagua",
+        "all_villas_label": "All Eight Villas"
+      },
+      {
+        "languages_code": "es-ES",
+        "name": "Casa Bagua",
+        "slug": "casa-bagua",
+        "meta_title": "Casa Bagua | Ocama",
+        "meta_description": null,
+        "eyebrow": "Villas · Villa de dos habitaciones",
+        "tagline": "\"Mar,\" en la lengua taína. Nuestra querida villa de luna de miel, suspendida sobre la bahía.",
+        "mobile_intro": null,
+        "header_alt": "Casa Bagua en Ocama",
+        "section_eyebrow": "Para quién es esta villa",
+        "headline": "Un refugio, <em>al borde del mar.</em>",
+        "body": [
+          "Conocida con cariño como nuestra villa de luna de miel, Casa Bagua se aprecia por su profundo aislamiento y la sensación de flotar sobre el océano. Dos habitaciones en tres niveles interiores y exteriores descienden por la colina hasta una piscina infinita privada, con cocina completa y una vista panorámica de la bahía de Rincón más allá de la terraza.",
+          "Bagua es el rincón más apartado de Ocama: la villa que los huéspedes eligen para lunas de miel, aniversarios y esos días que nunca piden zapatos. Playa del Amor espera abajo, al final del sendero entre el bosque."
+        ],
+        "meta_line": "2 habitaciones · Para 4 huéspedes · Bahía panorámica · Piscina infinita privada",
+        "intro_alt": "Casa Bagua interior",
+        "gallery_eyebrow": "Dentro de Casa Bagua",
+        "gallery_alt": "Casa Bagua vista de galería",
+        "quote": null,
+        "reserve_label": "Reserve Casa Bagua",
+        "all_villas_label": "Las ocho villas"
+      }
+    ]
+  },
+  {
+    "id": "turey",
+    "sort": 3,
+    "status": "published",
+    "header_image": {
+      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-turey.jpg",
+      "fallback": "https://ocama.com/upload/villas-list/casa-turey.jpg"
+    },
+    "intro_image": {
+      "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_01.JPG",
+      "fallback": "https://ocama.com/upload/villas-list/casa-turey.jpg"
+    },
+    "gallery": [
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_02.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_03.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_04.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_05.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_06.JPG",
+        "hideOnError": true
+      }
+    ],
+    "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
+    "related": [
+      "guama",
+      "bagua"
+    ],
+    "translations": [
+      {
+        "languages_code": "en-US",
+        "name": "Casa Turey",
+        "slug": "casa-turey",
+        "meta_title": "Casa Turey | Ocama",
+        "meta_description": null,
+        "eyebrow": "Stay · Two-Bedroom Villa",
+        "tagline": "\"Sky,\" in the Taíno language. Life at treetop height, level with the birds.",
+        "mobile_intro": null,
+        "header_alt": "Casa Turey at Ocama",
+        "section_eyebrow": "Who This Villa Is For",
+        "headline": "Waking level <em>with the treetops.</em>",
+        "body": [
+          "Perched above the jungle canopy, Casa Turey offers an intimate ambiance with views across Rincón Bay and toward Cabo Cabrón. Its two bedrooms unfold over three indoor-outdoor levels, with a full kitchen and a private infinity pool held among the leaves.",
+          "Turey is the villa for living at treetop height: mornings begin with birdsong at eye level, and the forest does the decorating. A short trail leads down to Playa del Amor."
+        ],
+        "meta_line": "2 Bedrooms · Sleeps 4 · Canopy & Bay · Private Infinity Pool",
+        "intro_alt": "Casa Turey interior",
+        "gallery_eyebrow": "Inside Casa Turey",
+        "gallery_alt": "Casa Turey gallery view",
+        "quote": null,
+        "reserve_label": "Reserve Casa Turey",
+        "all_villas_label": "All Eight Villas"
+      },
+      {
+        "languages_code": "es-ES",
+        "name": "Casa Turey",
+        "slug": "casa-turey",
+        "meta_title": "Casa Turey | Ocama",
+        "meta_description": null,
+        "eyebrow": "Villas · Villa de dos habitaciones",
+        "tagline": "\"Cielo,\" en la lengua taína. La vida a la altura de las copas, al nivel de las aves.",
+        "mobile_intro": null,
+        "header_alt": "Casa Turey en Ocama",
+        "section_eyebrow": "Para quién es esta villa",
+        "headline": "Despertar a la altura <em>de las copas.</em>",
+        "body": [
+          "Encaramada sobre el dosel de la selva, Casa Turey ofrece un ambiente íntimo con vistas a la bahía de Rincón y hacia Cabo Cabrón. Sus dos habitaciones se despliegan en tres niveles interiores y exteriores, con cocina completa y una piscina infinita privada sostenida entre las hojas.",
+          "Turey es la villa para vivir a la altura de las copas: las mañanas comienzan con el canto de las aves a la altura de los ojos, y el bosque se encarga de la decoración. Un sendero corto baja hasta Playa del Amor."
+        ],
+        "meta_line": "2 habitaciones · Para 4 huéspedes · Dosel y bahía · Piscina infinita privada",
+        "intro_alt": "Casa Turey interior",
+        "gallery_eyebrow": "Dentro de Casa Turey",
+        "gallery_alt": "Casa Turey vista de galería",
+        "quote": null,
+        "reserve_label": "Reserve Casa Turey",
+        "all_villas_label": "Las ocho villas"
+      }
+    ]
+  },
+  {
+    "id": "guama",
+    "sort": 4,
+    "status": "published",
+    "header_image": {
+      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-guama.jpg",
+      "fallback": "https://ocama.com/upload/villas-list/casa-guama.jpg"
+    },
+    "intro_image": {
+      "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_01.JPG",
+      "fallback": "https://ocama.com/upload/villas-list/casa-guama.jpg"
+    },
+    "gallery": [
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_02.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_03.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_04.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_05.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_06.JPG",
+        "hideOnError": true
+      }
+    ],
+    "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
+    "related": [
+      "turey",
+      "bajacu"
+    ],
+    "translations": [
+      {
+        "languages_code": "en-US",
+        "name": "Casa Guama",
+        "slug": "casa-guama",
+        "meta_title": "Casa Guama | Ocama",
+        "meta_description": null,
+        "eyebrow": "Stay · Two-Bedroom Villa",
+        "tagline": "The coolest, most forest-shaded corner of Ocama, with the sea beyond the leaves.",
+        "mobile_intro": null,
+        "header_alt": "Casa Guama at Ocama",
+        "section_eyebrow": "Who This Villa Is For",
+        "headline": "The best of <em>both worlds.</em>",
+        "body": [
+          "Casa Guama pairs a magical, shaded jungle setting with open views to the ocean: the coolest, most forest-held corner of the retreat. Two bedrooms across three indoor-outdoor levels, a full kitchen, and a private infinity pool complete the villa.",
+          "Guama suits guests who want the forest close: dappled light through the day, the sea glinting beyond the leaves, and the walk to Playa del Amor beginning at the door."
+        ],
+        "meta_line": "2 Bedrooms · Sleeps 4 · Forest & Ocean · Private Infinity Pool",
+        "intro_alt": "Casa Guama interior",
+        "gallery_eyebrow": "Inside Casa Guama",
+        "gallery_alt": "Casa Guama gallery view",
+        "quote": null,
+        "reserve_label": "Reserve Casa Guama",
+        "all_villas_label": "All Eight Villas"
+      },
+      {
+        "languages_code": "es-ES",
+        "name": "Casa Guama",
+        "slug": "casa-guama",
+        "meta_title": "Casa Guama | Ocama",
+        "meta_description": null,
+        "eyebrow": "Villas · Villa de dos habitaciones",
+        "tagline": "El rincón más fresco y sombreado de Ocama, con el mar asomando entre las hojas.",
+        "mobile_intro": null,
+        "header_alt": "Casa Guama en Ocama",
+        "section_eyebrow": "Para quién es esta villa",
+        "headline": "Lo mejor de <em>dos mundos.</em>",
+        "body": [
+          "Casa Guama une un entorno mágico de selva sombreada con vistas abiertas al océano: el rincón más fresco y abrazado por el bosque de todo el retiro. Dos habitaciones en tres niveles interiores y exteriores, una cocina completa y una piscina infinita privada completan la villa.",
+          "Guama es para quienes quieren el bosque cerca: luz filtrada durante el día, el mar brillando entre las hojas y el camino a Playa del Amor comenzando en la puerta."
+        ],
+        "meta_line": "2 habitaciones · Para 4 huéspedes · Bosque y mar · Piscina infinita privada",
+        "intro_alt": "Casa Guama interior",
+        "gallery_eyebrow": "Dentro de Casa Guama",
+        "gallery_alt": "Casa Guama vista de galería",
+        "quote": null,
+        "reserve_label": "Reserve Casa Guama",
+        "all_villas_label": "Las ocho villas"
+      }
+    ]
+  },
+  {
+    "id": "ana",
+    "sort": 5,
+    "status": "published",
+    "header_image": {
+      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-ana.jpg",
+      "fallback": "https://ocama.com/upload/villas-list/casa-ana.jpg"
+    },
+    "intro_image": {
+      "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_01.JPG",
+      "fallback": "https://ocama.com/upload/villas-list/casa-ana.jpg"
+    },
+    "gallery": [
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_02.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_03.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_04.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_05.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_06.JPG",
+        "hideOnError": true
+      }
+    ],
+    "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
+    "related": [
+      "guada"
+    ],
+    "translations": [
+      {
+        "languages_code": "en-US",
+        "name": "Casa Ana",
+        "slug": "casa-ana",
+        "meta_title": "Casa Ana | Ocama",
+        "meta_description": null,
+        "eyebrow": "Stay · Two-Bedroom Villa",
+        "tagline": "A sweeping panorama of bay, national park, and open Atlantic, beside Casa Guada.",
+        "mobile_intro": null,
+        "header_alt": "Casa Ana at Ocama",
+        "section_eyebrow": "Who This Villa Is For",
+        "headline": "A panorama <em>without edges.</em>",
+        "body": [
+          "Casa Ana commands an impressive panorama of Rincón Bay, Cabo Cabrón National Park, and the open Atlantic. Two bedrooms across three indoor-outdoor levels, a full kitchen, and a private infinity pool face the widest of horizons.",
+          "Ana sits beside Casa Guada, and the pair are often reserved together: two villas, up to eight guests, one shared view. Ideal for families and friends who travel as one but sleep as two."
+        ],
+        "meta_line": "2 Bedrooms · Sleeps 4 · Panoramic Bay · Private Infinity Pool",
+        "intro_alt": "Casa Ana interior",
+        "gallery_eyebrow": "Inside Casa Ana",
+        "gallery_alt": "Casa Ana gallery view",
+        "quote": null,
+        "reserve_label": "Reserve Casa Ana",
+        "all_villas_label": "All Eight Villas"
+      },
+      {
+        "languages_code": "es-ES",
+        "name": "Casa Ana",
+        "slug": "casa-ana",
+        "meta_title": "Casa Ana | Ocama",
+        "meta_description": null,
+        "eyebrow": "Villas · Villa de dos habitaciones",
+        "tagline": "Un panorama amplio de bahía, parque nacional y Atlántico abierto, junto a Casa Guada.",
+        "mobile_intro": null,
+        "header_alt": "Casa Ana en Ocama",
+        "section_eyebrow": "Para quién es esta villa",
+        "headline": "Un panorama <em>sin bordes.</em>",
+        "body": [
+          "Casa Ana domina un panorama impresionante de la bahía de Rincón, el Parque Nacional Cabo Cabrón y el Atlántico abierto. Dos habitaciones en tres niveles interiores y exteriores, una cocina completa y una piscina infinita privada miran hacia el más amplio de los horizontes.",
+          "Ana está junto a Casa Guada, y ambas suelen reservarse juntas: dos villas, hasta ocho huéspedes, una misma vista. Ideal para familias y amigos que viajan como uno y descansan como dos."
+        ],
+        "meta_line": "2 habitaciones · Para 4 huéspedes · Bahía panorámica · Piscina infinita privada",
+        "intro_alt": "Casa Ana interior",
+        "gallery_eyebrow": "Dentro de Casa Ana",
+        "gallery_alt": "Casa Ana vista de galería",
+        "quote": null,
+        "reserve_label": "Reserve Casa Ana",
+        "all_villas_label": "Las ocho villas"
+      }
+    ]
+  },
+  {
+    "id": "guada",
+    "sort": 6,
+    "status": "published",
+    "header_image": {
+      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-guada.jpg",
+      "fallback": "https://ocama.com/upload/villas-list/casa-guada.jpg"
+    },
+    "intro_image": {
+      "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_01.JPG",
+      "fallback": "https://ocama.com/upload/villas-list/casa-guada.jpg"
+    },
+    "gallery": [
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_02.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_03.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_04.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_05.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_06.JPG",
+        "hideOnError": true
+      }
+    ],
+    "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
+    "related": [
+      "ana"
+    ],
+    "translations": [
+      {
+        "languages_code": "en-US",
+        "name": "Casa Guada",
+        "slug": "casa-guada",
+        "meta_title": "Casa Guada | Ocama",
+        "meta_description": null,
+        "eyebrow": "Stay · Two-Bedroom Villa",
+        "tagline": "Casa Ana's close neighbor, made for traveling together.",
+        "mobile_intro": null,
+        "header_alt": "Casa Guada at Ocama",
+        "section_eyebrow": "Who This Villa Is For",
+        "headline": "Neighbors, <em>by design.</em>",
+        "body": [
+          "Casa Guada shares the hillside and the gorgeous view with its close neighbor, Casa Ana: a panorama across Rincón Bay toward Cabo Cabrón. Two bedrooms over three indoor-outdoor levels, a full kitchen, and a private infinity pool of its own.",
+          "Reserved alongside Casa Ana, Guada turns a stay into a compound: up to eight guests across two villas, together for dinners and beach days, apart when the day calls for quiet."
+        ],
+        "meta_line": "2 Bedrooms · Sleeps 4 · Panoramic Bay · Private Infinity Pool",
+        "intro_alt": "Casa Guada interior",
+        "gallery_eyebrow": "Inside Casa Guada",
+        "gallery_alt": "Casa Guada gallery view",
+        "quote": null,
+        "reserve_label": "Reserve Casa Guada",
+        "all_villas_label": "All Eight Villas"
+      },
+      {
+        "languages_code": "es-ES",
+        "name": "Casa Guada",
+        "slug": "casa-guada",
+        "meta_title": "Casa Guada | Ocama",
+        "meta_description": null,
+        "eyebrow": "Villas · Villa de dos habitaciones",
+        "tagline": "La vecina cercana de Casa Ana, pensada para viajar juntos.",
+        "mobile_intro": null,
+        "header_alt": "Casa Guada en Ocama",
+        "section_eyebrow": "Para quién es esta villa",
+        "headline": "Vecinas, <em>por diseño.</em>",
+        "body": [
+          "Casa Guada comparte la loma y la hermosa vista con su vecina cercana, Casa Ana: un panorama sobre la bahía de Rincón hacia Cabo Cabrón. Dos habitaciones en tres niveles interiores y exteriores, cocina completa y su propia piscina infinita privada.",
+          "Reservada junto a Casa Ana, Guada convierte la estadía en un pequeño conjunto: hasta ocho huéspedes en dos villas, juntos para las cenas y los días de playa, y aparte cuando el día pide silencio."
+        ],
+        "meta_line": "2 habitaciones · Para 4 huéspedes · Bahía panorámica · Piscina infinita privada",
+        "intro_alt": "Casa Guada interior",
+        "gallery_eyebrow": "Dentro de Casa Guada",
+        "gallery_alt": "Casa Guada vista de galería",
+        "quote": null,
+        "reserve_label": "Reserve Casa Guada",
+        "all_villas_label": "Las ocho villas"
+      }
+    ]
+  },
+  {
+    "id": "bajacu",
+    "sort": 7,
+    "status": "published",
+    "header_image": {
+      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-bajagu.jpg",
+      "fallback": "https://ocama.com/upload/villas-list/casa-bajagu.jpg"
+    },
+    "intro_image": {
+      "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_01.JPG",
+      "fallback": "https://ocama.com/upload/villas-list/casa-bajagu.jpg"
+    },
+    "gallery": [
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_02.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_03.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_04.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_05.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_06.JPG",
+        "hideOnError": true
+      }
+    ],
+    "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
+    "related": [
+      "kachi",
+      "guama"
+    ],
+    "translations": [
+      {
+        "languages_code": "en-US",
+        "name": "Casa Bajacú",
+        "slug": "casa-bajacu",
+        "meta_title": "Casa Bajacú | Ocama",
+        "meta_description": null,
+        "eyebrow": "Stay · Three-Bedroom Villa",
+        "tagline": "A rare flat lawn and shaded garden, made for families.",
+        "mobile_intro": null,
+        "header_alt": "Casa Bajacú at Ocama",
+        "section_eyebrow": "Who This Villa Is For",
+        "headline": "Room to run, <em>room to rest.</em>",
+        "body": [
+          "Casa Bajacú holds a cozy, intimate ambiance around something rare on this hillside: a flat green lawn and shaded garden. Three bedrooms across indoor-outdoor levels, a full kitchen, and a private infinity pool make it the natural home for families.",
+          "Bajacú is where young children get to play on grass while the adults keep one eye on the sea. The garden shade keeps afternoons gentle, and the beach trail begins nearby."
+        ],
+        "meta_line": "3 Bedrooms · Sleeps 6 · Garden & Ocean · Private Infinity Pool",
+        "intro_alt": "Casa Bajacú interior",
+        "gallery_eyebrow": "Inside Casa Bajacú",
+        "gallery_alt": "Casa Bajacú gallery view",
+        "quote": null,
+        "reserve_label": "Reserve Casa Bajacú",
+        "all_villas_label": "All Eight Villas"
+      },
+      {
+        "languages_code": "es-ES",
+        "name": "Casa Bajacú",
+        "slug": "casa-bajacu",
+        "meta_title": "Casa Bajacú | Ocama",
+        "meta_description": null,
+        "eyebrow": "Villas · Villa de tres habitaciones",
+        "tagline": "Un raro jardín llano con césped y sombra, pensado para familias.",
+        "mobile_intro": null,
+        "header_alt": "Casa Bajacú en Ocama",
+        "section_eyebrow": "Para quién es esta villa",
+        "headline": "Espacio para correr, <em>espacio para descansar.</em>",
+        "body": [
+          "Casa Bajacú guarda un ambiente acogedor e íntimo en torno a algo poco común en estas alturas: un césped llano y un jardín sombreado. Tres habitaciones en niveles interiores y exteriores, una cocina completa y una piscina infinita privada la convierten en el hogar natural de las familias.",
+          "Bajacú es donde los niños pequeños juegan sobre el césped mientras los adultos vigilan de reojo el mar. La sombra del jardín suaviza las tardes, y el sendero a la playa comienza muy cerca."
+        ],
+        "meta_line": "3 habitaciones · Para 6 huéspedes · Jardín y mar · Piscina infinita privada",
+        "intro_alt": "Casa Bajacú interior",
+        "gallery_eyebrow": "Dentro de Casa Bajacú",
+        "gallery_alt": "Casa Bajacú vista de galería",
+        "quote": null,
+        "reserve_label": "Reserve Casa Bajacú",
+        "all_villas_label": "Las ocho villas"
+      }
+    ]
+  },
+  {
+    "id": "kachi",
+    "sort": 8,
+    "status": "published",
+    "header_image": {
+      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-kachi.jpg",
+      "fallback": "https://ocama.com/upload/villas-list/casa-kachi.jpg"
+    },
+    "intro_image": {
+      "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_01.JPG",
+      "fallback": "https://ocama.com/upload/villas-list/casa-kachi.jpg"
+    },
+    "gallery": [
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_02.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_03.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_04.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_05.JPG",
+        "hideOnError": true
+      },
+      {
+        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_06.JPG",
+        "hideOnError": true
+      }
+    ],
+    "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
+    "related": [
+      "bajacu"
+    ],
+    "translations": [
+      {
+        "languages_code": "en-US",
+        "name": "Casa Kachi",
+        "slug": "casa-kachi",
+        "meta_title": "Casa Kachi | Ocama",
+        "meta_description": null,
+        "eyebrow": "Stay · Three-Bedroom Villa",
+        "tagline": "\"Sun,\" in the Taíno language. The widest sweep of Rincón Bay at Ocama.",
+        "mobile_intro": null,
+        "header_alt": "Casa Kachi at Ocama",
+        "section_eyebrow": "Who This Villa Is For",
+        "headline": "Gatherings beneath <em>the widest sky.</em>",
+        "body": [
+          "Casa Kachi opens onto a dramatic 180-degree panorama over the untouched beauty of Rincón Bay: the widest sweep of water and sky at Ocama. Three bedrooms across indoor-outdoor levels, a full kitchen, and a private infinity pool gather everyone toward the view.",
+          "Kachi is made for group getaways of up to six: long dinners on the terrace, sunrise over the bay, and enough space for everyone to find their own corner of the panorama."
+        ],
+        "meta_line": "3 Bedrooms · Sleeps 6 · 180º Panorama · Private Infinity Pool",
+        "intro_alt": "Casa Kachi interior",
+        "gallery_eyebrow": "Inside Casa Kachi",
+        "gallery_alt": "Casa Kachi gallery view",
+        "quote": null,
+        "reserve_label": "Reserve Casa Kachi",
+        "all_villas_label": "All Eight Villas"
+      },
+      {
+        "languages_code": "es-ES",
+        "name": "Casa Kachi",
+        "slug": "casa-kachi",
+        "meta_title": "Casa Kachi | Ocama",
+        "meta_description": null,
+        "eyebrow": "Villas · Villa de tres habitaciones",
+        "tagline": "\"Sol,\" en la lengua taína. La vista más amplia de la bahía de Rincón en Ocama.",
+        "mobile_intro": null,
+        "header_alt": "Casa Kachi en Ocama",
+        "section_eyebrow": "Para quién es esta villa",
+        "headline": "Reuniones bajo <em>el cielo más amplio.</em>",
+        "body": [
+          "Casa Kachi se abre a un imponente panorama de 180 grados sobre la belleza intacta de la bahía de Rincón: la extensión más amplia de agua y cielo en Ocama. Tres habitaciones en niveles interiores y exteriores, una cocina completa y una piscina infinita privada reúnen a todos frente a la vista.",
+          "Kachi está hecha para escapadas en grupo de hasta seis: cenas largas en la terraza, el amanecer sobre la bahía y espacio de sobra para que cada quien encuentre su propio rincón del panorama."
+        ],
+        "meta_line": "3 habitaciones · Para 6 huéspedes · Panorama de 180º · Piscina infinita privada",
+        "intro_alt": "Casa Kachi interior",
+        "gallery_eyebrow": "Dentro de Casa Kachi",
+        "gallery_alt": "Casa Kachi vista de galería",
+        "quote": null,
+        "reserve_label": "Reserve Casa Kachi",
+        "all_villas_label": "Las ocho villas"
+      }
+    ]
+  }
+]

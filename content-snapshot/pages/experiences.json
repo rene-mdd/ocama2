@@ -1,0 +1,96 @@
+{
+  "key": "experiences",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/upload/home-page/activities-beach.jpg",
+    "sea": "https://ocama.com/upload/home-page/whale-activities.jpg",
+    "forest": "https://ocama.com/upload/home-page/hummingbird-activities.jpg"
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "The wild beauty of Samaná, quietly opened to you.",
+      "meta_title": "The wild beauty of Samaná, quietly opened to you. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Experience · Samaná",
+          "title": "The wild beauty of Samaná, quietly opened to you.",
+          "subtitle": "From hidden beach paths and private boat days to horseback riding, whale watching, waterfalls, and local culture, Ocama's team can help shape each day around the pace you came for.",
+          "alt": "Boat on a Samaná beach",
+          "mobile_intro": "From hidden beach paths and private boat days to horseback riding, whale watching, waterfalls, and local culture, Ocama's team can help shape each day around the pace you came for."
+        },
+        "sea": {
+          "eyebrow": "By the Sea",
+          "headline": "Whales, coves, and <em>more than ten beaches.</em>",
+          "text": "From December to April, hundreds of humpback whales fill the Bay of Samaná. Year-round, from Playa del Amor at the foot of the retreat, hike or boat to more than ten different beaches along the peninsula: Rincón, Frontón, Madama, and the quiet coves between them.",
+          "image_alt": "Humpback whale breaching"
+        },
+        "forest": {
+          "eyebrow": "Through the Forest",
+          "headline": "Forest bathing, <em>at your doorstep.</em>",
+          "text": "Stone paths wind through lush forest between the villas and the beach, a serene walk that doubles as gentle exercise. Beyond the retreat: the Seven Hidden Beaches, El Limón waterfall, jungle walks, and birdwatching in coastal mangroves alive with species found nowhere else.",
+          "image_alt": "Hummingbird in the mangroves"
+        },
+        "pairs": [
+          {
+            "eyebrow": "With Movement",
+            "title": "For the restless",
+            "text": "Horseback riding along the coast, ATV and buggy tours, zipline through the canopy, and hiking the natural slopes of the peninsula."
+          },
+          {
+            "eyebrow": "With Culture",
+            "title": "For the curious",
+            "text": "The fishing town of Las Galeras, Samaná town, local restaurants and Dominican food, and community experiences arranged through people we know and trust."
+          }
+        ],
+        "cta_plan": "Shape Your Days With Us",
+        "cta_concierge": "How Our Concierge Works",
+        "note": "Excursions follow the weather and the sea. Reserve in advance where you can, and let our concierge reshape the day gracefully when the sky decides otherwise."
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "La belleza indómita de Samaná, que se abre serenamente ante usted.",
+      "meta_title": "La belleza indómita de Samaná, que se abre serenamente ante usted. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Experience · Samaná",
+          "title": "La belleza indómita de Samaná, que se abre serenamente ante usted.",
+          "subtitle": "Desde senderos escondidos a la playa y días de bote privado hasta cabalgatas, avistamiento de ballenas, cascadas y cultura local, el equipo de Ocama puede ayudarle a darle forma a cada día según el ritmo que vino a buscar.",
+          "alt": "Boat on a Samaná beach",
+          "mobile_intro": "Desde senderos escondidos a la playa y días de bote privado hasta cabalgatas, avistamiento de ballenas, cascadas y cultura local, el equipo de Ocama puede ayudarle a darle forma a cada día según el ritmo que vino a buscar."
+        },
+        "sea": {
+          "eyebrow": "Junto al mar",
+          "headline": "Ballenas, ensenadas y <em>más de diez playas.</em>",
+          "text": "De diciembre a abril, cientos de ballenas jorobadas llenan la bahía de Samaná. Todo el año, desde Playa del Amor al pie del retiro, camine o navegue hacia más de diez playas distintas a lo largo de la península: Rincón, Frontón, Madama y las ensenadas tranquilas entre ellas.",
+          "image_alt": "Humpback whale breaching"
+        },
+        "forest": {
+          "eyebrow": "A través del bosque",
+          "headline": "Un baño de bosque, <em>a la puerta de su villa.</em>",
+          "text": "Senderos de piedra serpentean por el bosque exuberante entre las villas y la playa, un paseo sereno que también es ejercicio suave. Más allá del retiro: las Siete Playas Escondidas, la cascada El Limón, caminatas por la selva y avistamiento de aves en manglares costeros llenos de especies que no existen en ningún otro lugar.",
+          "image_alt": "Hummingbird in the mangroves"
+        },
+        "pairs": [
+          {
+            "eyebrow": "En movimiento",
+            "title": "Para los inquietos",
+            "text": "Cabalgatas por la costa, recorridos en ATV y buggy, tirolesa entre el dosel y senderismo por las lomas de la península."
+          },
+          {
+            "eyebrow": "Con cultura",
+            "title": "Para los curiosos",
+            "text": "El pueblo pesquero de Las Galeras, el pueblo de Samaná, restaurantes locales y comida dominicana, y experiencias comunitarias coordinadas con gente que conocemos y en la que confiamos."
+          }
+        ],
+        "cta_plan": "Diseñe sus días con nosotros",
+        "cta_concierge": "Cómo trabaja nuestro concierge",
+        "note": "Las excursiones dependen del clima y del mar. Reserve con antelación cuando pueda, y deje que nuestro concierge reorganice el día con gracia cuando el cielo decida otra cosa."
+      }
+    }
+  ]
+}

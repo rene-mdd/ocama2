@@ -1,0 +1,6 @@
+/* Additions to the approved export stylesheet. */
+
+/* Language switcher (new: the export has no switcher). Styled like the primary nav. */
+.lang-switch{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:#fff;opacity:.85;padding:.3em 0;border-bottom:1px solid transparent;transition:color .3s}
+.lang-switch:hover{opacity:1;border-bottom-color:var(--sea)}
+header.solid .lang-switch,header.scrolled .lang-switch,body.menu-open .lang-switch{color:var(--ink)}

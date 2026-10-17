@@ -1,0 +1,118 @@
+{
+  "key": "wellness",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/upload/wellness-images/massage_couple_1280x580.jpg",
+    "cards": [
+      "https://ocama.com/upload/wellness-images/massage_couple_1280x580.jpg",
+      "https://ocama.com/upload/wellness-images/massage_package_1280x580.jpg",
+      "https://ocama.com/upload/wellness-images/chocolate_wrap_1280x580.jpg",
+      "https://ocama.com/upload/wellness-images/5-yoga.jpg",
+      "https://ocama.com/upload/wellness-images/pedicure_1280x580.jpg",
+      "https://ocama.com/upload/wellness-images/fitness-equipment.jpg"
+    ]
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "Wellness, held by nature.",
+      "meta_title": "Wellness, held by nature. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Experience · Wellness",
+          "title": "Wellness, <em>held by nature.</em>",
+          "subtitle": "Massages, yoga, body treatments, and restorative rituals can be arranged within the privacy of your villa, surrounded by the sounds of the forest and sea. Whenever weather permits, sessions move outdoors, to your deck or the beach.",
+          "alt": "Couples massage by the sea at Ocama",
+          "mobile_intro": "Massages, yoga, body treatments, and restorative rituals can be arranged within the privacy of your villa, surrounded by the sounds of the forest and sea. Whenever weather permits, sessions move outdoors, to your deck or the beach."
+        },
+        "cards": [
+          {
+            "title": "In-Villa Massage",
+            "text": "Deep tissue, relaxing, aromatherapy, Kobido, and lymphatic drainage, each session catered to your body's needs by our spa team.",
+            "alt": "In-villa massage"
+          },
+          {
+            "title": "Romantic Wellness Packages",
+            "text": "Flowers, petals, aromatic candles, sparkling wine, the sounds of nature, and two therapists in tandem. Or lavender and chocolate therapy on the beach: exfoliation, wrap, ocean bathing, and massage.",
+            "alt": "Romantic couples package"
+          },
+          {
+            "title": "Body Treatments",
+            "text": "Scrubs of lavender, coconut, cocoa, coffee, or oats; nourishing wraps; and reflexology to rebalance from the feet up.",
+            "alt": "Body treatments"
+          },
+          {
+            "title": "Yoga",
+            "text": "Mats await in your villa for self-guided practice, or our instructors lead personalized sessions tailored to your level, from beginner to experienced.",
+            "alt": "Yoga at the villa"
+          },
+          {
+            "title": "Beauty Services",
+            "text": "Manicures, pedicures, and tailored facials: pampering for special occasions or well-deserved self-care.",
+            "alt": "Beauty services"
+          },
+          {
+            "title": "Fitness",
+            "text": "Dumbbells, weights, bands, and mats delivered to your villa on request, so you can work out at your own pace and schedule.",
+            "alt": "In-villa fitness"
+          }
+        ],
+        "note": "We are located in a remote area, so wellness services and experiences must be arranged at least 72 hours in advance through our concierge, giving each session the preparation it deserves. Your host handles everything over your private WhatsApp line.",
+        "cta_plan": "Plan a Wellness Ritual",
+        "cta_hospitality": "How Arrangements Work"
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "Bienestar, sostenido por la naturaleza.",
+      "meta_title": "Bienestar, sostenido por la naturaleza. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Experiencia · Bienestar",
+          "title": "Bienestar, <em>sostenido por la naturaleza.</em>",
+          "subtitle": "Masajes, yoga, tratamientos corporales y rituales restauradores pueden coordinarse en la privacidad de su villa, rodeados por los sonidos del bosque y del mar. Cuando el clima lo permite, las sesiones se trasladan al aire libre, a su terraza o a la playa.",
+          "alt": "Couples massage by the sea en Ocama",
+          "mobile_intro": "Masajes, yoga, tratamientos corporales y rituales restauradores pueden coordinarse en la privacidad de su villa, rodeados por los sonidos del bosque y del mar. Cuando el clima lo permite, las sesiones se trasladan al aire libre, a su terraza o a la playa."
+        },
+        "cards": [
+          {
+            "title": "Masajes en su villa",
+            "text": "Tejido profundo, relajante, aromaterapia, Kobido y drenaje linfático, cada sesión adaptada a las necesidades de su cuerpo por nuestro equipo de spa.",
+            "alt": "In-villa massage"
+          },
+          {
+            "title": "Paquetes románticos de bienestar",
+            "text": "Flores, pétalos, velas aromáticas, vino espumoso, los sonidos de la naturaleza y dos terapeutas en tándem. O una terapia de lavanda y chocolate en la playa: exfoliación, envoltura, baño de mar y masaje.",
+            "alt": "Romantic couples package"
+          },
+          {
+            "title": "Tratamientos corporales",
+            "text": "Exfoliaciones de lavanda, coco, cacao, café o avena; envolturas nutritivas; y reflexología para reequilibrar el cuerpo desde los pies.",
+            "alt": "Body treatments"
+          },
+          {
+            "title": "Yoga",
+            "text": "En su villa le esperan tapetes para la práctica libre, o nuestros instructores dirigen sesiones personalizadas adaptadas a su nivel, de principiante a avanzado.",
+            "alt": "Yoga at the villa"
+          },
+          {
+            "title": "Servicios de belleza",
+            "text": "Manicura, pedicura y faciales a la medida: mimos para ocasiones especiales o un merecido cuidado personal.",
+            "alt": "Beauty services"
+          },
+          {
+            "title": "Ejercicio",
+            "text": "Mancuernas, pesas, bandas y tapetes llevados a su villa a pedido, para entrenar a su propio ritmo y horario.",
+            "alt": "In-villa fitness"
+          }
+        ],
+        "note": "Estamos en una zona apartada, por lo que los servicios y experiencias de bienestar deben coordinarse con al menos 72 horas de antelación a través de nuestro concierge, dándole a cada sesión la preparación que merece. Su anfitrión se encarga de todo por su línea privada de WhatsApp.",
+        "cta_plan": "Reserve un ritual de bienestar",
+        "cta_hospitality": "Cómo funcionan las reservaciones"
+      }
+    }
+  ]
+}

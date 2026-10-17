@@ -1,0 +1,128 @@
+{
+  "key": "sustainability",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/upload/home-page/hummingbird-activities.jpg"
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "Luxury that treads lightly.",
+      "meta_title": "Luxury that treads lightly. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Sustainability",
+          "title": "Luxury that <em>treads lightly.</em>",
+          "subtitle": "Eight villas nestled into a hillside, allowing the landscape to remain what it has always been. Our promise to Samaná is simple: take less, listen more, and leave the forest standing.",
+          "alt": "A hummingbird in the gardens of Ocama",
+          "mobile_intro": "Eight villas nestled into a hillside, allowing the landscape to remain what it has always been. Our promise to Samaná is simple: take less, listen more, and leave the forest standing."
+        },
+        "statement": {
+          "eyebrow": "Where We Stand",
+          "text": "Ocama sits between two nationally protected capes, Cabo Samaná and Cabo Cabrón, on one of the last unspoiled peninsulas in the Caribbean. We did not come here to change that. We came here because of it."
+        },
+        "choice": {
+          "eyebrow": "A Deliberate Choice",
+          "headline": "Why Ocama is not <em>all-inclusive.</em>",
+          "text": "The all-inclusive model leans on buffets where excess so often goes to waste: food cooked for hundreds and eaten by dozens, drinks poured because they are free rather than because they are wanted, and a wristband between the guest and the place itself. We chose differently. At Ocama, every meal is cooked to order from an evolving menu, guided by a zero-waste mindset and built on what the peninsula provides: day-boat fish, local farms, and Dominican technique. You order what you actually want, when you want it, and almost nothing is wasted. It costs more to run a kitchen this way. We think the forest is worth it."
+        },
+        "practices": {
+          "eyebrow": "How the Hillside Was Kept",
+          "headline": "Thoughtfully designed so the forest <em>remains the masterpiece.</em>",
+          "items": [
+            {
+              "title": "Part of the Canopy",
+              "text": "Seen from above, the villas all but disappear into the hillside. Preserved trees and corridors of forest kept intact mean wildlife moves through the property as it always has."
+            },
+            {
+              "title": "Cooled by Design",
+              "text": "Open stairways draw natural airflow through each villa, and sliding glass doors and ceiling fans keep air conditioning the exception rather than the rule. The pools are heated by nothing but the sun."
+            },
+            {
+              "title": "Plastic-Free",
+              "text": "The property runs a plastic-free policy. Each villa is stocked with a stainless steel insulated bottle, yours to use at the refill points and to take home, so paradise is not measured out in single-use bottles."
+            },
+            {
+              "title": "Water, Respected",
+              "text": "Water is precious in rural Samaná. We conserve it in operations, and guests can choose to skip housekeeping any day, a small choice that saves real water in a place where it matters."
+            },
+            {
+              "title": "A Team from Las Galeras",
+              "text": "Ocama is staffed by people from the town it belongs to, and gratuities are pooled fairly across the whole team, from housekeeping to gardeners to security. Tourism that stays in the community it depends on."
+            },
+            {
+              "title": "Guardians Offshore",
+              "text": "The waters beyond Rincón Bay belong to the humpbacks each winter, protected within the sanctuary of Banco de la Plata y la Navidad. Our excursions observe; they never chase."
+            }
+          ]
+        },
+        "closing": {
+          "text": "Sustainability here is not a certificate on a wall. It is unfinished work we do every day, and we invite our guests into it: carry the bottle, skip a cleaning, listen to what the hillside is telling you.",
+          "cta_plan": "Plan Your Stay",
+          "link_story": "Our Story"
+        }
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "Un lujo que pisa suave.",
+      "meta_title": "Un lujo que pisa suave. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Sostenibilidad",
+          "title": "Un lujo que <em>pisa suave.</em>",
+          "subtitle": "Ocho villas abrazadas a una ladera, dejando que el paisaje siga siendo lo que siempre ha sido. Nuestra promesa a Samaná es sencilla: tomar menos, escuchar más y dejar el bosque en pie.",
+          "alt": "A hummingbird in the gardens of Ocama",
+          "mobile_intro": "Ocho villas abrazadas a una ladera, dejando que el paisaje siga siendo lo que siempre ha sido. Nuestra promesa a Samaná es sencilla: tomar menos, escuchar más y dejar el bosque en pie."
+        },
+        "statement": {
+          "eyebrow": "Dónde estamos",
+          "text": "Ocama se encuentra entre dos cabos protegidos a nivel nacional, Cabo Samaná y Cabo Cabrón, en una de las últimas penínsulas intactas del Caribe. No vinimos aquí a cambiar eso. Vinimos aquí precisamente por eso."
+        },
+        "choice": {
+          "eyebrow": "Una decisión deliberada",
+          "headline": "Por qué Ocama no es <em>todo incluido.</em>",
+          "text": "El modelo todo incluido se apoya en bufés donde el exceso tantas veces termina desperdiciándose: comida preparada para cientos y consumida por docenas, bebidas servidas porque son gratis y no porque se deseen, y una pulsera entre el huésped y el lugar mismo. Nosotros elegimos distinto. En Ocama, cada plato se prepara al momento a partir de un menú que evoluciona, guiado por una mentalidad de cero desperdicio y construido sobre lo que ofrece la península: pescado del día, fincas locales y técnica dominicana. Usted ordena lo que realmente quiere, cuando lo quiere, y casi nada se desperdicia. Cuesta más operar una cocina así. Creemos que el bosque lo vale."
+        },
+        "practices": {
+          "eyebrow": "Cómo se conservó el paisaje",
+          "headline": "Diseñado con cuidado para que el bosque <em>siga siendo la obra maestra.</em>",
+          "items": [
+            {
+              "title": "Parte del dosel",
+              "text": "Vistas desde arriba, las villas casi desaparecen entre el verdor. Árboles preservados y corredores de bosque intactos permiten que la vida silvestre siga moviéndose por la propiedad como siempre lo ha hecho."
+            },
+            {
+              "title": "Frescura por diseño",
+              "text": "Escaleras abiertas canalizan el flujo natural de aire por cada villa, y las puertas corredizas de vidrio y los abanicos de techo hacen del aire acondicionado la excepción y no la regla. Las piscinas se calientan solo con el sol."
+            },
+            {
+              "title": "Libre de plástico",
+              "text": "La propiedad opera con una política libre de plástico. Cada villa cuenta con una botella térmica de acero inoxidable, suya para usar en los puntos de recarga y para llevarse a casa, de modo que el paraíso no se mida en botellas desechables."
+            },
+            {
+              "title": "El agua, respetada",
+              "text": "El agua es preciosa en el Samaná rural. La conservamos en nuestras operaciones, y los huéspedes pueden optar por omitir la limpieza cualquier día, una pequeña decisión que ahorra agua real en un lugar donde de verdad importa."
+            },
+            {
+              "title": "Un equipo de Las Galeras",
+              "text": "Ocama está formado por personas del pueblo al que pertenece, y las propinas se reparten de manera justa entre todo el equipo, desde limpieza hasta jardinería y seguridad. Un turismo que se queda en la comunidad de la que depende."
+            },
+            {
+              "title": "Guardianas mar adentro",
+              "text": "Las aguas más allá de la bahía de Rincón pertenecen cada invierno a las ballenas jorobadas, protegidas dentro del santuario del Banco de la Plata y la Navidad. Nuestras excursiones observan; nunca persiguen."
+            }
+          ]
+        },
+        "closing": {
+          "text": "La sostenibilidad aquí no es un certificado en la pared. Se vive todos los días, en pequeños gestos que compartimos con nuestros huéspedes. Y al final, todo vuelve a lo que dio origen a Ocama: escuchar.",
+          "cta_plan": "Planifique su Estadía",
+          "link_story": "Nuestra Historia"
+        }
+      }
+    }
+  ]
+}

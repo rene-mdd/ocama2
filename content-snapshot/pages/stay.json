@@ -1,0 +1,370 @@
+{
+  "key": "stay",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/upload/home-page/villa-experience.jpg",
+    "villa_cards": [
+      "https://ocama.com/upload/villas-list/casa-tanama.jpg",
+      "https://ocama.com/upload/villas-list/casa-bagua.jpg",
+      "https://ocama.com/upload/villas-list/casa-turey.jpg",
+      "https://ocama.com/upload/villas-list/casa-guama.jpg",
+      "https://ocama.com/upload/villas-list/casa-ana.jpg",
+      "https://ocama.com/upload/villas-list/casa-guada.jpg",
+      "https://ocama.com/upload/villas-list/casa-bajagu.jpg",
+      "https://ocama.com/upload/villas-list/casa-kachi.jpg"
+    ]
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "Eight oceanfront villas, each a private destination.",
+      "meta_title": "Eight oceanfront villas, each a private destination. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Stay · The Villas of Ocama",
+          "title": "Eight oceanfront villas, each a private destination.",
+          "subtitle": "Each of Ocama's eight villas is designed as a private residence within the larger rhythm of the hotel: open to the sea breeze, shaped by tropical forest, and cared for by our hospitality team throughout your stay.",
+          "alt": "An Ocama villa opening onto the forest",
+          "mobile_intro": "Each of Ocama's eight villas is designed as a private residence within the larger rhythm of the hotel: open to the sea breeze, shaped by tropical forest, and cared for by our hospitality team throughout your stay."
+        },
+        "cards": [
+          {
+            "name": "Casa Tanama",
+            "meaning": "\"butterfly\"",
+            "meta_line": "1 Bedroom + Study · Sleeps 3 · Ocean View",
+            "text": "Our most intimate villa. The same privacy and spectacular views as our larger homes, in a scale made for two.",
+            "alt": "Casa Tanama"
+          },
+          {
+            "name": "Casa Bagua",
+            "meaning": "\"sea\"",
+            "meta_line": "2 Bedrooms · Sleeps 4 · Panoramic Bay",
+            "text": "Affectionately our \"honeymoon villa,\" cherished for seclusion and the sensation of floating above the ocean.",
+            "alt": "Casa Bagua"
+          },
+          {
+            "name": "Casa Turey",
+            "meaning": "\"sky\"",
+            "meta_line": "2 Bedrooms · Sleeps 4 · Canopy & Bay",
+            "text": "Perched above the jungle canopy, offering an intimate, private ambiance with views of Rincón Bay and Cabo Cabrón.",
+            "alt": "Casa Turey"
+          },
+          {
+            "name": "Casa Guama",
+            "meaning": null,
+            "meta_line": "2 Bedrooms · Sleeps 4 · Forest & Ocean",
+            "text": "The best of both worlds: a magical, shaded jungle experience paired with stunning ocean views.",
+            "alt": "Casa Guama"
+          },
+          {
+            "name": "Casa Ana",
+            "meaning": null,
+            "meta_line": "2 Bedrooms · Sleeps 4 · Panoramic Bay",
+            "text": "An impressive panorama of Rincón Bay, Cabo Cabrón National Park, and the Atlantic, beside Casa Guada.",
+            "alt": "Casa Ana"
+          },
+          {
+            "name": "Casa Guada",
+            "meaning": null,
+            "meta_line": "2 Bedrooms · Sleeps 4 · Panoramic Bay",
+            "text": "Casa Ana's close neighbor with a similar gorgeous view, perfect for families or groups traveling together.",
+            "alt": "Casa Guada"
+          },
+          {
+            "name": "Casa Bajacú",
+            "meaning": null,
+            "meta_line": "3 Bedrooms · Sleeps 6 · Garden & Ocean",
+            "text": "A cozy, intimate ambiance with shaded garden and green lawn, ideal for families and small groups.",
+            "alt": "Casa Bajacu"
+          },
+          {
+            "name": "Casa Kachi",
+            "meaning": "\"sun\"",
+            "meta_line": "3 Bedrooms · Sleeps 6 · 180º Panorama",
+            "text": "A dramatic 180-degree panorama over the untouched beauty of Rincón Bay, made for group getaways.",
+            "alt": "Casa Kachi"
+          }
+        ],
+        "help_card": {
+          "title": "Not sure which villa?",
+          "text": "Tell us what brings you to Ocama and we'll guide you.",
+          "cta": "Begin Planning"
+        },
+        "compare": {
+          "eyebrow": "Compare Villas",
+          "headline": "Choosing made <em>simple.</em>",
+          "intro": "Every villa at Ocama shares the essentials: a private pool, a full kitchen, and an open view of the sea. The differences below are of character, not quality. There is no lesser villa on this hillside.",
+          "columns": [
+            "Villa",
+            "Bedrooms",
+            "Guests",
+            "Setting & View",
+            "Best For"
+          ],
+          "rows": [
+            {
+              "name": "Casa Tanama",
+              "meaning": "\"butterfly\"",
+              "cells": [
+                "1 + study",
+                "2–3",
+                "Hillside · full ocean view",
+                "Couples traveling light; the smallest, most hidden scale"
+              ]
+            },
+            {
+              "name": "Casa Bagua",
+              "meaning": "\"sea\"",
+              "cells": [
+                "2",
+                "4",
+                "Secluded · panoramic bay",
+                "Honeymoons and anniversaries; the most secluded perch"
+              ]
+            },
+            {
+              "name": "Casa Turey",
+              "meaning": "\"sky\"",
+              "cells": [
+                "2",
+                "4",
+                "Above the jungle canopy",
+                "Living at treetop height, level with the birds"
+              ]
+            },
+            {
+              "name": "Casa Guama",
+              "meaning": null,
+              "cells": [
+                "2",
+                "4",
+                "Shaded forest · ocean views",
+                "The coolest, most forest-shaded setting"
+              ]
+            },
+            {
+              "name": "Casa Ana",
+              "meaning": null,
+              "cells": [
+                "2",
+                "4",
+                "Panorama · beside Guada",
+                "Pairing with Casa Guada next door, up to 8 together"
+              ]
+            },
+            {
+              "name": "Casa Guada",
+              "meaning": null,
+              "cells": [
+                "2",
+                "4",
+                "Panorama · beside Ana",
+                "Pairing with Casa Ana next door, up to 8 together"
+              ]
+            },
+            {
+              "name": "Casa Bajacú",
+              "meaning": null,
+              "cells": [
+                "3",
+                "6",
+                "Shaded garden · lawn · ocean",
+                "Young children at play; the rare flat lawn and garden"
+              ]
+            },
+            {
+              "name": "Casa Kachi",
+              "meaning": "\"sun\"",
+              "cells": [
+                "3",
+                "6",
+                "180º bay panorama",
+                "Gatherings of six beneath the widest sweep of bay"
+              ]
+            }
+          ],
+          "note": "Every villa spans three indoor-outdoor levels down the hillside, with a private infinity pool, fully equipped kitchen, and 6–15 minutes' walk to Playa del Amor. For a full-property retreat, all eight villas can be reserved together.",
+          "cta_availability": "Check Availability",
+          "cta_help": "Ask Us to Help You Choose"
+        }
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "Ocho villas frente al mar, cada una un destino privado.",
+      "meta_title": "Ocho villas frente al mar, cada una un destino privado. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Villas · Las villas de Ocama",
+          "title": "Ocho villas frente al mar, cada una un destino privado.",
+          "subtitle": "Cada una de las ocho villas de Ocama está concebida como una residencia privada dentro del ritmo del hotel: abierta a la brisa del mar, envuelta en bosque tropical y atendida por nuestro equipo de hospitalidad durante toda su estadía.",
+          "alt": "An Ocama villa opening onto the forest",
+          "mobile_intro": "Cada una de las ocho villas de Ocama está concebida como una residencia privada dentro del ritmo del hotel: abierta a la brisa del mar, envuelta en bosque tropical y atendida por nuestro equipo de hospitalidad durante toda su estadía."
+        },
+        "cards": [
+          {
+            "name": "Casa Tanama",
+            "meaning": "\"mariposa\"",
+            "meta_line": "1 habitación + estudio · Para 3 huéspedes · Vista al mar",
+            "text": "Nuestra villa más íntima. La misma privacidad y las mismas vistas espectaculares que nuestras villas mayores, en una escala pensada para dos.",
+            "alt": "Casa Tanama"
+          },
+          {
+            "name": "Casa Bagua",
+            "meaning": "\"mar\"",
+            "meta_line": "2 habitaciones · Para 4 huéspedes · Bahía panorámica",
+            "text": "Nuestra querida \"villa de luna de miel,\" apreciada por su aislamiento y la sensación de flotar sobre el océano.",
+            "alt": "Casa Bagua"
+          },
+          {
+            "name": "Casa Turey",
+            "meaning": "\"cielo\"",
+            "meta_line": "2 habitaciones · Para 4 huéspedes · Dosel y bahía",
+            "text": "Encaramada sobre el dosel de la selva, ofrece un ambiente íntimo y privado con vistas a la bahía de Rincón y a Cabo Cabrón.",
+            "alt": "Casa Turey"
+          },
+          {
+            "name": "Casa Guama",
+            "meaning": null,
+            "meta_line": "2 habitaciones · Para 4 huéspedes · Bosque y mar",
+            "text": "Lo mejor de dos mundos: una experiencia mágica de selva sombreada unida a impresionantes vistas al mar.",
+            "alt": "Casa Guama"
+          },
+          {
+            "name": "Casa Ana",
+            "meaning": null,
+            "meta_line": "2 habitaciones · Para 4 huéspedes · Bahía panorámica",
+            "text": "Un panorama impresionante de la bahía de Rincón, el Parque Nacional Cabo Cabrón y el Atlántico, junto a Casa Guada.",
+            "alt": "Casa Ana"
+          },
+          {
+            "name": "Casa Guada",
+            "meaning": null,
+            "meta_line": "2 habitaciones · Para 4 huéspedes · Bahía panorámica",
+            "text": "La vecina cercana de Casa Ana, con una vista igual de hermosa, perfecta para familias o grupos que viajan juntos.",
+            "alt": "Casa Guada"
+          },
+          {
+            "name": "Casa Bajacú",
+            "meaning": null,
+            "meta_line": "3 habitaciones · Para 6 huéspedes · Jardín y mar",
+            "text": "Un ambiente acogedor e íntimo con jardín sombreado y césped, ideal para familias y grupos pequeños.",
+            "alt": "Casa Bajacu"
+          },
+          {
+            "name": "Casa Kachi",
+            "meaning": "\"sol\"",
+            "meta_line": "3 habitaciones · Para 6 huéspedes · Panorama de 180º",
+            "text": "Un imponente panorama de 180 grados sobre la belleza intacta de la bahía de Rincón, pensada para escapadas en grupo.",
+            "alt": "Casa Kachi"
+          }
+        ],
+        "help_card": {
+          "title": "¿No sabe cuál villa elegir?",
+          "text": "Cuéntenos qué lo trae a Ocama y nosotros lo guiamos.",
+          "cta": "Comience a planificar"
+        },
+        "compare": {
+          "eyebrow": "Compare las villas",
+          "headline": "Elegir, <em>hecho sencillo.</em>",
+          "intro": "Todas las villas de Ocama comparten lo esencial: piscina privada, cocina completa y una vista abierta al mar. Las diferencias que verá abajo son de carácter, no de calidad. En esta colina no hay villa menor.",
+          "columns": [
+            "Villa",
+            "Habitaciones",
+            "Huéspedes",
+            "Entorno y vista",
+            "Ideal para"
+          ],
+          "rows": [
+            {
+              "name": "Casa Tanama",
+              "meaning": "\"mariposa\"",
+              "cells": [
+                "1 + estudio",
+                "2–3",
+                "Ladera · vista plena al mar",
+                "Parejas que viajan ligero; la escala más pequeña y escondida"
+              ]
+            },
+            {
+              "name": "Casa Bagua",
+              "meaning": "\"mar\"",
+              "cells": [
+                "2",
+                "4",
+                "Apartada · bahía panorámica",
+                "Lunas de miel y aniversarios; el rincón más apartado"
+              ]
+            },
+            {
+              "name": "Casa Turey",
+              "meaning": "\"cielo\"",
+              "cells": [
+                "2",
+                "4",
+                "Sobre el dosel de la selva",
+                "Vivir a la altura de las copas, al nivel de las aves"
+              ]
+            },
+            {
+              "name": "Casa Guama",
+              "meaning": null,
+              "cells": [
+                "2",
+                "4",
+                "Bosque sombreado · vistas al mar",
+                "El entorno más fresco y sombreado por el bosque"
+              ]
+            },
+            {
+              "name": "Casa Ana",
+              "meaning": null,
+              "cells": [
+                "2",
+                "4",
+                "Panorama · junto a Guada",
+                "Combinar con Casa Guada, su vecina, hasta 8 juntos"
+              ]
+            },
+            {
+              "name": "Casa Guada",
+              "meaning": null,
+              "cells": [
+                "2",
+                "4",
+                "Panorama · junto a Ana",
+                "Combinar con Casa Ana, su vecina, hasta 8 juntos"
+              ]
+            },
+            {
+              "name": "Casa Bajacú",
+              "meaning": null,
+              "cells": [
+                "3",
+                "6",
+                "Jardín sombreado · césped · mar",
+                "Niños pequeños jugando; el raro jardín llano con césped"
+              ]
+            },
+            {
+              "name": "Casa Kachi",
+              "meaning": "\"sol\"",
+              "cells": [
+                "3",
+                "6",
+                "Panorama de bahía de 180º",
+                "Reuniones de seis bajo la vista más amplia de la bahía"
+              ]
+            }
+          ],
+          "note": "Cada villa se despliega en tres niveles interiores y exteriores por la colina, con piscina infinita privada, cocina totalmente equipada y una caminata de 6 a 15 minutos hasta Playa del Amor. Para un retiro con la propiedad completa, las ocho villas pueden reservarse juntas.",
+          "cta_availability": "Consultar disponibilidad",
+          "cta_help": "Pídanos ayuda para elegir"
+        }
+      }
+    }
+  ]
+}

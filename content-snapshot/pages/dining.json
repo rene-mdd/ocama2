@@ -1,0 +1,143 @@
+{
+  "key": "dining",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/upload/dining-images/shirmp-dish.jpg",
+    "chef": "https://ocama.com/upload/dining-images/chef-fierro.jpg",
+    "cuisine": "https://ocama.com/upload/dining-images/dining-nourish.jpg",
+    "sample_menus_url": "https://ocama.com/menu/"
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "Born from Dominican flavor, guided by the calm of Ocama.",
+      "meta_title": "Born from Dominican flavor, guided by the calm of Ocama. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Experience · Dining",
+          "title": "Born from Dominican flavor, guided by the calm of Ocama.",
+          "subtitle": "Dining is part of the rhythm of the stay: slow breakfasts on your terrace, fresh coastal lunches after the beach, cocktails at sunset, and private dinners prepared with care in your villa, at Kai Pavilion, or beneath the open sky.",
+          "alt": "Shrimp with coconut sauce and fried cassava at Ocama",
+          "mobile_intro": "Dining is part of the rhythm of the stay: slow breakfasts on your terrace, fresh coastal lunches after the beach, cocktails at sunset, and private dinners prepared with care in your villa, at Kai Pavilion, or beneath the open sky."
+        },
+        "chef": {
+          "eyebrow": "Our Chef",
+          "headline": "Chef Fierro Pérez Castillo",
+          "body": [
+            "Dominican by birth and worldly in experience, Chef Fierro shares his love of cooking through every dish at Ocama. Guided by traditions learned from his father and refined in kitchens across the Caribbean, the United States, and Europe, he marries Dominican soul with international elegance.",
+            "His menus are more than meals. They are warm invitations to taste the spirit of Ocama."
+          ],
+          "image_alt": "Chef Fierro Pérez Castillo"
+        },
+        "ways": {
+          "eyebrow": "Ways to Dine",
+          "rows": [
+            {
+              "title": "In-Villa Dining",
+              "text": "Thoughtfully curated dishes from our menu, delivered to the comfort of your villa as room service, from breakfast through dinner."
+            },
+            {
+              "title": "Private Chef Dinners",
+              "text": "Subject to availability, Chef Fierro offers private tasting-menu dinners presented through a series of small courses, a unique blend of culinary and social experience."
+            },
+            {
+              "title": "Kai Pavilion",
+              "text": "Not a restaurant but a stage: our open-air pavilion comes to life on request for shared dinners, sunset cocktails, and celebrations within the retreat, always arranged with our team in advance."
+            },
+            {
+              "title": "Your Villa Kitchen",
+              "text": "Every villa holds a full kitchen, and for many guests the meal cooked slowly at home becomes the quiet ritual of the stay. Our team can stock the kitchen before you land with pre-arrival shopping, and a barbecue can be arranged at your villa on request."
+            },
+            {
+              "title": "Cocktails & Wine",
+              "text": "Cocktails built on fresh local ingredients and tropical botanicals, poured alongside a selection of fine international wines, enjoyed at your pool's edge or with your toes in the sand."
+            },
+            {
+              "title": "Beach & Occasion Dining",
+              "text": "Simple meals and cocktails delivered to Playa del Amor, or celebration dinners staged wherever the moment calls for, with wine and cocktail pairings composed for the occasion."
+            },
+            {
+              "title": "Dietary Accommodations",
+              "text": "Tell us your preferences and intolerances in advance and our kitchen plans around them. No request is too detailed."
+            }
+          ],
+          "cta_plan": "Begin Planning a Private Dinner",
+          "cta_menus": "View Sample Menus"
+        },
+        "cuisine": {
+          "eyebrow": "Nourishing Cuisine",
+          "headline": "Heritage, <em>reimagined.</em>",
+          "body": "The result is a creative harmony of Dominican soul, refined international technique, and global inspiration: a celebration of both heritage and innovation, where every dish is created to comfort, surprise, and delight.",
+          "image_alt": "Nourishing cuisine at Ocama"
+        }
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "Nacida del sabor dominicano, guiada por la calma de Ocama.",
+      "meta_title": "Nacida del sabor dominicano, guiada por la calma de Ocama. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Experiencia · Gastronomía",
+          "title": "Nacida del sabor dominicano, guiada por la calma de Ocama.",
+          "subtitle": "La gastronomía es parte del ritmo de la estadía: desayunos sin prisa en su terraza, almuerzos costeros frescos al volver de la playa, cócteles al atardecer y cenas privadas preparadas con esmero en su villa, en Kai Pavilion o bajo el cielo abierto.",
+          "alt": "Shrimp with coconut sauce and fried cassava en Ocama",
+          "mobile_intro": "La gastronomía es parte del ritmo de la estadía: desayunos sin prisa en su terraza, almuerzos costeros frescos al volver de la playa, cócteles al atardecer y cenas privadas preparadas con esmero en su villa, en Kai Pavilion o bajo el cielo abierto."
+        },
+        "chef": {
+          "eyebrow": "Nuestro chef",
+          "headline": "Chef Fierro Pérez Castillo",
+          "body": [
+            "Dominicano de nacimiento y de experiencia internacional, el chef Fierro comparte su amor por la cocina en cada plato de Ocama. Guiado por tradiciones aprendidas de su padre y refinadas en cocinas del Caribe, Estados Unidos y Europa, une el alma dominicana con la elegancia internacional.",
+            "Sus menús son más que comidas. Son cálidas invitaciones a probar el espíritu de Ocama."
+          ],
+          "image_alt": "Chef Fierro Pérez Castillo"
+        },
+        "ways": {
+          "eyebrow": "Maneras de disfrutar la mesa",
+          "rows": [
+            {
+              "title": "Gastronomía en su villa",
+              "text": "Platos cuidadosamente seleccionados de nuestro menú, llevados a la comodidad de su villa como servicio a la habitación, del desayuno a la cena."
+            },
+            {
+              "title": "Cenas con chef privado",
+              "text": "Sujeto a disponibilidad, el chef Fierro ofrece cenas privadas de menú degustación presentadas en una serie de tiempos cortos, una mezcla singular de experiencia culinaria y social."
+            },
+            {
+              "title": "Kai Pavilion",
+              "text": "No es un restaurante sino un escenario: nuestro pabellón al aire libre cobra vida a pedido para cenas compartidas, cócteles al atardecer y celebraciones dentro del retiro, siempre coordinadas con antelación junto a nuestro equipo."
+            },
+            {
+              "title": "La cocina de su villa",
+              "text": "Cada villa cuenta con una cocina completa, y para muchos huéspedes la comida preparada sin prisa en casa se convierte en el ritual silencioso de la estadía. Nuestro equipo puede surtir su cocina antes de su llegada con compras previas, y se puede coordinar una barbacoa en su villa a pedido."
+            },
+            {
+              "title": "Cócteles y vinos",
+              "text": "Cócteles creados con ingredientes locales frescos y botánicos tropicales, servidos junto a una selección de finos vinos internacionales, para disfrutar al borde de su piscina o con los pies en la arena."
+            },
+            {
+              "title": "Comidas en la playa y ocasiones especiales",
+              "text": "Comidas sencillas y cócteles llevados hasta Playa del Amor, o cenas de celebración montadas donde el momento lo pida, con maridajes de vinos y cócteles compuestos para la ocasión."
+            },
+            {
+              "title": "Necesidades dietéticas",
+              "text": "Cuéntenos sus preferencias e intolerancias con antelación y nuestra cocina planificará en torno a ellas. Ninguna solicitud es demasiado detallada."
+            }
+          ],
+          "cta_plan": "Planifique una cena privada",
+          "cta_menus": "View Sample Menus"
+        },
+        "cuisine": {
+          "eyebrow": "Cocina que nutre",
+          "headline": "La herencia, <em>reimaginada.</em>",
+          "body": "El resultado es una armonía creativa de alma dominicana, técnica internacional refinada e inspiración global: una celebración de herencia e innovación, donde cada plato se crea para reconfortar, sorprender y deleitar.",
+          "image_alt": "Nourishing cuisine en Ocama"
+        }
+      }
+    }
+  ]
+}

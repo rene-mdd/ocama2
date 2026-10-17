@@ -1,0 +1,297 @@
+{
+  "key": "press",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/upload/home-page/ocama-helicopter.jpg",
+    "coverage_urls": [
+      "https://www.cntraveler.com/hotels/las-galeras/ocama",
+      "https://www.nytimes.com/2025/11/20/travel/hotel-flight-deals-black-friday.html",
+      "https://nypost.com/2026/02/27/lifestyle/sniff-out-the-caribbean-isles-hush-hush-hammocked-hot-spots/",
+      "https://www.theglobeandmail.com/life/travel/article-ocama-dominican-republic-samana-peninsula-travel/",
+      "https://www.travelandleisure.com/ocama-resort-dominican-republic-opening-11864934",
+      "https://www.travelweekly.com/Caribbean-Travel/Ocama-Resort-opens-with-villas-overlooking-Rincon-Bay-Dominican-Republic",
+      "https://www.caribjournal.com/2025/06/18/dominican-republic-luxury-villa-resort-new/"
+    ]
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "The story of a hillside that listens.",
+      "meta_title": "The story of a hillside that listens. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Press & Media",
+          "title": "The story of a hillside <em>that listens.</em>",
+          "subtitle": "Resources for journalists, editors, and creators covering Ocama, Las Galeras, and the Samaná Peninsula.",
+          "alt": "Arriving at Ocama by helicopter above the Samaná Peninsula",
+          "mobile_intro": null
+        },
+        "boilerplate": {
+          "eyebrow": "The Boilerplate",
+          "text": "Ocama is a luxury boutique hotel hidden in the tropical hillsides above Rincón Bay in Las Galeras, Samaná: eight private villas set across 35 secluded acres, where thoughtful hospitality, modern Dominican cuisine, and the wild beauty of one of the Caribbean's last unspoiled peninsulas shape a slower way of being. <em>Ocama</em> means \"to listen\" in the language of the Taíno, the island's first people."
+        },
+        "featured": {
+          "eyebrow": "As Featured In",
+          "outlets": [
+            "The New York Times",
+            "Condé Nast Traveler",
+            "Travel + Leisure",
+            "The Globe and Mail",
+            "New York Post",
+            "Travel Weekly",
+            "Caribbean Journal"
+          ]
+        },
+        "coverage": {
+          "eyebrow": "Selected Coverage",
+          "items": [
+            {
+              "source": "Condé Nast Traveler · Hotel Review",
+              "headline": "The Condé Nast Traveler review of Ocama, Las Galeras",
+              "link_label": "Read the Review"
+            },
+            {
+              "source": "The New York Times · November 2025",
+              "headline": "Ocama among the Times' selected hotel offers of the season",
+              "link_label": "Read the Feature"
+            },
+            {
+              "source": "New York Post · February 2026",
+              "headline": "Among the Caribbean's \"hush-hush\" hideaways",
+              "link_label": "Read the Feature"
+            },
+            {
+              "source": "The Globe and Mail · February 2026",
+              "headline": "\"A White Lotus-worthy retreat\" on the Samaná Peninsula",
+              "link_label": "Read the Feature"
+            },
+            {
+              "source": "Travel + Leisure · 2026",
+              "headline": "On Ocama and a new chapter of Dominican luxury",
+              "link_label": "Read the Feature"
+            },
+            {
+              "source": "Travel Weekly · December 2025",
+              "headline": "Ocama officially debuts as a boutique hotel above Rincón Bay",
+              "link_label": "Read the Feature"
+            },
+            {
+              "source": "Caribbean Journal · June 2025",
+              "headline": "A jungle hideaway bringing rare privacy to Samaná",
+              "link_label": "Read the Feature"
+            }
+          ]
+        },
+        "facts": {
+          "eyebrow": "Fast Facts",
+          "items": [
+            {
+              "title": "The Property",
+              "text": "Eight private villas (one intimate one-bedroom with a study, five two-bedroom, two three-bedroom), each with private pool, full kitchen, and ocean views, across 35 hillside acres above Rincón Bay. Maximum ±30 guests at full occupancy: intimacy by design."
+            },
+            {
+              "title": "The Place",
+              "text": "Las Galeras, at the tip of the Samaná Peninsula, Dominican Republic, beside the protected beaches of Playa Rincón, Frontón, and Madama. Humpback whales gather in Samaná Bay each December through April."
+            },
+            {
+              "title": "The People",
+              "text": "Founded by Mark Andrus, whose family built Ocama around a simple idea: listen to your surroundings. The kitchen is led by Chef Fierro Pérez Castillo, cooking modern Dominican cuisine from local waters and farms."
+            },
+            {
+              "title": "Arrival",
+              "text": "Roughly three hours from Santo Domingo (SDQ), 90 minutes from El Catey (AZS), or by helicopter to the on-site helipad, one of the few in the region."
+            },
+            {
+              "title": "Recognition",
+              "text": "Reviewed by Condé Nast Traveler; featured in The New York Times, Travel + Leisure, The Globe and Mail, the New York Post, and more. Rated 5.0 by guests on Google."
+            },
+            {
+              "title": "The Name",
+              "text": "Ocama: \"to listen\" in Taíno. The spiral of the wordmark is drawn from Taíno petroglyphs found across the island; each villa carries a Taíno name and its meaning."
+            }
+          ]
+        },
+        "angles": {
+          "eyebrow": "Story Angles",
+          "headline": "What makes this hillside <em>worth writing about.</em>",
+          "items": [
+            {
+              "title": "The last quiet corner of the Caribbean.",
+              "text": "While the island's south and east grew resorts, the Samaná Peninsula stayed wild. Ocama sits where the road ends, above beaches consistently ranked among the world's most beautiful."
+            },
+            {
+              "title": "A hotel named in a lost language.",
+              "text": "Taíno heritage runs through the property: the name, the spiral, the villa names. It is a design story about honoring the island's first people rather than borrowing generic tropical style."
+            },
+            {
+              "title": "Whale season.",
+              "text": "Each winter, thousands of humpbacks return to Samaná Bay to breed and calve, one of the world's great marine migrations, watchable on a morning boat from the hotel's beach."
+            },
+            {
+              "title": "A family project, not a portfolio asset.",
+              "text": "On 35 hillside acres above Rincón Bay, founder Mark Andrus had room for a resort. He chose eight villas instead, threaded between trees that were already standing, run by a team from Las Galeras, and kept small on purpose."
+            },
+            {
+              "title": "Modern Dominican cuisine.",
+              "text": "Chef Fierro Pérez Castillo cooks from the peninsula: day-boat fish, local farms, Dominican technique, in a dining culture that comes to the villa as often as guests come to the table."
+            },
+            {
+              "title": "Arrival as experience.",
+              "text": "Helicopter transfers over the peninsula, hidden beach paths, villas reached through forest. The geography of getting there is part of the story."
+            }
+          ]
+        },
+        "contact": {
+          "eyebrow": "Media Assets & Contact",
+          "headline": "Working on a story?",
+          "text": "Our team can provide high-resolution photography, official logo files, the Ocama brand guidelines, fact-checking, interviews with our founder and chef, and, for commissioned features, hosted press stays, arranged individually.",
+          "mailto": "mailto:marketing@ocama.com?subject=Press%20Inquiry%20-%20Ocama",
+          "cta": "Contact for Press",
+          "instagram_label": "@ocama.rd on Instagram",
+          "note": "Please include your outlet, deadline, and the focus of your piece. For image licensing and filming requests, our team responds within two business days."
+        }
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "La historia de una ladera que escucha.",
+      "meta_title": "La historia de una ladera que escucha. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "Prensa y Medios",
+          "title": "La historia de una ladera <em>que escucha.</em>",
+          "subtitle": "Recursos para periodistas, editores y creadores que cubren Ocama, Las Galeras y la península de Samaná.",
+          "alt": "Arriving at Ocama by helicopter above the Samaná Peninsula",
+          "mobile_intro": null
+        },
+        "boilerplate": {
+          "eyebrow": "El texto institucional",
+          "text": "Ocama es un hotel boutique de lujo escondido entre las colinas tropicales sobre la bahía de Rincón, en Las Galeras, Samaná: ocho villas privadas en 35 acres apartados, donde la hospitalidad atenta, la cocina dominicana contemporánea y la belleza indómita de una de las últimas penínsulas intactas del Caribe dan forma a una manera más lenta de estar. Ocama significa \"escuchar\" en la lengua de los taínos, el pueblo originario de la isla.<em>Ocama</em> significa \"escuchar\" en la lengua de los taínos, el pueblo originario de la isla."
+        },
+        "featured": {
+          "eyebrow": "Publicado en",
+          "outlets": [
+            "The New York Times",
+            "Condé Nast Traveler",
+            "Travel + Leisure",
+            "The Globe and Mail",
+            "New York Post",
+            "Travel Weekly",
+            "Caribbean Journal"
+          ]
+        },
+        "coverage": {
+          "eyebrow": "Cobertura seleccionada",
+          "items": [
+            {
+              "source": "Condé Nast Traveler · Reseña del hotel",
+              "headline": "La reseña de Condé Nast Traveler sobre Ocama, Las Galeras",
+              "link_label": "Leer la reseña"
+            },
+            {
+              "source": "The New York Times · noviembre de 2025",
+              "headline": "Ocama entre las ofertas hoteleras seleccionadas de la temporada por el Times",
+              "link_label": "Leer el artículo"
+            },
+            {
+              "source": "New York Post · febrero de 2026",
+              "headline": "Entre los refugios \"mejor guardados\" del Caribe",
+              "link_label": "Leer el artículo"
+            },
+            {
+              "source": "The Globe and Mail · febrero de 2026",
+              "headline": "\"Un retiro digno de White Lotus\" en la península de Samaná",
+              "link_label": "Leer el artículo"
+            },
+            {
+              "source": "Travel + Leisure · 2026",
+              "headline": "Sobre Ocama y un nuevo capítulo del lujo dominicano",
+              "link_label": "Leer el artículo"
+            },
+            {
+              "source": "Travel Weekly · diciembre de 2025",
+              "headline": "Ocama debuta oficialmente como hotel boutique sobre la bahía de Rincón",
+              "link_label": "Leer el artículo"
+            },
+            {
+              "source": "Caribbean Journal · junio de 2025",
+              "headline": "Un refugio en la selva que trae a Samaná una privacidad poco común",
+              "link_label": "Leer el artículo"
+            }
+          ]
+        },
+        "facts": {
+          "eyebrow": "Datos esenciales",
+          "items": [
+            {
+              "title": "La propiedad",
+              "text": "Ocho villas privadas (una íntima de una habitación con estudio, cinco de dos habitaciones y dos de tres habitaciones), cada una con piscina privada, cocina completa y vistas al mar, en 35 acres de colina sobre la bahía de Rincón. Un máximo de ±30 huéspedes a ocupación plena: intimidad por diseño."
+            },
+            {
+              "title": "El lugar",
+              "text": "Las Galeras, en la punta de la península de Samaná, República Dominicana, junto a las playas protegidas de Playa Rincón, Frontón y Madama. Las ballenas jorobadas se reúnen en la bahía de Samaná de diciembre a abril."
+            },
+            {
+              "title": "Las personas",
+              "text": "Fundado por Mark Andrus, cuya familia construyó Ocama en torno a una idea sencilla: escuchar el entorno. La cocina está liderada por el chef Fierro Pérez Castillo, que elabora cocina dominicana contemporánea con productos de aguas y fincas locales."
+            },
+            {
+              "title": "La llegada",
+              "text": "Aproximadamente tres horas desde Santo Domingo (SDQ), 90 minutos desde El Catey (AZS), o en helicóptero hasta el helipuerto propio, uno de los pocos de la región."
+            },
+            {
+              "title": "Reconocimiento",
+              "text": "Reseñado por Condé Nast Traveler; publicado en The New York Times, Travel + Leisure, The Globe and Mail, el New York Post y más. Calificación 5.0 de los huéspedes en Google."
+            },
+            {
+              "title": "El nombre",
+              "text": "Ocama: \"escuchar\" en taíno. La espiral del logotipo proviene de petroglifos taínos hallados en toda la isla; cada villa lleva un nombre taíno y su significado."
+            }
+          ]
+        },
+        "angles": {
+          "eyebrow": "Ángulos editoriales",
+          "headline": "Lo que hace que este rincón <em>merezca ser contado.</em>",
+          "items": [
+            {
+              "title": "El último rincón tranquilo del Caribe.",
+              "text": "Mientras el sur y el este de la isla se llenaban de resorts, la península de Samaná permaneció indómita. Ocama está donde termina la carretera, sobre playas que figuran una y otra vez entre las más hermosas del mundo."
+            },
+            {
+              "title": "Un hotel con nombre en una lengua perdida.",
+              "text": "La herencia taína recorre la propiedad: el nombre, la espiral, los nombres de las villas. Es una historia de diseño que honra al pueblo originario de la isla en lugar de tomar prestado un estilo tropical genérico."
+            },
+            {
+              "title": "La temporada de ballenas.",
+              "text": "Cada invierno, miles de ballenas jorobadas regresan a la bahía de Samaná a reproducirse y criar, una de las grandes migraciones marinas del mundo, visible en una salida matutina en bote desde la playa del hotel."
+            },
+            {
+              "title": "Un proyecto de familia, no un activo de portafolio.",
+              "text": "En 35 acres de monte sobre la bahía de Rincón, el fundador Mark Andrus tenía espacio para un resort. Eligió en cambio ocho villas, entretejidas entre árboles que ya estaban en pie, operadas por un equipo de Las Galeras y pequeñas a propósito."
+            },
+            {
+              "title": "Cocina dominicana contemporánea.",
+              "text": "El chef Fierro Pérez Castillo cocina desde la península: pescado del día, fincas locales y técnica dominicana, en una cultura gastronómica que llega a la villa tan a menudo como los huéspedes llegan a la mesa."
+            },
+            {
+              "title": "La llegada como experiencia.",
+              "text": "Traslados en helicóptero sobre la península, senderos escondidos a la playa, villas a las que se llega a través del bosque. La geografía del trayecto es parte de la historia."
+            }
+          ]
+        },
+        "contact": {
+          "eyebrow": "Material de prensa y contacto",
+          "headline": "¿Trabajando en una historia?",
+          "text": "Nuestro equipo puede proporcionar fotografía en alta resolución, archivos oficiales del logotipo, las guías de marca de Ocama, verificación de datos, entrevistas con nuestro fundador y nuestro chef y, para reportajes comisionados, estadías de prensa coordinadas de manera individual.",
+          "mailto": "mailto:marketing@ocama.com?subject=Consulta%20de%20prensa%20-%20Ocama",
+          "cta": "Contacto de prensa",
+          "instagram_label": "@ocama.rd en Instagram",
+          "note": "Por favor incluya su medio, su fecha de cierre y el enfoque de su pieza. Para licencias de imagen y solicitudes de filmación, nuestro equipo responde dentro de dos días hábiles."
+        }
+      }
+    }
+  ]
+}

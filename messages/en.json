@@ -1,0 +1,33 @@
+{
+  "header": {
+    "primaryNav": "Primary",
+    "openMenu": "Open menu"
+  },
+  "languageSwitcher": {
+    "short": "ES",
+    "label": "Ver esta página en español"
+  },
+  "offer": {
+    "validUntil": "Valid until {date}"
+  },
+  "plan": {
+    "mailSubject": "Stay Inquiry - Ocama",
+    "mailBody": "Preferred dates: {dates}\nGuests: {guests}\nOccasion: {occasion}\nVilla preference: {villa}\n\n{notes}",
+    "heliNote": "I'm interested in arriving by helicopter.",
+    "heliMarker": "helicopter"
+  },
+  "map": {
+    "ocamaTitle": "Ocama · Las Galeras",
+    "ocamaText": "Eight villas above Rincón Bay, with an on-site helipad for direct helicopter arrivals.",
+    "azsTitle": "AZS · El Catey, Samaná",
+    "azsText": "The closest gateway: roughly 90 minutes by road to Ocama. Trusted drivers or a rental SUV can meet your flight.",
+    "sdqTitle": "SDQ · Las Américas, Santo Domingo",
+    "sdqText": "A scenic drive of about 3 hours across the peninsula, or a short helicopter transfer to our hillside helipad.",
+    "pujTitle": "PUJ · Punta Cana",
+    "pujText": "The island's busiest international gateway: a 4 to 5 hour drive with trusted drivers, or arrive by helicopter instead.",
+    "ocamaLabel": "Ocama",
+    "azsLabel": "AZS · 90 min",
+    "sdqLabel": "SDQ · 3 hrs",
+    "pujLabel": "PUJ · 4–5 hrs"
+  }
+}

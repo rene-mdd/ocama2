@@ -1,0 +1,100 @@
+{
+  "key": "about",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero": "https://ocama.com/upload/home-page/guy-tea-peaceful-surroundings.jpg",
+    "founder": "/static/mark-andrus-family.jpg",
+    "map": "https://ocama.com/upload/maps/ocama-map.jpg"
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "A sanctuary created to listen.",
+      "meta_title": "A sanctuary created to listen. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "The Hotel · About Ocama",
+          "title": "A sanctuary created <em>to listen.</em>",
+          "subtitle": "A secluded luxury retreat, tucked into the hills above Rincón Bay. Ocama takes its name from the Taíno word for \"to listen\": to nature, to place, to silence, to our guests, and to the rhythm of Samaná.",
+          "alt": "A quiet morning at Ocama",
+          "mobile_intro": "A secluded luxury retreat, tucked into the hills above Rincón Bay. Ocama takes its name from the Taíno word for \"to listen\": to nature, to place, to silence, to our guests, and to the rhythm of Samaná."
+        },
+        "story": {
+          "eyebrow": "Our Story",
+          "headline": "Nine months of searching. <em>One magical hillside.</em>",
+          "body": "Years ago, our founder Mark Andrus set out backpacking through Central America and the Caribbean in search of the most beautiful, tranquil, and healing place imaginable. After nine months, he found the oasis that would become Ocama.",
+          "quote": "\"This is my happy place: nature, cultural history, cuisine, architectural design, and a laid-back tropical vibe, rolled into one. My hope is that it becomes your happy place too.\"",
+          "quote_cite": "Mark Andrus, Founder",
+          "image_alt": "Founder Mark Andrus with family at Ocama"
+        },
+        "harmony": {
+          "eyebrow": "Why Only Eight Villas",
+          "headline": "Built in harmony <em>with the land.</em>",
+          "body": "Creating the retreat took years of planning so it would remain in harmony with the delicate surrounding ecosystem. Hand-laid stone roads. Homes positioned along the natural contours of the hillsides. Rooflines that disappear into the forest canopy. Central stairways designed to channel tropical breezes, allowing Mother Nature to help cool the villas.",
+          "pillars": [
+            {
+              "title": "Excellence & Caring Hospitality",
+              "text": "The highest standards in every setting, dish, and interaction, with genuine warmth, so each guest feels valued, welcomed, and at home."
+            },
+            {
+              "title": "Community & Earth",
+              "text": "We engage in our local community's development, and with just eight villas across 35 acres, we ensure minimal disruption to the ecosystem: a peaceful oasis for guests and wildlife alike."
+            }
+          ]
+        },
+        "retreat": {
+          "eyebrow": "The Retreat",
+          "headline": "Thirty-five acres, <em>three beaches.</em>",
+          "body": "Every villa sits 6–15 minutes' walk from Playa del Amor through forest trails, with Playa Breman and Playa Ermitaño just beyond. Chaise lounges wait at the beach; meals and cocktails can be delivered to your spot in the sand.",
+          "image_alt": "Map of the Ocama retreat"
+        }
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "Un santuario creado para escuchar.",
+      "meta_title": "Un santuario creado para escuchar. | Ocama",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "eyebrow": "El Hotel · Sobre Ocama",
+          "title": "Un santuario creado <em>para escuchar.</em>",
+          "subtitle": "Un refugio de lujo apartado, escondido entre las colinas sobre la bahía de Rincón. Ocama toma su nombre de la palabra taína que significa \"escuchar\": a la naturaleza, al lugar, al silencio, a nuestros huéspedes y al ritmo de Samaná.",
+          "alt": "A quiet morning en Ocama",
+          "mobile_intro": "Un refugio de lujo apartado, escondido entre las colinas sobre la bahía de Rincón. Ocama toma su nombre de la palabra taína que significa \"escuchar\": a la naturaleza, al lugar, al silencio, a nuestros huéspedes y al ritmo de Samaná."
+        },
+        "story": {
+          "eyebrow": "Nuestra Historia",
+          "headline": "Nueve meses de búsqueda. <em>Una ladera mágica.</em>",
+          "body": "Hace años, nuestro fundador Mark Andrus salió como mochilero a recorrer Centroamérica y el Caribe en busca del lugar más hermoso, tranquilo y sanador que pudiera imaginarse. Después de nueve meses, encontró el oasis que se convertiría en Ocama.",
+          "quote": "\"Este es mi lugar feliz: naturaleza, historia cultural, gastronomía, diseño arquitectónico y un aire tropical relajado, todo en uno. Mi esperanza es que también se convierta en el suyo.\"",
+          "quote_cite": "Mark Andrus, Fundador",
+          "image_alt": "Founder Mark Andrus with family en Ocama"
+        },
+        "harmony": {
+          "eyebrow": "Por qué solo ocho villas",
+          "headline": "Construido en armonía <em>con la tierra.</em>",
+          "body": "Crear el retiro tomó años de planificación para que permaneciera en armonía con el delicado ecosistema que lo rodea. Caminos de piedra colocados a mano. Casas ubicadas siguiendo los contornos naturales del terreno. Techos que desaparecen en el dosel del bosque. Escaleras centrales diseñadas para canalizar las brisas tropicales, dejando que la madre naturaleza ayude a refrescar las villas.",
+          "pillars": [
+            {
+              "title": "Excelencia y hospitalidad atenta",
+              "text": "Los más altos estándares en cada espacio, cada plato y cada interacción, con calidez genuina, para que cada huésped se sienta valorado, bienvenido y en casa."
+            },
+            {
+              "title": "Comunidad y tierra",
+              "text": "Participamos en el desarrollo de nuestra comunidad local y, con solo ocho villas en 35 acres, aseguramos una alteración mínima del ecosistema: un oasis apacible para huéspedes y vida silvestre por igual."
+            }
+          ]
+        },
+        "retreat": {
+          "eyebrow": "El retiro",
+          "headline": "Treinta y cinco acres, <em>tres playas.</em>",
+          "body": "Cada villa está a una caminata de 6 a 15 minutos de Playa del Amor por senderos entre el bosque, con Playa Bremán y Playa Ermitaño un poco más allá. Las sillas de playa le esperan en la orilla; comidas y cócteles pueden llevarse hasta su lugar en la arena.",
+          "image_alt": "Map of the Ocama retreat"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "key": "home",
+  "status": "published",
+  "date_updated": "2026-10-05T00:00:00Z",
+  "images": {
+    "hero_video": "https://ocama.com/upload/video/ocama-video.mp4",
+    "hero_poster": "https://ocama.com/wpbackend.ocama.com/wp-content/uploads/Social-media-preview/preview_home.jpg",
+    "intro": "https://ocama.com/upload/home-page/peaceful-surroundings.jpg",
+    "villa_cards": [
+      "https://ocama.com/upload/villas-list/casa-tanama.jpg",
+      "https://ocama.com/upload/villas-list/casa-bagua.jpg",
+      "https://ocama.com/upload/villas-list/casa-kachi.jpg"
+    ],
+    "dining": "https://ocama.com/upload/home-page/girls-dinner.jpg",
+    "experience_cards": [
+      "https://ocama.com/upload/home-page/whale-activities.jpg",
+      "https://ocama.com/upload/home-page/wellness-service.jpg",
+      "https://ocama.com/upload/home-page/ocama-helicopter.jpg"
+    ]
+  },
+  "translations": [
+    {
+      "languages_code": "en-US",
+      "title": "A boutique hotel hidden above Rincón Bay.",
+      "meta_title": "Ocama | Luxury Boutique Hotel in Las Galeras, Samaná, Dominican Republic",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "title": "A boutique hotel hidden above <em>Rincón Bay.</em>",
+          "subtitle": "At the far end of the Samaná Peninsula, tucked into the tropical hillsides of Las Galeras, Ocama is an oceanfront luxury retreat of just eight private villas. Here, thoughtful hospitality, in-villa dining, hidden beach paths, and the rhythm of Samaná invite a slower way of being.",
+          "place": "Las Galeras · Samaná · Dominican Republic",
+          "cta_reserve": "Reserve Your Stay",
+          "cta_villa": "Find Your Villa",
+          "scroll_cue": "Scroll"
+        },
+        "mobile_intro": {
+          "text": "At the far end of the Samaná Peninsula, tucked into the tropical hillsides of Las Galeras, Ocama is an oceanfront luxury retreat of just eight private villas. Here, thoughtful hospitality, in-villa dining, hidden beach paths, and the rhythm of Samaná invite a slower way of being.",
+          "link_label": "Find Your Villa"
+        },
+        "statement": {
+          "eyebrow": "Ocama · Taíno for \"to listen\"",
+          "text": "Where the hillside listens <em>to the sea</em>. A boutique hotel shaped by one guiding principle: listen to your surroundings."
+        },
+        "stats": [
+          {
+            "value": "8",
+            "label": "Oceanfront Villas"
+          },
+          {
+            "value": "35",
+            "label": "Hillside Acres"
+          },
+          {
+            "value": "3",
+            "label": "Beaches by Trail"
+          },
+          {
+            "value": "1",
+            "label": "Team, Yours Entirely"
+          }
+        ],
+        "intro": {
+          "eyebrow": "What Ocama Is",
+          "headline": "One intimate hotel. <em>Eight private worlds.</em>",
+          "body": "Ocama is a luxury boutique hotel whose accommodations are expressed through eight private villas, set across 35 secluded acres of tropical forest. Guests are cared for by our hospitality team from first inquiry to well after check-out, with in-villa dining, wellness, curated experiences, and access to three beaches through jungle pathways.",
+          "quote": "Rooted in the Taíno word for \"to listen,\" Ocama is a sanctuary for peace, inspiration, and refined simplicity.",
+          "link_label": "Discover Ocama",
+          "image_alt": "A guest holding a tropical flower in Ocama's gardens"
+        },
+        "villas": {
+          "eyebrow": "Stay",
+          "headline": "Which villa is right for you?",
+          "cards": [
+            {
+              "title": "One Bedroom · Sleeps 3",
+              "text": "Casa Tanama, our most intimate villa: a king bedroom for two and a study with a full bed, made for couples and solitude, with sweeping ocean views.",
+              "alt": "Casa Tanama, the one-bedroom villa",
+              "tag": "Best for Romantic Escapes"
+            },
+            {
+              "title": "Two Bedrooms · Sleeps 4",
+              "text": "Casas Ana, Guada, Turey, Guama, and Bagua. Five villas, each with its own character, from jungle canopy to honeymoon seclusion.",
+              "alt": "Casa Bagua, a two-bedroom villa",
+              "tag": "Best for Couples & Small Families"
+            },
+            {
+              "title": "Three Bedrooms · Sleeps 6",
+              "text": "Bajacú and Kachi welcome families and groups with generous space and dramatic panoramic bay views.",
+              "alt": "Casa Kachi, a three-bedroom villa",
+              "tag": "Best for Groups & Special Celebrations"
+            }
+          ],
+          "compare_label": "Compare All Eight Villas",
+          "detail_label": "See a Villa in Detail"
+        },
+        "buyouts": {
+          "eyebrow": "Buyouts & Retreats",
+          "headline": "For a few unforgettable days, <em>Ocama belongs to you.</em>",
+          "text": "Reserve all eight villas as one private world for weddings, retreats, and milestone celebrations, with the hillside, the kitchen, and our whole team devoted to your guest list alone.",
+          "link_label": "Begin Planning"
+        },
+        "dining": {
+          "eyebrow": "Dining",
+          "headline": "Born from Dominican flavor, <em>guided by the calm of Ocama.</em>",
+          "text": "Slow breakfasts on your terrace, fresh coastal lunches after the beach, cocktails at sunset, and private dinners prepared with care, in your villa or beneath the open sky.",
+          "link_label": "Explore Dining",
+          "image_alt": "A private dinner at an Ocama villa"
+        },
+        "sustainability": {
+          "eyebrow": "Sustainability",
+          "lead": "Eight villas nestled into a hillside, allowing the landscape to remain what it has always been.",
+          "text": "A zero-waste mindset in the kitchen, a plastic-free property, meals cooked to order rather than buffets where excess so often goes to waste, and a team drawn from Las Galeras. This is why Ocama was never going to be all-inclusive.",
+          "link_label": "How We Tread Lightly"
+        },
+        "experiences": {
+          "eyebrow": "Experience Samaná",
+          "headline": "The wild beauty of Samaná, <em>yours to discover.</em>",
+          "cards": [
+            {
+              "title": "By the Sea",
+              "text": "Whale season, chartered boat days, and the beaches of Rincón, Frontón, and Madama.",
+              "alt": "Humpback whale in the Bay of Samaná"
+            },
+            {
+              "title": "Wellness, Held by Nature",
+              "text": "Massages, yoga, and restorative rituals in the privacy of your villa.",
+              "alt": "In-villa spa treatment"
+            },
+            {
+              "title": "Hospitality That Is Personal",
+              "text": "A team that quietly arranges every detail, from transfers to celebrations.",
+              "alt": "Helicopter arriving at Ocama"
+            }
+          ]
+        },
+        "reviews": {
+          "rating_label": "Rated 5.0 by Our Guests on Google",
+          "quotes": [
+            {
+              "text": "\"The most incredible and memorable vacation we've ever taken.\"",
+              "cite": "A Guest of Ocama · TripAdvisor"
+            },
+            {
+              "text": "\"An untouched, lush paradise, and Ocama is the most beautiful place to stay.\"",
+              "cite": "Sybil · Brooklyn, New York"
+            },
+            {
+              "text": "\"Ocama arranged a whale-watching excursion for us. The boat driver picked us up right on the beach.\"",
+              "cite": "A Guest of Ocama · TripAdvisor"
+            }
+          ],
+          "link_label": "Read Our Guest Reviews"
+        },
+        "band": {
+          "headline": "Begin with a conversation.",
+          "text": "Whether you're planning a quiet escape, a honeymoon, a family gathering, or a full-property retreat, our reservations team will guide you to the right villa and rhythm.",
+          "cta_availability": "Check Availability",
+          "cta_plan": "Begin Planning"
+        }
+      }
+    },
+    {
+      "languages_code": "es-ES",
+      "title": "Un hotel boutique escondido sobre la bahía de Rincón.",
+      "meta_title": "Ocama | Hotel Boutique de Lujo en Las Galeras, Samaná, República Dominicana",
+      "meta_description": null,
+      "sections": {
+        "hero": {
+          "title": "Un hotel boutique escondido <em>sobre la bahía de Rincón.</em>",
+          "subtitle": "En el extremo más apartado de la península de Samaná, entre las lomas tropicales de Las Galeras, Ocama es un refugio de lujo frente al mar con solo ocho villas privadas. Aquí, la hospitalidad atenta, la gastronomía en su villa, los senderos escondidos hacia la playa y el ritmo de Samaná invitan a vivir sin prisa.",
+          "place": "Las Galeras · Samaná · República Dominicana",
+          "cta_reserve": "Reserve su estadía",
+          "cta_villa": "Encuentre su villa",
+          "scroll_cue": "Scroll"
+        },
+        "mobile_intro": {
+          "text": "En el extremo más apartado de la península de Samaná, entre las lomas tropicales de Las Galeras, Ocama es un refugio de lujo frente al mar con solo ocho villas privadas. Aquí, la hospitalidad atenta, la gastronomía en su villa, los senderos escondidos hacia la playa y el ritmo de Samaná invitan a vivir sin prisa.",
+          "link_label": "Encuentre su villa"
+        },
+        "statement": {
+          "eyebrow": "Ocama · \"escuchar\" en taíno",
+          "text": "Donde la ladera escucha <em>el mar</em>. Un hotel boutique guiado por un solo principio: escuchar el entorno."
+        },
+        "stats": [
+          {
+            "value": "8",
+            "label": "Villas frente al mar"
+          },
+          {
+            "value": "35",
+            "label": "Acres entre bosque y mar"
+          },
+          {
+            "value": "3",
+            "label": "Playas por sendero"
+          },
+          {
+            "value": "1",
+            "label": "Equipo, enteramente suyo"
+          }
+        ],
+        "intro": {
+          "eyebrow": "Qué es Ocama",
+          "headline": "Un hotel íntimo. <em>Ocho mundos privados.</em>",
+          "body": "Ocama es un hotel boutique de lujo cuyo alojamiento se expresa en ocho villas privadas, distribuidas en 35 acres apartados de bosque tropical. Nuestro equipo de hospitalidad acompaña a cada huésped desde la primera consulta hasta mucho después de su salida, con gastronomía en su villa, bienestar, experiencias a la medida y días diseñados enteramente para usted.",
+          "quote": "Enraizado en la palabra taína que significa \"escuchar,\" Ocama es un santuario de paz, inspiración y sencillez refinada.",
+          "link_label": "Discover Ocama",
+          "image_alt": "A guest holding a tropical flower in Ocama's gardens"
+        },
+        "villas": {
+          "eyebrow": "Villas",
+          "headline": "¿Cuál villa es la suya?",
+          "cards": [
+            {
+              "title": "Una habitación · Para 3 huéspedes",
+              "text": "Casa Tanama, nuestra villa más íntima: una habitación con cama King para dos y un estudio con cama Full, pensada para parejas y para la soledad, con amplias vistas al mar.",
+              "alt": "Casa Tanama, the one-bedroom villa",
+              "tag": "Ideal para escapadas románticas"
+            },
+            {
+              "title": "Dos habitaciones · Para 4 huéspedes",
+              "text": "Casas Ana, Guada, Turey, Guama y Bagua. Cinco villas, cada una con su propio carácter, desde el dosel de la selva hasta el retiro de luna de miel.",
+              "alt": "Casa Bagua, a two-bedroom villa",
+              "tag": "Ideal para parejas y familias pequeñas"
+            },
+            {
+              "title": "Tres habitaciones · Para 6 huéspedes",
+              "text": "Bajacú y Kachi reciben a familias y grupos con espacios generosos e imponentes vistas panorámicas a la bahía.",
+              "alt": "Casa Kachi, a three-bedroom villa",
+              "tag": "Ideal para grupos y celebraciones especiales"
+            }
+          ],
+          "compare_label": "Compare las ocho villas",
+          "detail_label": "Conozca una villa en detalle"
+        },
+        "buyouts": {
+          "eyebrow": "Reservas exclusivas y retiros",
+          "headline": "Por unos días inolvidables, <em>Ocama es enteramente suyo.</em>",
+          "text": "Reserve las ocho villas como un solo mundo privado para bodas, retiros y grandes celebraciones, con estas tierras, la cocina y todo nuestro equipo dedicados únicamente a sus invitados.",
+          "link_label": "Comience a planificar"
+        },
+        "dining": {
+          "eyebrow": "Gastronomía",
+          "headline": "Nacida del sabor dominicano, <em>guiada por la calma de Ocama.</em>",
+          "text": "Desayunos sin prisa en su terraza, almuerzos costeros frescos al volver de la playa, cócteles al atardecer y cenas privadas preparadas con esmero, en su villa o bajo el cielo abierto.",
+          "link_label": "Explore Dining",
+          "image_alt": "A private dinner at an Ocama villa"
+        },
+        "sustainability": {
+          "eyebrow": "Sostenibilidad",
+          "lead": "Ocho villas abrazadas a una ladera, dejando que el paisaje siga siendo lo que siempre ha sido.",
+          "text": "Una cocina con mentalidad de cero desperdicio, una propiedad libre de plástico, platos preparados al momento en lugar de bufés donde tanto termina desperdiciándose, y un equipo nacido en Las Galeras. Por eso Ocama nunca iba a ser todo incluido.",
+          "link_label": "Cómo cuidamos este lugar"
+        },
+        "experiences": {
+          "eyebrow": "Viva Samaná",
+          "headline": "La belleza indómita de Samaná, <em>suya por descubrir.</em>",
+          "cards": [
+            {
+              "title": "Junto al mar",
+              "text": "La temporada de ballenas, días de bote privado y las playas de Rincón, Frontón y Madama.",
+              "alt": "Humpback whale in the Bay of Samaná"
+            },
+            {
+              "title": "Bienestar, sostenido por la naturaleza",
+              "text": "Masajes, yoga y rituales restauradores en la privacidad de su villa.",
+              "alt": "In-villa spa treatment"
+            },
+            {
+              "title": "Hospitalidad personal",
+              "text": "Un equipo que coordina cada detalle con discreción, desde traslados hasta celebraciones.",
+              "alt": "Helicóptero llegando a Ocama"
+            }
+          ]
+        },
+        "reviews": {
+          "rating_label": "Calificación 5.0 de nuestros huéspedes en Google",
+          "quotes": [
+            {
+              "text": "\"Las vacaciones más increíbles y memorables que hemos tenido.\"",
+              "cite": "Huésped de Ocama · TripAdvisor"
+            },
+            {
+              "text": "\"Un paraíso intacto y exuberante, y Ocama es el lugar más hermoso para hospedarse.\"",
+              "cite": "Sybil · Brooklyn, Nueva York"
+            },
+            {
+              "text": "\"Ocama nos organizó una excursión para ver ballenas. El capitán nos recogió directamente en la playa.\"",
+              "cite": "Huésped de Ocama · TripAdvisor"
+            }
+          ],
+          "link_label": "Lea las reseñas de nuestros huéspedes"
+        },
+        "band": {
+          "headline": "Comience con una conversación.",
+          "text": "Ya sea que esté planificando una escapada tranquila, una luna de miel, una reunión familiar o un retiro con la propiedad completa, nuestro equipo de reservaciones lo guiará hacia la villa y el ritmo indicados.",
+          "cta_availability": "Consultar disponibilidad",
+          "cta_plan": "Comience a planificar"
+        }
+      }
+    }
+  ]
+}
