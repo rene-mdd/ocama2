@@ -6,8 +6,8 @@ import type { Locale } from '@/lib/i18n';
 import type { WellnessImages, WellnessSections } from '@/lib/pages/wellness';
 import { href } from '@/lib/routes';
 
-export function WellnessPage({ lang }: { lang: Locale }) {
-  const page = getPage<WellnessImages, WellnessSections>('wellness', lang);
+export async function WellnessPage({ lang }: { lang: Locale }) {
+  const page = await getPage<WellnessImages, WellnessSections>('wellness', lang);
   const img = page.images;
   const s = page.t.sections;
 

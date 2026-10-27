@@ -1,6 +1,6 @@
 import type { Locale } from '../../lib/i18n';
 import type { ImageRef, Villa, VillaT } from '../../lib/types';
-import { attr, each, fallbackSrc, load, rich, text, type $ } from './lib';
+import { SEO_NULL, attr, each, fallbackSrc, load, rich, text, type $ } from './lib';
 
 export const villaIds = ['tanama', 'bagua', 'turey', 'guama', 'ana', 'guada', 'bajacu', 'kachi'];
 
@@ -38,8 +38,7 @@ function parse(lang: Locale, id: string) {
   const t: VillaT = {
     name,
     slug: `casa-${id}`,
-    meta_title: $('title').text().trim(),
-    meta_description: null,
+    ...SEO_NULL,
     eyebrow: text(hero.find('p.eyebrow')),
     tagline: rich(sub, lang),
     mobile_intro: mIntro.length ? text(mIntro) : null,
@@ -68,6 +67,7 @@ function parse(lang: Locale, id: string) {
       // Gallery images with a guessed filename are hidden on error rather than swapped.
       gallery: each(gal, (g) => (g.attr('onerror') ? { src: attr(g, 'src'), hideOnError: true } : { src: attr(g, 'src') })),
       booking_url: attr(actions.find('a.btn-solid'), 'href'),
+      og_image: null,
     },
   };
 }

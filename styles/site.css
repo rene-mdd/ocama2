@@ -4,3 +4,7 @@
 .lang-switch{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:#fff;opacity:.85;padding:.3em 0;border-bottom:1px solid transparent;transition:color .3s}
 .lang-switch:hover{opacity:1;border-bottom-color:var(--sea)}
 header.solid .lang-switch,header.scrolled .lang-switch,body.menu-open .lang-switch{color:var(--ink)}
+
+/* Draft preview bar (only in draft mode). */
+.preview-bar{position:fixed;left:50%;bottom:1rem;transform:translateX(-50%);z-index:70;background:var(--ink);color:var(--bone);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;padding:.6em 1.4em;border-radius:2px}
+.preview-bar a{text-decoration:underline}

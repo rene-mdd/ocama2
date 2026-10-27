@@ -11,7 +11,10 @@
     "utilities": "tsx scripts/utilities.ts",
     "typecheck": "tsc --noEmit",
     "parity": "tsx scripts/parity.ts",
-    "links": "tsx scripts/links.ts"
+    "links": "tsx scripts/links.ts",
+    "seo": "tsx scripts/seo-check.ts",
+    "snapshot": "tsx scripts/pull-snapshot.ts",
+    "export-redirects": "tsx scripts/export-redirects.ts"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

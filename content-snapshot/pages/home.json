@@ -2,6 +2,7 @@
   "key": "home",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": "/og/preview_home.jpg",
   "images": {
     "hero_video": "https://ocama.com/upload/video/ocama-video.mp4",
     "hero_poster": "https://ocama.com/wpbackend.ocama.com/wp-content/uploads/Social-media-preview/preview_home.jpg",
@@ -22,8 +23,11 @@
     {
       "languages_code": "en-US",
       "title": "A boutique hotel hidden above Rincón Bay.",
-      "meta_title": "Ocama | Luxury Boutique Hotel in Las Galeras, Samaná, Dominican Republic",
-      "meta_description": null,
+      "meta_title": "OCAMA",
+      "meta_description": "Our 8 private villas are exquisite three-story architectural masterpieces of understated contemporary luxury, blending seamlessly into the verdant tropical forest. Surrounded by winding trails and boasting breathtaking ocean views, they provide a rare oasis of tranquility and beauty.",
+      "og_title": "OCAMA is a 35-acre tropical boutique hotel perched on the hills overlooking the Bay of Rincon.",
+      "og_description": "OCAMA is a 35-acre tropical boutique hotel perched on the hills overlooking the Bay of Rincon. It exudes tropical luxury living, privacy, and direct access to several of the most pristine beaches of the Samaná peninsula.",
+      "og_image_alt": "Nice view of rincon bay area from one of the villas",
       "sections": {
         "hero": {
           "title": "A boutique hotel hidden above <em>Rincón Bay.</em>",
@@ -162,8 +166,11 @@
     {
       "languages_code": "es-ES",
       "title": "Un hotel boutique escondido sobre la bahía de Rincón.",
-      "meta_title": "Ocama | Hotel Boutique de Lujo en Las Galeras, Samaná, República Dominicana",
-      "meta_description": null,
+      "meta_title": "OCAMA",
+      "meta_description": "Nuestras 8 villas privadas son exquisitas obras de arquitectura de tres niveles, de un lujo contemporáneo discreto, integradas por completo en el frondoso bosque tropical. Rodeadas de senderos y con impresionantes vistas al mar, son un raro oasis de tranquilidad y belleza.",
+      "og_title": "OCAMA es un hotel boutique tropical de 35 acres en las colinas con vista a la bahía de Rincón.",
+      "og_description": "OCAMA es un hotel boutique tropical de 35 acres en las colinas con vista a la bahía de Rincón. Ofrece una vida de lujo tropical, privacidad y acceso directo a varias de las playas más vírgenes de la península de Samaná.",
+      "og_image_alt": "Vista de la bahía de Rincón desde una de las villas",
       "sections": {
         "hero": {
           "title": "Un hotel boutique escondido <em>sobre la bahía de Rincón.</em>",

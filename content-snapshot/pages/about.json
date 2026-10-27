@@ -2,6 +2,7 @@
   "key": "about",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": "/og/preview_about.jpg",
   "images": {
     "hero": "https://ocama.com/upload/home-page/guy-tea-peaceful-surroundings.jpg",
     "founder": "/static/mark-andrus-family.jpg",
@@ -11,8 +12,11 @@
     {
       "languages_code": "en-US",
       "title": "A sanctuary created to listen.",
-      "meta_title": "A sanctuary created to listen. | Ocama",
-      "meta_description": null,
+      "meta_title": "About Us - OCAMA",
+      "meta_description": "Find out what makes OCAMA special and unique, learn about our values, meet our team, and discover how to get here.",
+      "og_title": "About OCAMA",
+      "og_description": null,
+      "og_image_alt": "Picture of whole ocama team",
       "sections": {
         "hero": {
           "eyebrow": "The Hotel · About Ocama",
@@ -55,8 +59,11 @@
     {
       "languages_code": "es-ES",
       "title": "Un santuario creado para escuchar.",
-      "meta_title": "Un santuario creado para escuchar. | Ocama",
-      "meta_description": null,
+      "meta_title": "Sobre nosotros - OCAMA",
+      "meta_description": "Descubra qué hace que OCAMA sea especial y única: conozca nuestros valores, a nuestro equipo y cómo llegar.",
+      "og_title": "Sobre OCAMA",
+      "og_description": null,
+      "og_image_alt": "Foto de todo el equipo de Ocama",
       "sections": {
         "hero": {
           "eyebrow": "El Hotel · Sobre Ocama",

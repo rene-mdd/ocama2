@@ -8,8 +8,8 @@ import type { Locale } from '@/lib/i18n';
 import type { ExperiencesImages, ExperiencesSections } from '@/lib/pages/experiences';
 import { href } from '@/lib/routes';
 
-export function ExperiencesPage({ lang }: { lang: Locale }) {
-  const page = getPage<ExperiencesImages, ExperiencesSections>('experiences', lang);
+export async function ExperiencesPage({ lang }: { lang: Locale }) {
+  const page = await getPage<ExperiencesImages, ExperiencesSections>('experiences', lang);
   const { images: img } = page;
   const s = page.t.sections;
 

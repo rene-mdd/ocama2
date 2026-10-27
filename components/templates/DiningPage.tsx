@@ -8,8 +8,8 @@ import type { Locale } from '@/lib/i18n';
 import type { DiningImages, DiningSections } from '@/lib/pages/dining';
 import { href } from '@/lib/routes';
 
-export function DiningPage({ lang }: { lang: Locale }) {
-  const page = getPage<DiningImages, DiningSections>('dining', lang);
+export async function DiningPage({ lang }: { lang: Locale }) {
+  const page = await getPage<DiningImages, DiningSections>('dining', lang);
   const img = page.images;
   const s = page.t.sections;
 

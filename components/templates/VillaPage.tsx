@@ -7,10 +7,10 @@ import { getSiteSettings, getVillas, type LocalizedVilla } from '@/lib/directus'
 import type { Locale } from '@/lib/i18n';
 import { href } from '@/lib/routes';
 
-export function VillaPage({ lang, villa }: { lang: Locale; villa: LocalizedVilla }) {
+export async function VillaPage({ lang, villa }: { lang: Locale; villa: LocalizedVilla }) {
   const { t } = villa;
-  const inc = getSiteSettings(lang).t.villa_inclusions;
-  const all = getVillas(lang);
+  const inc = (await getSiteSettings(lang)).t.villa_inclusions;
+  const all = await getVillas(lang);
   const related = villa.related.map((id) => all.find((v) => v.id === id)!);
 
   return (

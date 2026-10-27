@@ -7,8 +7,8 @@ import type { Locale } from '@/lib/i18n';
 import type { SustainabilityImages, SustainabilitySections } from '@/lib/pages/sustainability';
 import { href } from '@/lib/routes';
 
-export function SustainabilityPage({ lang }: { lang: Locale }) {
-  const page = getPage<SustainabilityImages, SustainabilitySections>('sustainability', lang);
+export async function SustainabilityPage({ lang }: { lang: Locale }) {
+  const page = await getPage<SustainabilityImages, SustainabilitySections>('sustainability', lang);
   const s = page.t.sections;
 
   return (

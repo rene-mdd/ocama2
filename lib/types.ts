@@ -14,16 +14,30 @@ export type Translated<T> = { translations: (T & { languages_code: LanguageCode 
 /** An image reference plus the fallback used while final photography is pending from Ocama. */
 export type ImageRef = { src: string; fallback?: string | null; hideOnError?: boolean };
 
+/**
+ * Search & sharing fields, in every translations table. All nullable with code fallbacks
+ * (lib/seo.ts): og_title → meta_title, og_description → meta_description → site description.
+ */
+export type SeoT = {
+  meta_title: string | null;
+  meta_description: string | null;
+  og_title: string | null;
+  og_description: string | null;
+  og_image_alt: string | null;
+};
+
 export type LinkItem = { label: string; href: string };
 
 export type NavItem = { key: string; label: string };
 
 export type SiteSettingsT = {
   site_name: string;
+  /** Site-wide defaults used when a page leaves its own SEO fields empty. */
   meta_title: string;
   meta_description: string;
   og_title: string;
   og_description: string;
+  og_image_alt: string;
   /** Description used in the Hotel JSON-LD entity. */
   schema_description: string;
   reserve_label: string;
@@ -59,16 +73,15 @@ export type SiteSettings = Translated<SiteSettingsT> & {
   number_of_rooms: number;
   pets_allowed: boolean;
   amenities: string[];
+  /** Default share image: a Directus file id, a site path or a URL (see lib/assets.ts). */
   og_image: string;
   show_offers_banner: boolean;
   show_newsletter: boolean;
 };
 
-export type VillaT = {
+export type VillaT = SeoT & {
   name: string;
   slug: string;
-  meta_title: string | null;
-  meta_description: string | null;
   eyebrow: string;
   tagline: Rich;
   mobile_intro: string | null;
@@ -93,11 +106,12 @@ export type Villa = Translated<VillaT> & {
   intro_image: ImageRef;
   gallery: ImageRef[];
   booking_url: string;
+  og_image: string | null;
   /** Villa ids shown as "see also" buttons, in order. */
   related: string[];
 };
 
-export type OfferT = {
+export type OfferT = SeoT & {
   title: string;
   slug: string;
   /** Short line under the title, also used on the offers index card. */
@@ -105,8 +119,6 @@ export type OfferT = {
   /** e.g. "Three-Night Stay", shown on the index card. */
   stay_length: string;
   body: Rich;
-  meta_title: string | null;
-  meta_description: string | null;
   alt_text: string;
   eyebrow: string;
   includes_eyebrow: string;
@@ -136,13 +148,14 @@ export type Offer = Translated<OfferT> & {
 };
 
 /** A fixed marketing page. `images` and `sections` are typed per page key. */
-export type Page<Images = Record<string, unknown>, Sections = Record<string, unknown>> = Translated<{
-  title: string;
-  meta_title: string | null;
-  meta_description: string | null;
-  sections: Sections;
-}> & {
+export type Page<Images = Record<string, unknown>, Sections = Record<string, unknown>> = Translated<
+  SeoT & {
+    title: string;
+    sections: Sections;
+  }
+> & {
   key: string;
+  og_image: string | null;
   status: Status;
   date_updated: string;
   images: Images;

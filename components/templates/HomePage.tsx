@@ -1,4 +1,5 @@
 import { A } from '@/components/A';
+import { assetUrl } from '@/lib/assets';
 import { QuoteRotator } from '@/components/client/QuoteRotator';
 import { Img } from '@/components/Img';
 import { Rich } from '@/components/Rich';
@@ -11,9 +12,9 @@ import { href } from '@/lib/routes';
 
 const delay = (i: number) => (i === 1 ? 'delay-p1s' : i === 2 ? 'delay-p2s' : undefined);
 
-export function HomePage({ lang }: { lang: Locale }) {
-  const page = getPage<HomeImages, HomeSections>('home', lang);
-  const site = getSiteSettings(lang);
+export async function HomePage({ lang }: { lang: Locale }) {
+  const page = await getPage<HomeImages, HomeSections>('home', lang);
+  const site = await getSiteSettings(lang);
   const { images: img } = page;
   const s = page.t.sections;
   const to = (key: Parameters<typeof href>[1], slug?: string) => href(lang, key, slug);
@@ -21,8 +22,8 @@ export function HomePage({ lang }: { lang: Locale }) {
   return (
     <main className="page on" id="pg-home">
       <section className="phero tall">
-        <video autoPlay muted loop playsInline poster={img.hero_poster}>
-          <source src={img.hero_video} type="video/mp4" />
+        <video autoPlay muted loop playsInline poster={assetUrl(img.hero_poster)}>
+          <source src={assetUrl(img.hero_video)} type="video/mp4" />
         </video>
         <div className="inner">
           <Rich as="h1" className="display maxw-14em" html={s.hero.title} />

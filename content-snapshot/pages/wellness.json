@@ -2,6 +2,7 @@
   "key": "wellness",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": "/og/preview_wellness.jpg",
   "images": {
     "hero": "https://ocama.com/upload/wellness-images/massage_couple_1280x580.jpg",
     "cards": [
@@ -17,8 +18,11 @@
     {
       "languages_code": "en-US",
       "title": "Wellness, held by nature.",
-      "meta_title": "Wellness, held by nature. | Ocama",
-      "meta_description": null,
+      "meta_title": "Wellness - OCAMA",
+      "meta_description": "OCAMA’s forest setting turns your villa into a healing haven. Enjoy personalized spa treatments, both indoors and outdoors, tailored to your well-being.",
+      "og_title": "Wellness at OCAMA",
+      "og_description": null,
+      "og_image_alt": "Two persons getting a massage in front of the beach",
       "sections": {
         "hero": {
           "eyebrow": "Experience · Wellness",
@@ -67,8 +71,11 @@
     {
       "languages_code": "es-ES",
       "title": "Bienestar, sostenido por la naturaleza.",
-      "meta_title": "Bienestar, sostenido por la naturaleza. | Ocama",
-      "meta_description": null,
+      "meta_title": "Bienestar - OCAMA",
+      "meta_description": "El entorno de bosque de OCAMA convierte su villa en un refugio sanador. Disfrute de tratamientos de spa personalizados, en interiores y al aire libre, pensados para su bienestar.",
+      "og_title": "Bienestar en OCAMA",
+      "og_description": null,
+      "og_image_alt": "Dos personas recibiendo un masaje frente a la playa",
       "sections": {
         "hero": {
           "eyebrow": "Experiencia · Bienestar",

@@ -2,6 +2,7 @@
   "key": "experiences",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": "/og/preview_activities.jpg",
   "images": {
     "hero": "https://ocama.com/upload/home-page/activities-beach.jpg",
     "sea": "https://ocama.com/upload/home-page/whale-activities.jpg",
@@ -11,8 +12,11 @@
     {
       "languages_code": "en-US",
       "title": "The wild beauty of Samaná, quietly opened to you.",
-      "meta_title": "The wild beauty of Samaná, quietly opened to you. | Ocama",
-      "meta_description": null,
+      "meta_title": "Activities - OCAMA",
+      "meta_description": "Samaná is a nature lover’s paradise. Enjoy stunning seascapes, lush mountains, cascading waterfalls, and hidden caves on this coastal gem.",
+      "og_title": "Activities around OCAMA",
+      "og_description": null,
+      "og_image_alt": "A whale at Samana bay",
       "sections": {
         "hero": {
           "eyebrow": "Experience · Samaná",
@@ -53,8 +57,11 @@
     {
       "languages_code": "es-ES",
       "title": "La belleza indómita de Samaná, que se abre serenamente ante usted.",
-      "meta_title": "La belleza indómita de Samaná, que se abre serenamente ante usted. | Ocama",
-      "meta_description": null,
+      "meta_title": "Actividades - OCAMA",
+      "meta_description": "Samaná es un paraíso para los amantes de la naturaleza. Disfrute de paisajes marinos impresionantes, montañas exuberantes, cascadas y cuevas escondidas en esta joya costera.",
+      "og_title": "Actividades alrededor de OCAMA",
+      "og_description": null,
+      "og_image_alt": "Una ballena en la bahía de Samaná",
       "sections": {
         "hero": {
           "eyebrow": "Experience · Samaná",

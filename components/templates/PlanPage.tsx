@@ -11,9 +11,9 @@ import type { Locale } from '@/lib/i18n';
 import type { PlanImages, PlanSections } from '@/lib/pages/plan';
 import { href } from '@/lib/routes';
 
-export function PlanPage({ lang }: { lang: Locale }) {
-  const page = getPage<PlanImages, PlanSections>('plan', lang);
-  const site = getSiteSettings(lang);
+export async function PlanPage({ lang }: { lang: Locale }) {
+  const page = await getPage<PlanImages, PlanSections>('plan', lang);
+  const site = await getSiteSettings(lang);
   const s = page.t.sections;
   const { inquiry, arrival, air, faq } = s;
 

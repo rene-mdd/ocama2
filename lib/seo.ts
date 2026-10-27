@@ -1,42 +1,60 @@
 import type { Metadata } from 'next';
-import { getSiteSettings } from './directus';
+import { getSiteSettings, isPreview } from './directus';
 import { defaultLocale, type Locale } from './i18n';
-import type { SiteSettings } from './types';
+import { absoluteAssetUrl } from './assets';
+import type { SeoT, SiteSettings } from './types';
 
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ocama.com').replace(/\/$/, '');
 
 type MetaInput = {
   lang: Locale;
-  /** Full <title>, already including "| Ocama" where wanted. */
+  /** The page's own heading, used when meta_title is empty: "<title> - OCAMA". */
   title: string;
-  description?: string | null;
+  /** The page's search & sharing fields (any collection's translation). */
+  seo: SeoT;
   /** Path of this page in every language (from routes.alternates). */
   paths: Record<Locale, string>;
+  /** Share image: Directus file id, site path or URL (lib/assets.ts). Falls back to the site default. */
   ogImage?: string | null;
   noindex?: boolean;
   canonical?: string | null;
 };
 
 /** Every SEO surface comes from a content field with a code-level fallback (ARCHITECTURE.md, SEO). */
-export function buildMetadata({ lang, title, description, paths, ogImage, noindex, canonical }: MetaInput): Metadata {
-  const site = getSiteSettings(lang);
+export async function buildMetadata({ lang, title, seo, paths, ogImage, noindex, canonical }: MetaInput): Promise<Metadata> {
+  const site = await getSiteSettings(lang);
+  // Draft previews must never be indexed (ARCHITECTURE.md, Draft preview).
+  if (await isPreview()) noindex = true;
   const url = SITE_URL + paths[lang];
+  const metaTitle = seo.meta_title ?? `${title} - OCAMA`;
+  const description = seo.meta_description ?? site.t.meta_description;
+  const ogTitle = seo.og_title ?? metaTitle;
+  const ogDescription = seo.og_description ?? description;
+  const image = {
+    url: absoluteAssetUrl(ogImage ?? site.og_image),
+    alt: (ogImage ? seo.og_image_alt : (seo.og_image_alt ?? site.t.og_image_alt)) ?? undefined,
+  };
   return {
-    title,
-    description: description ?? site.t.meta_description,
+    title: metaTitle,
+    description,
     alternates: {
       canonical: canonical ?? url,
-      languages: { ...Object.fromEntries(Object.entries(paths).map(([l, p]) => [l, SITE_URL + p])), 'x-default': SITE_URL + paths[defaultLocale] },
+      languages: {
+        ...Object.fromEntries(Object.entries(paths).map(([l, p]) => [l, SITE_URL + p])),
+        'x-default': SITE_URL + paths[defaultLocale],
+      },
     },
-    robots: noindex ? { index: false, follow: true } : undefined,
+    robots: noindex ? { index: false, follow: !(await isPreview()) } : undefined,
     openGraph: {
-      title: site.t.og_title,
-      description: site.t.og_description,
+      title: ogTitle,
+      description: ogDescription,
       url,
+      siteName: site.t.site_name,
+      locale: lang === 'en' ? 'en_US' : 'es_ES',
       type: 'website',
-      images: [{ url: ogImage ?? site.og_image }],
+      images: [image],
     },
-    twitter: { card: 'summary_large_image' },
+    twitter: { card: 'summary_large_image', title: ogTitle, description: ogDescription, images: [image] },
   };
 }
 
@@ -52,7 +70,7 @@ export function hotelJsonLd(site: SiteSettings & { t: { schema_description: stri
     email: site.email,
     numberOfRooms: site.number_of_rooms,
     petsAllowed: site.pets_allowed,
-    image: site.og_image,
+    image: absoluteAssetUrl(site.og_image),
     address: {
       '@type': 'PostalAddress',
       addressLocality: site.address.locality,

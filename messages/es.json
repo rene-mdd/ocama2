@@ -29,5 +29,9 @@
     "azsLabel": "AZS · 90 min",
     "sdqLabel": "SDQ · 3 h",
     "pujLabel": "PUJ · 4–5 h"
+  },
+  "preview": {
+    "label": "Vista previa: se muestran cambios sin publicar",
+    "exit": "Salir de la vista previa"
   }
 }

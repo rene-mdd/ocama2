@@ -10,7 +10,7 @@ import { OffersIndexPage } from './OffersIndexPage';
 import { PlanPage } from './PlanPage';
 import { PressPage } from './PressPage';
 
-type Template = (props: { lang: Locale }) => React.ReactNode;
+type Template = (props: { lang: Locale }) => React.ReactNode | Promise<React.ReactNode>;
 
 /** Fixed page key → template. Villa and offer detail pages are routed separately. */
 export const templates: Record<string, Template> = {

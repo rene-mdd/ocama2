@@ -9,10 +9,10 @@ import type { Locale } from '@/lib/i18n';
 import type { StayImages, StaySections } from '@/lib/pages/stay';
 import { href } from '@/lib/routes';
 
-export function StayPage({ lang }: { lang: Locale }) {
-  const page = getPage<StayImages, StaySections>('stay', lang);
-  const site = getSiteSettings(lang);
-  const villas = getVillas(lang);
+export async function StayPage({ lang }: { lang: Locale }) {
+  const page = await getPage<StayImages, StaySections>('stay', lang);
+  const site = await getSiteSettings(lang);
+  const villas = await getVillas(lang);
   const { images: img } = page;
   const s = page.t.sections;
 

@@ -10,6 +10,7 @@ import { registerOfferSlugs, extractOffers } from './offers';
 import { extractSiteParent, extractSiteT } from './site';
 import { extractVillas } from './villas';
 import { extractPages } from './pages';
+import { applyLegacySeo } from './legacy-seo';
 
 const OUT = path.resolve(import.meta.dirname, '../../content-snapshot');
 const write = (name: string, data: unknown) => {
@@ -21,10 +22,6 @@ registerOfferSlugs();
 
 const only = process.argv.includes('--pages') ? process.argv[process.argv.indexOf('--pages') + 1].split(',') : null;
 
-mkdirSync(path.join(OUT, 'pages'), { recursive: true });
-for (const page of extractPages(only)) write(`pages/${page.key}.json`, page);
-if (only) process.exit(0);
-
 const site: SiteSettings = {
   ...extractSiteParent(),
   translations: [
@@ -32,6 +29,15 @@ const site: SiteSettings = {
     { languages_code: 'es-ES', ...extractSiteT('es') },
   ],
 };
-write('site_settings.json', site);
-write('villas.json', extractVillas());
-write('offers.json', extractOffers());
+const villas = extractVillas();
+const offers = extractOffers();
+const pages = extractPages(only);
+applyLegacySeo(site, villas, offers, pages);
+
+mkdirSync(path.join(OUT, 'pages'), { recursive: true });
+for (const page of pages) write(`pages/${page.key}.json`, page);
+if (!only) {
+  write('site_settings.json', site);
+  write('villas.json', villas);
+  write('offers.json', offers);
+}

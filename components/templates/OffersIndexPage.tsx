@@ -6,10 +6,10 @@ import type { Locale } from '@/lib/i18n';
 import type { OffersImages, OffersSections } from '@/lib/pages/offers';
 import { href } from '@/lib/routes';
 
-export function OffersIndexPage({ lang }: { lang: Locale }) {
-  const page = getPage<OffersImages, OffersSections>('offers', lang);
+export async function OffersIndexPage({ lang }: { lang: Locale }) {
+  const page = await getPage<OffersImages, OffersSections>('offers', lang);
   const s = page.t.sections;
-  const offers = getOffers(lang);
+  const offers = await getOffers(lang);
 
   return (
     <main className="page on" id="pg-offers">

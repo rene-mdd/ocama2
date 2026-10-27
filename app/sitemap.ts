@@ -5,7 +5,7 @@ import { alternates, pageKeys, type PageKey } from '@/lib/routes';
 import { SITE_URL } from '@/lib/seo';
 
 /** Both languages of every page, each with its hreflang alternates. Built from content, not the filesystem. */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries = (key: PageKey, paths: Record<string, string>, lastModified?: string) =>
     locales.map((lang) => ({
       url: SITE_URL + paths[lang],
@@ -14,9 +14,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
   return [
-    ...pageKeys.filter(hasPage).flatMap((key) => entries(key, alternates(key), getPage(key, 'en').date_updated)),
-    ...getVillas('en').flatMap((v) => entries('stay', alternates('stay', slugsFor(v)))),
-    ...getOffers('en')
+    ...(
+      await Promise.all(
+        pageKeys.map(async (key) => ((await hasPage(key)) ? entries(key, alternates(key), (await getPage(key, 'en')).date_updated || undefined) : [])),
+      )
+    ).flat(),
+    ...(await getVillas('en')).flatMap((v) => entries('stay', alternates('stay', slugsFor(v)))),
+    ...(await getOffers('en'))
       .filter((o) => !o.noindex)
       .flatMap((o) => entries('offers', alternates('offers', slugsFor(o)), o.date_updated)),
   ];

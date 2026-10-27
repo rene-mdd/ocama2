@@ -1,7 +1,7 @@
 import type { Locale } from '../../lib/i18n';
 import type { Offer, OfferT } from '../../lib/types';
 import { validUntilLabel } from '../../lib/format';
-import { attr, each, fallbackSrc, load, offerSlugs, rich, slugify, text } from './lib';
+import { SEO_NULL, attr, each, fallbackSrc, load, offerSlugs, rich, slugify, text } from './lib';
 
 /** In the order shown on the offers index. */
 export const offerIds = ['extend', 'taste', 'discovery', 'romance', 'longer', 'dominican'];
@@ -29,8 +29,7 @@ function parse(lang: Locale, id: string) {
     summary: text(hero.find('p.sub')),
     stay_length: text(card.find('.meta-line')),
     body: rich(w.children('p.lede'), lang),
-    meta_title: $('title').text().trim(),
-    meta_description: null,
+    ...SEO_NULL,
     alt_text: attr(heroImg, 'alt'),
     eyebrow: text(hero.find('p.eyebrow')),
     includes_eyebrow: text(w.find('.section-mark .eyebrow')),

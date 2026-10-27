@@ -2,6 +2,7 @@
   "key": "sustainability",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": null,
   "images": {
     "hero": "https://ocama.com/upload/home-page/hummingbird-activities.jpg"
   },
@@ -9,8 +10,11 @@
     {
       "languages_code": "en-US",
       "title": "Luxury that treads lightly.",
-      "meta_title": "Luxury that treads lightly. | Ocama",
-      "meta_description": null,
+      "meta_title": "Sustainability - OCAMA",
+      "meta_description": "Eight villas nestled into a hillside, allowing the landscape to remain what it has always been.",
+      "og_title": null,
+      "og_description": null,
+      "og_image_alt": null,
       "sections": {
         "hero": {
           "eyebrow": "Sustainability",
@@ -68,8 +72,11 @@
     {
       "languages_code": "es-ES",
       "title": "Un lujo que pisa suave.",
-      "meta_title": "Un lujo que pisa suave. | Ocama",
-      "meta_description": null,
+      "meta_title": "Sostenibilidad - OCAMA",
+      "meta_description": "Ocho villas abrazadas a una ladera, dejando que el paisaje siga siendo lo que siempre ha sido.",
+      "og_title": null,
+      "og_description": null,
+      "og_image_alt": null,
       "sections": {
         "hero": {
           "eyebrow": "Sostenibilidad",

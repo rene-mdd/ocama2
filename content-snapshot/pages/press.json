@@ -2,6 +2,7 @@
   "key": "press",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": null,
   "images": {
     "hero": "https://ocama.com/upload/home-page/ocama-helicopter.jpg",
     "coverage_urls": [
@@ -18,8 +19,11 @@
     {
       "languages_code": "en-US",
       "title": "The story of a hillside that listens.",
-      "meta_title": "The story of a hillside that listens. | Ocama",
-      "meta_description": null,
+      "meta_title": "Press & Media - OCAMA",
+      "meta_description": "Resources for journalists, editors, and creators covering Ocama, Las Galeras, and the Samaná Peninsula.",
+      "og_title": null,
+      "og_description": null,
+      "og_image_alt": null,
       "sections": {
         "hero": {
           "eyebrow": "Press & Media",
@@ -157,8 +161,11 @@
     {
       "languages_code": "es-ES",
       "title": "La historia de una ladera que escucha.",
-      "meta_title": "La historia de una ladera que escucha. | Ocama",
-      "meta_description": null,
+      "meta_title": "Prensa y Medios - OCAMA",
+      "meta_description": "Recursos para periodistas, editores y creadores que cubren Ocama, Las Galeras y la península de Samaná.",
+      "og_title": null,
+      "og_description": null,
+      "og_image_alt": null,
       "sections": {
         "hero": {
           "eyebrow": "Prensa y Medios",

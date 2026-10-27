@@ -8,8 +8,8 @@ import type { Locale } from '@/lib/i18n';
 import type { HospitalityImages, HospitalitySections } from '@/lib/pages/hospitality';
 import { href } from '@/lib/routes';
 
-export function HospitalityPage({ lang }: { lang: Locale }) {
-  const page = getPage<HospitalityImages, HospitalitySections>('hospitality', lang);
+export async function HospitalityPage({ lang }: { lang: Locale }) {
+  const page = await getPage<HospitalityImages, HospitalitySections>('hospitality', lang);
   const s = page.t.sections;
   const { care, band } = s;
 

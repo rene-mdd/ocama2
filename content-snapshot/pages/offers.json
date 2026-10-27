@@ -2,6 +2,7 @@
   "key": "offers",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": "/og/preview_home.jpg",
   "images": {
     "hero": "https://ocama.com/wpbackend.ocama.com/wp-content/uploads/Social-media-preview/preview_home.jpg"
   },
@@ -9,8 +10,11 @@
     {
       "languages_code": "en-US",
       "title": "Exclusive Offers at Ocama.",
-      "meta_title": "Exclusive Offers at Ocama. | Ocama",
-      "meta_description": null,
+      "meta_title": "OCAMA - Promotions",
+      "meta_description": "OCAMA is a 35-acre tropical boutique hotel perched on the hills overlooking the Bay of Rincon.",
+      "og_title": null,
+      "og_description": null,
+      "og_image_alt": "Nice view of rincon bay area from one of the villas",
       "sections": {
         "hero": {
           "eyebrow": "Exclusive Offers",
@@ -31,8 +35,11 @@
     {
       "languages_code": "es-ES",
       "title": "Ofertas exclusivas en Ocama.",
-      "meta_title": "Ofertas exclusivas en Ocama. | Ocama",
-      "meta_description": null,
+      "meta_title": "OCAMA - Promociones",
+      "meta_description": "OCAMA es un hotel boutique tropical de 35 acres en las colinas con vista a la bahía de Rincón.",
+      "og_title": null,
+      "og_description": null,
+      "og_image_alt": "Vista de la bahía de Rincón desde una de las villas",
       "sections": {
         "hero": {
           "eyebrow": "Ofertas exclusivas",

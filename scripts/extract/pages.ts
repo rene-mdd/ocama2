@@ -1,6 +1,6 @@
 import type { Locale } from '../../lib/i18n';
 import type { Page } from '../../lib/types';
-import { assertEqual } from './lib';
+import { SEO_NULL, assertEqual } from './lib';
 import * as about from './pages/about';
 import * as dining from './pages/dining';
 import * as experiences from './pages/experiences';
@@ -35,14 +35,14 @@ export function extractPages(only: string[] | null): Page[] {
       key,
       status: 'published',
       date_updated: '2026-10-05T00:00:00Z',
+      og_image: null,
       images: en.images as Record<string, unknown>,
       translations: (['en', 'es'] as const).map((lang) => {
         const x = lang === 'en' ? en : es;
         return {
           languages_code: lang === 'en' ? ('en-US' as const) : ('es-ES' as const),
           title: x.title,
-          meta_title: x.meta_title,
-          meta_description: null,
+          ...SEO_NULL,
           sections: x.sections as Record<string, unknown>,
         };
       }),

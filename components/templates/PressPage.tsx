@@ -7,9 +7,9 @@ import { getPage, getSiteSettings } from '@/lib/directus';
 import type { Locale } from '@/lib/i18n';
 import type { PressImages, PressSections } from '@/lib/pages/press';
 
-export function PressPage({ lang }: { lang: Locale }) {
-  const page = getPage<PressImages, PressSections>('press', lang);
-  const site = getSiteSettings(lang);
+export async function PressPage({ lang }: { lang: Locale }) {
+  const page = await getPage<PressImages, PressSections>('press', lang);
+  const site = await getSiteSettings(lang);
   const { images: img } = page;
   const s = page.t.sections;
   const last = s.coverage.items.length - 1;

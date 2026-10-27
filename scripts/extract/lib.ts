@@ -123,3 +123,6 @@ export function heroOf($: $, lang: Locale) {
     },
   };
 }
+
+/** SEO fields start empty; scripts/extract/legacy-seo.ts fills them from the old site. */
+export const SEO_NULL = { meta_title: null, meta_description: null, og_title: null, og_description: null, og_image_alt: null };

@@ -6,8 +6,8 @@ import { getPage } from '@/lib/directus';
 import type { Locale } from '@/lib/i18n';
 import type { AboutImages, AboutSections } from '@/lib/pages/about';
 
-export function AboutPage({ lang }: { lang: Locale }) {
-  const page = getPage<AboutImages, AboutSections>('about', lang);
+export async function AboutPage({ lang }: { lang: Locale }) {
+  const page = await getPage<AboutImages, AboutSections>('about', lang);
   const img = page.images;
   const s = page.t.sections;
 

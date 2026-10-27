@@ -4,10 +4,11 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { RevealObserver } from '@/components/client/RevealObserver';
 import { Footer } from '@/components/layout/Footer';
+import { PreviewBar } from '@/components/layout/PreviewBar';
 import { Header, type NavLink } from '@/components/layout/Header';
 import type { DetailSlugs } from '@/components/layout/LanguageSwitcher';
 import { SpiralSprite } from '@/components/Spiral';
-import { getOffers, getSiteSettings, getVillas, slugsFor } from '@/lib/directus';
+import { getOffers, getSiteSettings, getVillas, isPreview, slugsFor } from '@/lib/directus';
 import { isLocale, locales, type Locale } from '@/lib/i18n';
 import { hotelJsonLd } from '@/lib/seo';
 import { href, type PageKey } from '@/lib/routes';
@@ -25,7 +26,8 @@ const cormorant = Cormorant_Garamond({
 });
 const jost = Jost({ weight: ['300', '400', '500'], subsets: ['latin'], variable: '--font-jost' });
 
-export const dynamicParams = false;
+// No dynamicParams = false here: it is inherited by child routes and would stop offers published
+// after the build from rendering. Unknown locales are rejected below with notFound().
 
 export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -39,10 +41,10 @@ export default async function LangLayout({ children, params }: LayoutProps<'/[la
   if (!isLocale(lang)) notFound();
   setRequestLocale(lang);
 
-  const site = getSiteSettings(lang);
+  const site = await getSiteSettings(lang);
   const details: DetailSlugs = {
-    stay: getVillas(lang).map(slugsFor),
-    offers: getOffers(lang).map(slugsFor),
+    stay: (await getVillas(lang)).map(slugsFor),
+    offers: (await getOffers(lang)).map(slugsFor),
   };
 
   return (
@@ -68,6 +70,7 @@ export default async function LangLayout({ children, params }: LayoutProps<'/[la
           {children}
           <Footer site={site} t={site.t} explore={links(lang, site.t.footer_explore)} planHref={href(lang, 'plan')} />
           <RevealObserver />
+          {(await isPreview()) && <PreviewBar lang={lang} />}
         </NextIntlClientProvider>
       </body>
     </html>

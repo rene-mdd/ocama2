@@ -2,6 +2,7 @@
   "key": "stay",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": "/og/preview_villas.jpg",
   "images": {
     "hero": "https://ocama.com/upload/home-page/villa-experience.jpg",
     "villa_cards": [
@@ -19,8 +20,11 @@
     {
       "languages_code": "en-US",
       "title": "Eight oceanfront villas, each a private destination.",
-      "meta_title": "Eight oceanfront villas, each a private destination. | Ocama",
-      "meta_description": null,
+      "meta_title": "Villas - OCAMA",
+      "meta_description": "Tucked away amidst lush tropical vegetation, our private villas provide a perfect blend of contemporary luxury and tranquility. Immerse yourself in peace and serenity, savoring uninterrupted moments and breathtaking ocean views, while the harmonious sounds of nature surround you.",
+      "og_title": "Villas at OCAMA",
+      "og_description": null,
+      "og_image_alt": "Preview of villas",
       "sections": {
         "hero": {
           "eyebrow": "Stay · The Villas of Ocama",
@@ -194,8 +198,11 @@
     {
       "languages_code": "es-ES",
       "title": "Ocho villas frente al mar, cada una un destino privado.",
-      "meta_title": "Ocho villas frente al mar, cada una un destino privado. | Ocama",
-      "meta_description": null,
+      "meta_title": "Villas - OCAMA",
+      "meta_description": "Escondidas entre una exuberante vegetación tropical, nuestras villas privadas combinan a la perfección lujo contemporáneo y tranquilidad. Sumérjase en la paz y la serenidad, con momentos sin interrupciones e impresionantes vistas al mar, mientras lo envuelven los sonidos de la naturaleza.",
+      "og_title": "Villas en OCAMA",
+      "og_description": null,
+      "og_image_alt": "Vista previa de las villas",
       "sections": {
         "hero": {
           "eyebrow": "Villas · Las villas de Ocama",

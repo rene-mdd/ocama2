@@ -38,6 +38,7 @@ export function extractSiteT(lang: Locale): SiteSettingsT {
     meta_description: attr($('meta[name="description"]'), 'content'),
     og_title: attr($('meta[property="og:title"]'), 'content'),
     og_description: attr($('meta[property="og:description"]'), 'content'),
+    og_image_alt: '', // set by legacy-seo.ts
     schema_description: schema.description,
     reserve_label: text($('header .btn')),
     reserve_long_label: text($('#mmenu a.btn')),

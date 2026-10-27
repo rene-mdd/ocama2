@@ -2,6 +2,7 @@
   "key": "dining",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": "/og/preview_dining.jpg",
   "images": {
     "hero": "https://ocama.com/upload/dining-images/shirmp-dish.jpg",
     "chef": "https://ocama.com/upload/dining-images/chef-fierro.jpg",
@@ -12,8 +13,11 @@
     {
       "languages_code": "en-US",
       "title": "Born from Dominican flavor, guided by the calm of Ocama.",
-      "meta_title": "Born from Dominican flavor, guided by the calm of Ocama. | Ocama",
-      "meta_description": null,
+      "meta_title": "Dining - OCAMA",
+      "meta_description": "Dining at OCAMA is in the hands of Chef Fierro Pérez Castillo and his team, who passionately explore the rich tapestry of Dominican flavors, blending pre-Hispanic ingredients with contemporary flair.",
+      "og_title": "Dining at OCAMA",
+      "og_description": null,
+      "og_image_alt": "A dish with shrimps, coconut sauce, and fried cassava",
       "sections": {
         "hero": {
           "eyebrow": "Experience · Dining",
@@ -77,8 +81,11 @@
     {
       "languages_code": "es-ES",
       "title": "Nacida del sabor dominicano, guiada por la calma de Ocama.",
-      "meta_title": "Nacida del sabor dominicano, guiada por la calma de Ocama. | Ocama",
-      "meta_description": null,
+      "meta_title": "Gastronomía - OCAMA",
+      "meta_description": "La gastronomía en OCAMA está en manos del chef Fierro Pérez Castillo y su equipo, que exploran con pasión la riqueza de los sabores dominicanos, combinando ingredientes prehispánicos con un toque contemporáneo.",
+      "og_title": "Gastronomía en OCAMA",
+      "og_description": null,
+      "og_image_alt": "Un plato con camarones, salsa de coco y yuca frita",
       "sections": {
         "hero": {
           "eyebrow": "Experiencia · Gastronomía",

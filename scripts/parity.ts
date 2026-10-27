@@ -15,6 +15,18 @@ import { EXPORT_DIR, mapHref, offerSlugs } from './extract/lib';
 import { href, segments, type PageKey } from '../lib/routes';
 import type { Locale } from '../lib/i18n';
 
+/**
+ * With PARITY_IGNORE_IMG_SRC, images the Directus seed could not import (listed in
+ * ../hotel-cms/seed-report.md) are skipped on the export side: the export hid them after a
+ * failed load, the Directus site leaves them out.
+ */
+const SEED_REPORT = path.resolve(import.meta.dirname, '../../hotel-cms/seed-report.md');
+const missingImages = new Set(
+  process.env.PARITY_IGNORE_IMG_SRC && existsSync(SEED_REPORT)
+    ? [...readFileSync(SEED_REPORT, 'utf8').matchAll(/\| (https?:\/\/\S+) \| — \(left out/g)].map((m) => m[1])
+    : [],
+);
+
 const BUILD = path.resolve(import.meta.dirname, '..', process.env.NEXT_DIST_DIR ?? '.next', 'server/app');
 const filter = process.argv[2];
 
@@ -53,6 +65,7 @@ function signature($: cheerio.CheerioAPI, root: cheerio.Cheerio<AnyNode>, side: 
     if (node.type !== 'tag') return;
     const el = node as Element;
     if (el.tagName === 'script' || el.tagName === 'template') return;
+    if (side === 'export' && el.tagName === 'img' && missingImages.has(el.attribs.src)) return;
     const a = el.attribs;
     const classes = [...(a.class ?? '').split(/\s+/), ...(side === 'export' && a.style ? classesFor(a.style).split(' ') : [])]
       .filter((c) => c && !IGNORE_CLASS.has(c))
@@ -62,8 +75,10 @@ function signature($: cheerio.CheerioAPI, root: cheerio.Cheerio<AnyNode>, side: 
     if (el.tagName === 'a' && a.href) sig += ` href=${side === 'export' ? mapHref(a.href, lang) : a.href}`;
     // The founder photo moved from the export's relative img/ folder to public/static/.
     const src = side === 'export' ? a.src?.replace(/^img\//, '/static/') : a.src;
-    if (el.tagName === 'img') sig += ` src=${src} alt=${a.alt}`;
-    if (el.tagName === 'source') sig += ` src=${a.src}`;
+    // PARITY_IGNORE_IMG_SRC=1: content from Directus, where images are file-library URLs.
+    const shown = process.env.PARITY_IGNORE_IMG_SRC ? '…' : src;
+    if (el.tagName === 'img') sig += ` src=${shown} alt=${a.alt}`;
+    if (el.tagName === 'source') sig += ` src=${process.env.PARITY_IGNORE_IMG_SRC ? '…' : a.src}`;
     out.push(sig + '>');
     el.children.forEach(walk);
   };

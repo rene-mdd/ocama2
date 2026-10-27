@@ -2,6 +2,7 @@
   "key": "hospitality",
   "status": "published",
   "date_updated": "2026-10-05T00:00:00Z",
+  "og_image": "/og/preview_5-star-service.jpg",
   "images": {
     "hero": "https://ocama.com/upload/home-page/kayak-and-beach.jpg"
   },
@@ -9,8 +10,11 @@
     {
       "languages_code": "en-US",
       "title": "Customized, caring hospitality.",
-      "meta_title": "Customized, caring hospitality. | Ocama",
-      "meta_description": null,
+      "meta_title": "5 Stars Services - OCAMA",
+      "meta_description": "At OCAMA, we want to invite our guests to experience the pinnacle of luxury by delivering 5-star personalized services designed to exceed your every expectation.",
+      "og_title": "5-Star Services at OCAMA",
+      "og_description": null,
+      "og_image_alt": "Image with 5 stars",
       "sections": {
         "hero": {
           "eyebrow": "Hospitality at Ocama",
@@ -53,8 +57,11 @@
     {
       "languages_code": "es-ES",
       "title": "Hospitalidad atenta, hecha a su medida.",
-      "meta_title": "Hospitalidad atenta, hecha a su medida. | Ocama",
-      "meta_description": null,
+      "meta_title": "Servicios 5 estrellas - OCAMA",
+      "meta_description": "En OCAMA invitamos a nuestros huéspedes a vivir la máxima expresión del lujo, con servicios personalizados de 5 estrellas pensados para superar todas sus expectativas.",
+      "og_title": "Servicios 5 estrellas en OCAMA",
+      "og_description": null,
+      "og_image_alt": "Imagen con 5 estrellas",
       "sections": {
         "hero": {
           "eyebrow": "La hospitalidad en Ocama",
