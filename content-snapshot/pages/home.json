@@ -1,27 +1,26 @@
 {
   "key": "home",
   "status": "published",
-  "date_updated": "2026-10-05T00:00:00Z",
-  "og_image": "/og/preview_home.jpg",
+  "date_updated": "2026-10-28T00:38:06.121Z",
+  "og_image": "0da9b88d-58ae-4837-bd5d-575c777ffbc1",
   "images": {
-    "hero_video": "https://ocama.com/upload/video/ocama-video.mp4",
-    "hero_poster": "https://ocama.com/wpbackend.ocama.com/wp-content/uploads/Social-media-preview/preview_home.jpg",
-    "intro": "https://ocama.com/upload/home-page/peaceful-surroundings.jpg",
+    "hero_video": "9c5498ab-43ad-4744-9317-3df207ec47d6",
+    "hero_poster": "41ee19af-9894-4117-84c7-ee10a40259d5",
+    "intro": "5ba80dca-9979-4b8b-8f2a-10d8e221895d",
+    "dining": "ce2c7398-3836-497e-81e7-a4270f826c7a",
     "villa_cards": [
-      "https://ocama.com/upload/villas-list/casa-tanama.jpg",
-      "https://ocama.com/upload/villas-list/casa-bagua.jpg",
-      "https://ocama.com/upload/villas-list/casa-kachi.jpg"
+      "7f153516-6f0b-4652-b4d5-88dcc7b48f4c",
+      "e070abe6-92a4-448c-b9ec-a1409847af82",
+      "3f825910-e2d8-44d8-bb93-7e3764858601"
     ],
-    "dining": "https://ocama.com/upload/home-page/girls-dinner.jpg",
     "experience_cards": [
-      "https://ocama.com/upload/home-page/whale-activities.jpg",
-      "https://ocama.com/upload/home-page/wellness-service.jpg",
-      "https://ocama.com/upload/home-page/ocama-helicopter.jpg"
+      "5a27882b-cb2b-4361-819d-906e2ed89b44",
+      "fc762be3-9595-4db9-9798-b922f73a6174",
+      "5683dbc1-52c3-4d48-a0b0-52118d6737a4"
     ]
   },
   "translations": [
     {
-      "languages_code": "en-US",
       "title": "A boutique hotel hidden above Rincón Bay.",
       "meta_title": "OCAMA",
       "meta_description": "Our 8 private villas are exquisite three-story architectural masterpieces of understated contemporary luxury, blending seamlessly into the verdant tropical forest. Surrounded by winding trails and boasting breathtaking ocean views, they provide a rare oasis of tranquility and beauty.",
@@ -30,7 +29,7 @@
       "og_image_alt": "Nice view of rincon bay area from one of the villas",
       "sections": {
         "hero": {
-          "title": "A boutique hotel hidden above <em>Rincón Bay.</em>",
+          "title": "<p>A boutique hotel hidden above <em>Rinc&oacute;n Bay.</em></p>",
           "subtitle": "At the far end of the Samaná Peninsula, tucked into the tropical hillsides of Las Galeras, Ocama is an oceanfront luxury retreat of just eight private villas. Here, thoughtful hospitality, in-villa dining, hidden beach paths, and the rhythm of Samaná invite a slower way of being.",
           "place": "Las Galeras · Samaná · Dominican Republic",
           "cta_reserve": "Reserve Your Stay",
@@ -161,10 +160,10 @@
           "cta_availability": "Check Availability",
           "cta_plan": "Begin Planning"
         }
-      }
+      },
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "title": "Un hotel boutique escondido sobre la bahía de Rincón.",
       "meta_title": "OCAMA",
       "meta_description": "Nuestras 8 villas privadas son exquisitas obras de arquitectura de tres niveles, de un lujo contemporáneo discreto, integradas por completo en el frondoso bosque tropical. Rodeadas de senderos y con impresionantes vistas al mar, son un raro oasis de tranquilidad y belleza.",
@@ -304,7 +303,8 @@
           "cta_availability": "Consultar disponibilidad",
           "cta_plan": "Comience a planificar"
         }
-      }
+      },
+      "languages_code": "es-ES"
     }
   ]
 }

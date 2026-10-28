@@ -11,8 +11,8 @@
     "https://www.tiktok.com/@ocama.rd",
     "https://www.cntraveler.com/hotels/las-galeras/ocama"
   ],
-  "latitude": 19.2820975,
-  "longitude": -69.226121,
+  "latitude": 19.282097,
+  "longitude": -69.22612,
   "address": {
     "locality": "Las Galeras",
     "region": "Samaná",
@@ -26,18 +26,12 @@
     "Beach access",
     "Plastic-free property"
   ],
-  "og_image": "/og/preview_home.jpg",
   "show_offers_banner": false,
   "show_newsletter": false,
+  "og_image": "0da9b88d-58ae-4837-bd5d-575c777ffbc1",
   "translations": [
     {
-      "languages_code": "en-US",
       "site_name": "Ocama",
-      "meta_title": "Ocama | Luxury Boutique Hotel in Las Galeras, Samaná, Dominican Republic",
-      "meta_description": "Ocama is a secluded luxury boutique hotel tucked into the hills above Rincón Bay in Las Galeras, Samaná, Dominican Republic. Eight private villas with pools, modern Dominican dining, wellness, and whale season excursions.",
-      "og_title": "Ocama | Luxury Boutique Hotel in Las Galeras, Samaná",
-      "og_description": "A secluded luxury retreat tucked into the hills above Rincón Bay. Eight private villas, modern Dominican dining, and the wild beauty of Samaná.",
-      "og_image_alt": "Nice view of rincon bay area from one of the villas",
       "schema_description": "A secluded luxury boutique hotel tucked into the hills above Rincón Bay in Las Galeras, Samaná, Dominican Republic. Eight private villas across 35 hillside acres with private pools, modern Dominican dining, wellness, and whale season excursions.",
       "reserve_label": "Reserve",
       "reserve_long_label": "Reserve Your Stay",
@@ -182,16 +176,16 @@
           "On-site team assistance"
         ],
         "note": "Everything above comes with your stay. In-villa dining, spa treatments, excursions, and transfers are arranged à la carte through our concierge, and are best reserved in advance."
-      }
+      },
+      "meta_title": "Ocama | Luxury Boutique Hotel in Las Galeras, Samaná, Dominican Republic",
+      "meta_description": "Ocama is a secluded luxury boutique hotel tucked into the hills above Rincón Bay in Las Galeras, Samaná, Dominican Republic. Eight private villas with pools, modern Dominican dining, wellness, and whale season excursions.",
+      "og_title": "Ocama | Luxury Boutique Hotel in Las Galeras, Samaná",
+      "og_description": "A secluded luxury retreat tucked into the hills above Rincón Bay. Eight private villas, modern Dominican dining, and the wild beauty of Samaná.",
+      "og_image_alt": "Nice view of rincon bay area from one of the villas",
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "site_name": "Ocama",
-      "meta_title": "Ocama | Hotel Boutique de Lujo en Las Galeras, Samaná, República Dominicana",
-      "meta_description": "Ocama es un hotel boutique de lujo escondido entre las colinas sobre la bahía de Rincón, en Las Galeras, Samaná, República Dominicana. Ocho villas privadas con piscina, cocina dominicana contemporánea, bienestar y excursiones en temporada de ballenas.",
-      "og_title": "Ocama | Hotel Boutique de Lujo en Las Galeras, Samaná",
-      "og_description": "Un refugio de lujo escondido entre las colinas sobre la bahía de Rincón. Ocho villas privadas, cocina dominicana contemporánea y la belleza indómita de Samaná.",
-      "og_image_alt": "Vista de la bahía de Rincón desde una de las villas",
       "schema_description": "Un hotel boutique de lujo escondido entre las colinas sobre la bahía de Rincón, en Las Galeras, Samaná, República Dominicana. Ocho villas privadas en 35 acres de colina, con piscinas privadas, cocina dominicana contemporánea, bienestar y excursiones en temporada de ballenas.",
       "reserve_label": "Reservar",
       "reserve_long_label": "Reserve su estadía",
@@ -336,7 +330,13 @@
           "Asistencia de nuestro equipo en la propiedad"
         ],
         "note": "Todo lo anterior viene con su estadía. La gastronomía en su villa, los tratamientos de spa, las excursiones y los traslados se coordinan a la carta con nuestro concierge, idealmente con reservación previa."
-      }
+      },
+      "meta_title": "Ocama | Hotel Boutique de Lujo en Las Galeras, Samaná, República Dominicana",
+      "meta_description": "Ocama es un hotel boutique de lujo escondido entre las colinas sobre la bahía de Rincón, en Las Galeras, Samaná, República Dominicana. Ocho villas privadas con piscina, cocina dominicana contemporánea, bienestar y excursiones en temporada de ballenas.",
+      "og_title": "Ocama | Hotel Boutique de Lujo en Las Galeras, Samaná",
+      "og_description": "Un refugio de lujo escondido entre las colinas sobre la bahía de Rincón. Ocho villas privadas, cocina dominicana contemporánea y la belleza indómita de Samaná.",
+      "og_image_alt": "Vista de la bahía de Rincón desde una de las villas",
+      "languages_code": "es-ES"
     }
   ]
 }

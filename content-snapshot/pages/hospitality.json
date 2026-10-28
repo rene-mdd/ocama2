@@ -1,14 +1,13 @@
 {
   "key": "hospitality",
   "status": "published",
-  "date_updated": "2026-10-05T00:00:00Z",
-  "og_image": "/og/preview_5-star-service.jpg",
+  "date_updated": "",
+  "og_image": "59eb12b6-947c-4ce6-bc12-6b540f2c61fc",
   "images": {
-    "hero": "https://ocama.com/upload/home-page/kayak-and-beach.jpg"
+    "hero": "f8dbdd68-4df6-415d-86b4-e020d3180539"
   },
   "translations": [
     {
-      "languages_code": "en-US",
       "title": "Customized, caring hospitality.",
       "meta_title": "5 Stars Services - OCAMA",
       "meta_description": "At OCAMA, we want to invite our guests to experience the pinnacle of luxury by delivering 5-star personalized services designed to exceed your every expectation.",
@@ -52,10 +51,10 @@
           "text": "Dietary needs, surprise celebrations, helicopter arrivals, or a full-property buyout for a retreat or wedding: tell us what you're imagining.",
           "cta": "Speak With Our Team"
         }
-      }
+      },
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "title": "Hospitalidad atenta, hecha a su medida.",
       "meta_title": "Servicios 5 estrellas - OCAMA",
       "meta_description": "En OCAMA invitamos a nuestros huéspedes a vivir la máxima expresión del lujo, con servicios personalizados de 5 estrellas pensados para superar todas sus expectativas.",
@@ -99,7 +98,8 @@
           "text": "Necesidades dietéticas, celebraciones sorpresa, llegadas en helicóptero o la reserva exclusiva de toda la propiedad para un retiro o una boda: cuéntenos lo que está imaginando.",
           "cta": "Hable con nuestro equipo"
         }
-      }
+      },
+      "languages_code": "es-ES"
     }
   ]
 }

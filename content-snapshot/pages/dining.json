@@ -1,17 +1,16 @@
 {
   "key": "dining",
   "status": "published",
-  "date_updated": "2026-10-05T00:00:00Z",
-  "og_image": "/og/preview_dining.jpg",
+  "date_updated": "",
+  "og_image": "d1215edd-21ee-40fd-9751-31ea7ac5d814",
   "images": {
-    "hero": "https://ocama.com/upload/dining-images/shirmp-dish.jpg",
-    "chef": "https://ocama.com/upload/dining-images/chef-fierro.jpg",
-    "cuisine": "https://ocama.com/upload/dining-images/dining-nourish.jpg",
-    "sample_menus_url": "https://ocama.com/menu/"
+    "sample_menus_url": "https://ocama.com/menu/",
+    "hero": "7dc97b7d-6542-4907-a933-7fd8c7450e01",
+    "chef": "112a0018-c382-425f-8e4d-412e5118c1fa",
+    "cuisine": "b3b92771-6c8f-476b-9fcb-b05315f50f88"
   },
   "translations": [
     {
-      "languages_code": "en-US",
       "title": "Born from Dominican flavor, guided by the calm of Ocama.",
       "meta_title": "Dining - OCAMA",
       "meta_description": "Dining at OCAMA is in the hands of Chef Fierro Pérez Castillo and his team, who passionately explore the rich tapestry of Dominican flavors, blending pre-Hispanic ingredients with contemporary flair.",
@@ -76,10 +75,10 @@
           "body": "The result is a creative harmony of Dominican soul, refined international technique, and global inspiration: a celebration of both heritage and innovation, where every dish is created to comfort, surprise, and delight.",
           "image_alt": "Nourishing cuisine at Ocama"
         }
-      }
+      },
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "title": "Nacida del sabor dominicano, guiada por la calma de Ocama.",
       "meta_title": "Gastronomía - OCAMA",
       "meta_description": "La gastronomía en OCAMA está en manos del chef Fierro Pérez Castillo y su equipo, que exploran con pasión la riqueza de los sabores dominicanos, combinando ingredientes prehispánicos con un toque contemporáneo.",
@@ -144,7 +143,8 @@
           "body": "El resultado es una armonía creativa de alma dominicana, técnica internacional refinada e inspiración global: una celebración de herencia e innovación, donde cada plato se crea para reconfortar, sorprender y deleitar.",
           "image_alt": "Nourishing cuisine en Ocama"
         }
-      }
+      },
+      "languages_code": "es-ES"
     }
   ]
 }

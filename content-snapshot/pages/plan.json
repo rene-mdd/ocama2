@@ -1,15 +1,14 @@
 {
   "key": "plan",
   "status": "published",
-  "date_updated": "2026-10-05T00:00:00Z",
-  "og_image": "/og/preview_contact-us.jpg",
+  "date_updated": "",
+  "og_image": "95121126-e90e-4b1a-b9c6-04d122f649dc",
   "images": {
-    "hero": "https://ocama.com/upload/home-page/villa-from-gallery.jpg",
-    "air": "https://ocama.com/upload/home-page/ocama-helicopter.jpg"
+    "hero": "4c6f0b2a-dd79-4b02-bc20-61f9de03347c",
+    "air": "5683dbc1-52c3-4d48-a0b0-52118d6737a4"
   },
   "translations": [
     {
-      "languages_code": "en-US",
       "title": "Tell us what brings you to Ocama.",
       "meta_title": "Contact - OCAMA",
       "meta_description": "Contact us at OCAMA for more information or a booking.",
@@ -145,10 +144,10 @@
             }
           ]
         }
-      }
+      },
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "title": "Cuéntenos qué lo trae a Ocama.",
       "meta_title": "Contacto - OCAMA",
       "meta_description": "Contáctenos en OCAMA para más información o para hacer una reserva.",
@@ -284,7 +283,8 @@
             }
           ]
         }
-      }
+      },
+      "languages_code": "es-ES"
     }
   ]
 }

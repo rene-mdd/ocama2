@@ -1,16 +1,15 @@
 {
   "key": "about",
   "status": "published",
-  "date_updated": "2026-10-05T00:00:00Z",
-  "og_image": "/og/preview_about.jpg",
+  "date_updated": "",
+  "og_image": "2ffac0ee-da9f-45ca-981f-8fe2f7a08acf",
   "images": {
-    "hero": "https://ocama.com/upload/home-page/guy-tea-peaceful-surroundings.jpg",
-    "founder": "/static/mark-andrus-family.jpg",
-    "map": "https://ocama.com/upload/maps/ocama-map.jpg"
+    "hero": "95e192b5-72a4-4e72-a524-f7f32346eae9",
+    "founder": "547deb6e-eb14-451e-b69c-520df78ba277",
+    "map": "6b5ed59d-f434-4bfb-b552-dd69239e6d0a"
   },
   "translations": [
     {
-      "languages_code": "en-US",
       "title": "A sanctuary created to listen.",
       "meta_title": "About Us - OCAMA",
       "meta_description": "Find out what makes OCAMA special and unique, learn about our values, meet our team, and discover how to get here.",
@@ -54,10 +53,10 @@
           "body": "Every villa sits 6–15 minutes' walk from Playa del Amor through forest trails, with Playa Breman and Playa Ermitaño just beyond. Chaise lounges wait at the beach; meals and cocktails can be delivered to your spot in the sand.",
           "image_alt": "Map of the Ocama retreat"
         }
-      }
+      },
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "title": "Un santuario creado para escuchar.",
       "meta_title": "Sobre nosotros - OCAMA",
       "meta_description": "Descubra qué hace que OCAMA sea especial y única: conozca nuestros valores, a nuestro equipo y cómo llegar.",
@@ -101,7 +100,8 @@
           "body": "Cada villa está a una caminata de 6 a 15 minutos de Playa del Amor por senderos entre el bosque, con Playa Bremán y Playa Ermitaño un poco más allá. Las sillas de playa le esperan en la orilla; comidas y cócteles pueden llevarse hasta su lugar en la arena.",
           "image_alt": "Map of the Ocama retreat"
         }
-      }
+      },
+      "languages_code": "es-ES"
     }
   ]
 }

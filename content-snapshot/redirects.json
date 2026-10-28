@@ -1,47 +1,12 @@
 [
   {
+    "from": "/5-stars-services",
+    "to": "/en/hospitality",
+    "note": "Previous ocama.com"
+  },
+  {
     "from": "/about",
     "to": "/en/about",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/villas",
-    "to": "/en/stay",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/gallery",
-    "to": "/en/stay",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/experiences/dining",
-    "to": "/en/dining",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/dining",
-    "to": "/en/dining",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/menu",
-    "to": "/en/dining",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/experiences/wellness",
-    "to": "/en/wellness",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/wellness",
-    "to": "/en/wellness",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/experiences/activities",
-    "to": "/en/experiences",
     "note": "Previous ocama.com"
   },
   {
@@ -50,8 +15,58 @@
     "note": "Previous ocama.com"
   },
   {
-    "from": "/experiences/las-galeras",
-    "to": "/en/experiences",
+    "from": "/casa-ana",
+    "to": "/en/stay/casa-ana",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/casa-bagua",
+    "to": "/en/stay/casa-bagua",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/casa-bajacu",
+    "to": "/en/stay/casa-bajacu",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/casa-guada",
+    "to": "/en/stay/casa-guada",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/casa-guama",
+    "to": "/en/stay/casa-guama",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/casa-kachi",
+    "to": "/en/stay/casa-kachi",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/casa-tanama",
+    "to": "/en/stay/casa-tanama",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/casa-turey",
+    "to": "/en/stay/casa-turey",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/coming-soon.html",
+    "to": "/en",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/contact",
+    "to": "/en/plan-your-stay",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/dining",
+    "to": "/en/dining",
     "note": "Previous ocama.com"
   },
   {
@@ -65,18 +80,43 @@
     "note": "Previous ocama.com"
   },
   {
-    "from": "/5-stars-services",
-    "to": "/en/hospitality",
+    "from": "/experiences/activities",
+    "to": "/en/experiences",
     "note": "Previous ocama.com"
   },
   {
-    "from": "/contact",
-    "to": "/en/plan-your-stay",
+    "from": "/experiences/dining",
+    "to": "/en/dining",
     "note": "Previous ocama.com"
   },
   {
-    "from": "/villas/information",
-    "to": "/en/plan-your-stay",
+    "from": "/experiences/las-galeras",
+    "to": "/en/experiences",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/experiences/wellness",
+    "to": "/en/wellness",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/gallery",
+    "to": "/en/stay",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/index.html",
+    "to": "/en",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/maintenance",
+    "to": "/en",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/menu",
+    "to": "/en/dining",
     "note": "Previous ocama.com"
   },
   {
@@ -87,101 +127,6 @@
   {
     "from": "/promotions/promo-1",
     "to": "/en/offers",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/coming-soon.html",
-    "to": "/en",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/maintenance",
-    "to": "/en",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/index.html",
-    "to": "/en",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/villas/casa-tanama",
-    "to": "/en/stay/casa-tanama",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/casa-tanama",
-    "to": "/en/stay/casa-tanama",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/villas/casa-bagua",
-    "to": "/en/stay/casa-bagua",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/casa-bagua",
-    "to": "/en/stay/casa-bagua",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/villas/casa-turey",
-    "to": "/en/stay/casa-turey",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/casa-turey",
-    "to": "/en/stay/casa-turey",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/villas/casa-guama",
-    "to": "/en/stay/casa-guama",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/casa-guama",
-    "to": "/en/stay/casa-guama",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/villas/casa-ana",
-    "to": "/en/stay/casa-ana",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/casa-ana",
-    "to": "/en/stay/casa-ana",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/villas/casa-guada",
-    "to": "/en/stay/casa-guada",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/casa-guada",
-    "to": "/en/stay/casa-guada",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/villas/casa-bajacu",
-    "to": "/en/stay/casa-bajacu",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/casa-bajacu",
-    "to": "/en/stay/casa-bajacu",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/villas/casa-kachi",
-    "to": "/en/stay/casa-kachi",
-    "note": "Previous ocama.com"
-  },
-  {
-    "from": "/casa-kachi",
-    "to": "/en/stay/casa-kachi",
     "note": "Previous ocama.com"
   },
   {
@@ -212,6 +157,61 @@
   {
     "from": "/promotions/promo-302",
     "to": "/en/offers/the-dominican-escape",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas",
+    "to": "/en/stay",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas/casa-ana",
+    "to": "/en/stay/casa-ana",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas/casa-bagua",
+    "to": "/en/stay/casa-bagua",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas/casa-bajacu",
+    "to": "/en/stay/casa-bajacu",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas/casa-guada",
+    "to": "/en/stay/casa-guada",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas/casa-guama",
+    "to": "/en/stay/casa-guama",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas/casa-kachi",
+    "to": "/en/stay/casa-kachi",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas/casa-tanama",
+    "to": "/en/stay/casa-tanama",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas/casa-turey",
+    "to": "/en/stay/casa-turey",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/villas/information",
+    "to": "/en/plan-your-stay",
+    "note": "Previous ocama.com"
+  },
+  {
+    "from": "/wellness",
+    "to": "/en/wellness",
     "note": "Previous ocama.com"
   }
 ]

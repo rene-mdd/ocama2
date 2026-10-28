@@ -1,24 +1,23 @@
 {
   "key": "stay",
   "status": "published",
-  "date_updated": "2026-10-05T00:00:00Z",
-  "og_image": "/og/preview_villas.jpg",
+  "date_updated": "",
+  "og_image": "44fc2908-9c03-4566-b4e7-405fb66b6a6e",
   "images": {
-    "hero": "https://ocama.com/upload/home-page/villa-experience.jpg",
+    "hero": "e12df8a4-8bcb-40e4-814d-46ea2ee00624",
     "villa_cards": [
-      "https://ocama.com/upload/villas-list/casa-tanama.jpg",
-      "https://ocama.com/upload/villas-list/casa-bagua.jpg",
-      "https://ocama.com/upload/villas-list/casa-turey.jpg",
-      "https://ocama.com/upload/villas-list/casa-guama.jpg",
-      "https://ocama.com/upload/villas-list/casa-ana.jpg",
-      "https://ocama.com/upload/villas-list/casa-guada.jpg",
-      "https://ocama.com/upload/villas-list/casa-bajagu.jpg",
-      "https://ocama.com/upload/villas-list/casa-kachi.jpg"
+      "7f153516-6f0b-4652-b4d5-88dcc7b48f4c",
+      "e070abe6-92a4-448c-b9ec-a1409847af82",
+      "1cfc71b5-d253-4550-800a-887e118d6179",
+      "47e86b38-2c2d-45b9-a1f0-d5a470f4c3de",
+      "7b4a4b0b-5968-40bb-bbaa-e1dee37a1191",
+      "12304038-8008-4208-b6ac-556bdf65eff3",
+      "b436cdca-ce62-4198-a71c-1ff06e0ea6ef",
+      "3f825910-e2d8-44d8-bb93-7e3764858601"
     ]
   },
   "translations": [
     {
-      "languages_code": "en-US",
       "title": "Eight oceanfront villas, each a private destination.",
       "meta_title": "Villas - OCAMA",
       "meta_description": "Tucked away amidst lush tropical vegetation, our private villas provide a perfect blend of contemporary luxury and tranquility. Immerse yourself in peace and serenity, savoring uninterrupted moments and breathtaking ocean views, while the harmonious sounds of nature surround you.",
@@ -193,10 +192,10 @@
           "cta_availability": "Check Availability",
           "cta_help": "Ask Us to Help You Choose"
         }
-      }
+      },
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "title": "Ocho villas frente al mar, cada una un destino privado.",
       "meta_title": "Villas - OCAMA",
       "meta_description": "Escondidas entre una exuberante vegetación tropical, nuestras villas privadas combinan a la perfección lujo contemporáneo y tranquilidad. Sumérjase en la paz y la serenidad, con momentos sin interrupciones e impresionantes vistas al mar, mientras lo envuelven los sonidos de la naturaleza.",
@@ -371,7 +370,8 @@
           "cta_availability": "Consultar disponibilidad",
           "cta_help": "Pídanos ayuda para elegir"
         }
-      }
+      },
+      "languages_code": "es-ES"
     }
   ]
 }

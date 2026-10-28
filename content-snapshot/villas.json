@@ -4,52 +4,44 @@
     "sort": 1,
     "status": "published",
     "header_image": {
-      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-tanama.jpg",
-      "fallback": null
+      "src": "d3c3849e-cfd6-4bb9-98b4-884aa885b5ae"
     },
     "intro_image": {
-      "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_01.JPG",
-      "fallback": null
+      "src": "e9060366-a9e1-490c-a84b-c54ee74ec923"
     },
     "gallery": [
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_02.JPG"
+        "src": "e35b07f4-78e4-48d9-96fe-55d7b62bc710"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_03.JPG"
+        "src": "40b6c44d-f303-4635-9fd2-cade1591446e"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_04.JPG"
+        "src": "3cd399c0-5731-4469-be5a-92b0126db2be"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_05.JPG"
+        "src": "9bc67bbd-c1be-4124-a2c9-936e1996afa9"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_06.JPG"
+        "src": "e3f6bc02-0f2e-4005-84ea-5a6c06f111e9"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_07.JPG"
+        "src": "2fca9fd6-826e-44c5-9054-8769aff1d10f"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-tanama/casa_tanama_gallery_08.JPG"
+        "src": "29b3a3fa-7b3d-4448-8037-ed125b09315c"
       }
     ],
     "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
-    "og_image": "/og/preview_casa-tanama.jpg",
+    "og_image": "d50079b7-5b88-45f7-b719-57cb11cbade4",
     "related": [
       "bagua",
       "turey"
     ],
     "translations": [
       {
-        "languages_code": "en-US",
         "name": "Casa Tanama",
         "slug": "casa-tanama",
-        "meta_title": "Casa Tanama - OCAMA",
-        "meta_description": "Casa Tanama, a Taino word for \"Butterfly\", is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
-        "og_title": "Casa Tanama",
-        "og_description": null,
-        "og_image_alt": "Image of casa tanama between the forest",
         "eyebrow": "Stay · One-Bedroom Villa",
         "tagline": "\"Butterfly,\" in the Taíno language. Our most intimate villa: a king bedroom made for two, with a study with a full bed for one more guest.",
         "mobile_intro": "\"Butterfly,\" in the Taíno language. Our most intimate villa: a king bedroom made for two, with a study with a full bed for one more guest.",
@@ -69,17 +61,17 @@
           "cite": "A Guest of Ocama"
         },
         "reserve_label": "Reserve Casa Tanama",
-        "all_villas_label": "All Eight Villas"
-      },
-      {
-        "languages_code": "es-ES",
-        "name": "Casa Tanama",
-        "slug": "casa-tanama",
+        "all_villas_label": "All Eight Villas",
         "meta_title": "Casa Tanama - OCAMA",
-        "meta_description": "Casa Tanama, palabra taína que significa «mariposa», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "meta_description": "Casa Tanama, a Taino word for \"Butterfly\", is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
         "og_title": "Casa Tanama",
         "og_description": null,
-        "og_image_alt": "Casa Tanama entre el bosque",
+        "og_image_alt": "Image of casa tanama between the forest",
+        "languages_code": "en-US"
+      },
+      {
+        "name": "Casa Tanama",
+        "slug": "casa-tanama",
         "eyebrow": "Villas · Villa de una habitación",
         "tagline": "\"Mariposa,\" en la lengua taína. Nuestra villa más íntima: una habitación con cama King para dos, y un estudio con cama Full para un huésped adicional.",
         "mobile_intro": "\"Mariposa,\" en la lengua taína. Nuestra villa más íntima: una habitación con cama King para dos, y un estudio con cama Full para un huésped adicional.",
@@ -99,7 +91,13 @@
           "cite": "Huésped de Ocama"
         },
         "reserve_label": "Reserve Casa Tanama",
-        "all_villas_label": "Las ocho villas"
+        "all_villas_label": "Las ocho villas",
+        "meta_title": "Casa Tanama - OCAMA",
+        "meta_description": "Casa Tanama, palabra taína que significa «mariposa», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "og_title": "Casa Tanama",
+        "og_description": null,
+        "og_image_alt": "Casa Tanama entre el bosque",
+        "languages_code": "es-ES"
       }
     ]
   },
@@ -108,51 +106,22 @@
     "sort": 2,
     "status": "published",
     "header_image": {
-      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-bagua.jpg",
-      "fallback": "https://ocama.com/upload/villas-list/casa-bagua.jpg"
+      "src": "cee6e3fb-17ee-41ae-8379-f0f10bedfd42"
     },
     "intro_image": {
-      "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_01.JPG",
-      "fallback": "https://ocama.com/upload/villas-list/casa-bagua.jpg"
+      "src": "e070abe6-92a4-448c-b9ec-a1409847af82"
     },
-    "gallery": [
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_02.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_03.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_04.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_05.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bagua/casa_bagua_gallery_06.JPG",
-        "hideOnError": true
-      }
-    ],
+    "gallery": [],
     "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
-    "og_image": "/og/preview_casa-bagua.jpg",
+    "og_image": "499b5d21-e006-4056-9e7b-f3da33b0b613",
     "related": [
       "tanama",
       "turey"
     ],
     "translations": [
       {
-        "languages_code": "en-US",
         "name": "Casa Bagua",
         "slug": "casa-bagua",
-        "meta_title": "Casa Bagua - OCAMA",
-        "meta_description": "Casa Bagua, a Taino word for \"Sea\" is a stunning three-level villa offering breathtaking panoramic ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
-        "og_title": "Casa Bagua",
-        "og_description": null,
-        "og_image_alt": "Image of casa bagua between the forest with view to the ocean",
         "eyebrow": "Stay · Two-Bedroom Villa",
         "tagline": "\"Sea,\" in the Taíno language. Our beloved honeymoon villa, floating above the bay.",
         "mobile_intro": null,
@@ -169,17 +138,17 @@
         "gallery_alt": "Casa Bagua gallery view",
         "quote": null,
         "reserve_label": "Reserve Casa Bagua",
-        "all_villas_label": "All Eight Villas"
-      },
-      {
-        "languages_code": "es-ES",
-        "name": "Casa Bagua",
-        "slug": "casa-bagua",
+        "all_villas_label": "All Eight Villas",
         "meta_title": "Casa Bagua - OCAMA",
-        "meta_description": "Casa Bagua, palabra taína que significa «mar», es una impresionante villa de tres niveles con espectaculares vistas panorámicas al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "meta_description": "Casa Bagua, a Taino word for \"Sea\" is a stunning three-level villa offering breathtaking panoramic ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
         "og_title": "Casa Bagua",
         "og_description": null,
-        "og_image_alt": "Casa Bagua entre el bosque con vista al mar",
+        "og_image_alt": "Image of casa bagua between the forest with view to the ocean",
+        "languages_code": "en-US"
+      },
+      {
+        "name": "Casa Bagua",
+        "slug": "casa-bagua",
         "eyebrow": "Villas · Villa de dos habitaciones",
         "tagline": "\"Mar,\" en la lengua taína. Nuestra querida villa de luna de miel, suspendida sobre la bahía.",
         "mobile_intro": null,
@@ -196,7 +165,13 @@
         "gallery_alt": "Casa Bagua vista de galería",
         "quote": null,
         "reserve_label": "Reserve Casa Bagua",
-        "all_villas_label": "Las ocho villas"
+        "all_villas_label": "Las ocho villas",
+        "meta_title": "Casa Bagua - OCAMA",
+        "meta_description": "Casa Bagua, palabra taína que significa «mar», es una impresionante villa de tres niveles con espectaculares vistas panorámicas al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "og_title": "Casa Bagua",
+        "og_description": null,
+        "og_image_alt": "Casa Bagua entre el bosque con vista al mar",
+        "languages_code": "es-ES"
       }
     ]
   },
@@ -205,51 +180,32 @@
     "sort": 3,
     "status": "published",
     "header_image": {
-      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-turey.jpg",
-      "fallback": "https://ocama.com/upload/villas-list/casa-turey.jpg"
+      "src": "ecde1ae4-4461-471d-a94f-3658785ba603"
     },
     "intro_image": {
-      "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_01.JPG",
-      "fallback": "https://ocama.com/upload/villas-list/casa-turey.jpg"
+      "src": "5904001b-5f99-4c6b-9a5a-c606c354ba4a"
     },
     "gallery": [
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_02.JPG",
-        "hideOnError": true
+        "src": "8cc11f36-f9c5-4c83-9737-4a86c94ad733"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_03.JPG",
-        "hideOnError": true
+        "src": "edc12ffc-3adc-46d4-9cde-818cf0dc6d52"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_04.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_05.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-turey/casa_turey_gallery_06.JPG",
-        "hideOnError": true
+        "src": "bed44cd4-1364-4c81-aaac-6d835362beef"
       }
     ],
     "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
-    "og_image": "/og/preview_casa-turey.jpg",
+    "og_image": "29dcc747-c6d0-4628-959d-efa7109ad6c8",
     "related": [
       "guama",
       "bagua"
     ],
     "translations": [
       {
-        "languages_code": "en-US",
         "name": "Casa Turey",
         "slug": "casa-turey",
-        "meta_title": "Casa Turey - OCAMA",
-        "meta_description": "Casa Turey, a Taino word for \"Sky\", is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
-        "og_title": "Casa Turey",
-        "og_description": null,
-        "og_image_alt": "Image of casa turey between the forest",
         "eyebrow": "Stay · Two-Bedroom Villa",
         "tagline": "\"Sky,\" in the Taíno language. Life at treetop height, level with the birds.",
         "mobile_intro": null,
@@ -266,17 +222,17 @@
         "gallery_alt": "Casa Turey gallery view",
         "quote": null,
         "reserve_label": "Reserve Casa Turey",
-        "all_villas_label": "All Eight Villas"
-      },
-      {
-        "languages_code": "es-ES",
-        "name": "Casa Turey",
-        "slug": "casa-turey",
+        "all_villas_label": "All Eight Villas",
         "meta_title": "Casa Turey - OCAMA",
-        "meta_description": "Casa Turey, palabra taína que significa «cielo», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "meta_description": "Casa Turey, a Taino word for \"Sky\", is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
         "og_title": "Casa Turey",
         "og_description": null,
-        "og_image_alt": "Casa Turey entre el bosque",
+        "og_image_alt": "Image of casa turey between the forest",
+        "languages_code": "en-US"
+      },
+      {
+        "name": "Casa Turey",
+        "slug": "casa-turey",
         "eyebrow": "Villas · Villa de dos habitaciones",
         "tagline": "\"Cielo,\" en la lengua taína. La vida a la altura de las copas, al nivel de las aves.",
         "mobile_intro": null,
@@ -293,7 +249,13 @@
         "gallery_alt": "Casa Turey vista de galería",
         "quote": null,
         "reserve_label": "Reserve Casa Turey",
-        "all_villas_label": "Las ocho villas"
+        "all_villas_label": "Las ocho villas",
+        "meta_title": "Casa Turey - OCAMA",
+        "meta_description": "Casa Turey, palabra taína que significa «cielo», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "og_title": "Casa Turey",
+        "og_description": null,
+        "og_image_alt": "Casa Turey entre el bosque",
+        "languages_code": "es-ES"
       }
     ]
   },
@@ -302,51 +264,22 @@
     "sort": 4,
     "status": "published",
     "header_image": {
-      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-guama.jpg",
-      "fallback": "https://ocama.com/upload/villas-list/casa-guama.jpg"
+      "src": "0f07365b-0058-43d9-ad5c-91efc0072455"
     },
     "intro_image": {
-      "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_01.JPG",
-      "fallback": "https://ocama.com/upload/villas-list/casa-guama.jpg"
+      "src": "47e86b38-2c2d-45b9-a1f0-d5a470f4c3de"
     },
-    "gallery": [
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_02.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_03.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_04.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_05.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guama/casa_guama_gallery_06.JPG",
-        "hideOnError": true
-      }
-    ],
+    "gallery": [],
     "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
-    "og_image": "/og/preview_casa-guama.jpg",
+    "og_image": "63a2fb64-b83d-43ad-8e35-134fdd0ec99d",
     "related": [
       "turey",
       "bajacu"
     ],
     "translations": [
       {
-        "languages_code": "en-US",
         "name": "Casa Guama",
         "slug": "casa-guama",
-        "meta_title": "Casa Guama - OCAMA",
-        "meta_description": "Casa Guama, a Taino word for \"Large Shaded Tree\" is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
-        "og_title": "Casa Guama",
-        "og_description": null,
-        "og_image_alt": "Image of casa guama between the forest with view to the ocean",
         "eyebrow": "Stay · Two-Bedroom Villa",
         "tagline": "The coolest, most forest-shaded corner of Ocama, with the sea beyond the leaves.",
         "mobile_intro": null,
@@ -363,17 +296,17 @@
         "gallery_alt": "Casa Guama gallery view",
         "quote": null,
         "reserve_label": "Reserve Casa Guama",
-        "all_villas_label": "All Eight Villas"
-      },
-      {
-        "languages_code": "es-ES",
-        "name": "Casa Guama",
-        "slug": "casa-guama",
+        "all_villas_label": "All Eight Villas",
         "meta_title": "Casa Guama - OCAMA",
-        "meta_description": "Casa Guama, palabra taína que significa «árbol grande de sombra», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "meta_description": "Casa Guama, a Taino word for \"Large Shaded Tree\" is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
         "og_title": "Casa Guama",
         "og_description": null,
-        "og_image_alt": "Casa Guama entre el bosque con vista al mar",
+        "og_image_alt": "Image of casa guama between the forest with view to the ocean",
+        "languages_code": "en-US"
+      },
+      {
+        "name": "Casa Guama",
+        "slug": "casa-guama",
         "eyebrow": "Villas · Villa de dos habitaciones",
         "tagline": "El rincón más fresco y sombreado de Ocama, con el mar asomando entre las hojas.",
         "mobile_intro": null,
@@ -390,7 +323,13 @@
         "gallery_alt": "Casa Guama vista de galería",
         "quote": null,
         "reserve_label": "Reserve Casa Guama",
-        "all_villas_label": "Las ocho villas"
+        "all_villas_label": "Las ocho villas",
+        "meta_title": "Casa Guama - OCAMA",
+        "meta_description": "Casa Guama, palabra taína que significa «árbol grande de sombra», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "og_title": "Casa Guama",
+        "og_description": null,
+        "og_image_alt": "Casa Guama entre el bosque con vista al mar",
+        "languages_code": "es-ES"
       }
     ]
   },
@@ -399,50 +338,21 @@
     "sort": 5,
     "status": "published",
     "header_image": {
-      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-ana.jpg",
-      "fallback": "https://ocama.com/upload/villas-list/casa-ana.jpg"
+      "src": "7b4a4b0b-5968-40bb-bbaa-e1dee37a1191"
     },
     "intro_image": {
-      "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_01.JPG",
-      "fallback": "https://ocama.com/upload/villas-list/casa-ana.jpg"
+      "src": "7b4a4b0b-5968-40bb-bbaa-e1dee37a1191"
     },
-    "gallery": [
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_02.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_03.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_04.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_05.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-ana/casa_ana_gallery_06.JPG",
-        "hideOnError": true
-      }
-    ],
+    "gallery": [],
     "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
-    "og_image": "/og/preview_casa-ana.jpg",
+    "og_image": "2477baa2-000d-4e8d-a8f7-22b9cb6b8eaf",
     "related": [
       "guada"
     ],
     "translations": [
       {
-        "languages_code": "en-US",
         "name": "Casa Ana",
         "slug": "casa-ana",
-        "meta_title": "Casa Ana - OCAMA",
-        "meta_description": "Casa Ana, a Taino word for \"Flower\", is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
-        "og_title": "Casa Ana",
-        "og_description": null,
-        "og_image_alt": "Image of casa ana between the forest with view to the ocean",
         "eyebrow": "Stay · Two-Bedroom Villa",
         "tagline": "A sweeping panorama of bay, national park, and open Atlantic, beside Casa Guada.",
         "mobile_intro": null,
@@ -459,17 +369,17 @@
         "gallery_alt": "Casa Ana gallery view",
         "quote": null,
         "reserve_label": "Reserve Casa Ana",
-        "all_villas_label": "All Eight Villas"
-      },
-      {
-        "languages_code": "es-ES",
-        "name": "Casa Ana",
-        "slug": "casa-ana",
+        "all_villas_label": "All Eight Villas",
         "meta_title": "Casa Ana - OCAMA",
-        "meta_description": "Casa Ana, palabra taína que significa «flor», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "meta_description": "Casa Ana, a Taino word for \"Flower\", is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
         "og_title": "Casa Ana",
         "og_description": null,
-        "og_image_alt": "Casa Ana entre el bosque con vista al mar",
+        "og_image_alt": "Image of casa ana between the forest with view to the ocean",
+        "languages_code": "en-US"
+      },
+      {
+        "name": "Casa Ana",
+        "slug": "casa-ana",
         "eyebrow": "Villas · Villa de dos habitaciones",
         "tagline": "Un panorama amplio de bahía, parque nacional y Atlántico abierto, junto a Casa Guada.",
         "mobile_intro": null,
@@ -486,7 +396,13 @@
         "gallery_alt": "Casa Ana vista de galería",
         "quote": null,
         "reserve_label": "Reserve Casa Ana",
-        "all_villas_label": "Las ocho villas"
+        "all_villas_label": "Las ocho villas",
+        "meta_title": "Casa Ana - OCAMA",
+        "meta_description": "Casa Ana, palabra taína que significa «flor», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "og_title": "Casa Ana",
+        "og_description": null,
+        "og_image_alt": "Casa Ana entre el bosque con vista al mar",
+        "languages_code": "es-ES"
       }
     ]
   },
@@ -495,50 +411,21 @@
     "sort": 6,
     "status": "published",
     "header_image": {
-      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-guada.jpg",
-      "fallback": "https://ocama.com/upload/villas-list/casa-guada.jpg"
+      "src": "12304038-8008-4208-b6ac-556bdf65eff3"
     },
     "intro_image": {
-      "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_01.JPG",
-      "fallback": "https://ocama.com/upload/villas-list/casa-guada.jpg"
+      "src": "12304038-8008-4208-b6ac-556bdf65eff3"
     },
-    "gallery": [
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_02.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_03.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_04.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_05.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-guada/casa_guada_gallery_06.JPG",
-        "hideOnError": true
-      }
-    ],
+    "gallery": [],
     "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
-    "og_image": "/og/preview_casa-guada.jpg",
+    "og_image": "97f517a5-7f16-4d97-9538-31b9f494f55b",
     "related": [
       "ana"
     ],
     "translations": [
       {
-        "languages_code": "en-US",
         "name": "Casa Guada",
         "slug": "casa-guada",
-        "meta_title": "Casa Guada - OCAMA",
-        "meta_description": "Casa Guada, a Taino word for \"Garden\", is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
-        "og_title": "Casa Guada",
-        "og_description": null,
-        "og_image_alt": "Image of casa guada between the forest",
         "eyebrow": "Stay · Two-Bedroom Villa",
         "tagline": "Casa Ana's close neighbor, made for traveling together.",
         "mobile_intro": null,
@@ -555,17 +442,17 @@
         "gallery_alt": "Casa Guada gallery view",
         "quote": null,
         "reserve_label": "Reserve Casa Guada",
-        "all_villas_label": "All Eight Villas"
-      },
-      {
-        "languages_code": "es-ES",
-        "name": "Casa Guada",
-        "slug": "casa-guada",
+        "all_villas_label": "All Eight Villas",
         "meta_title": "Casa Guada - OCAMA",
-        "meta_description": "Casa Guada, palabra taína que significa «jardín», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "meta_description": "Casa Guada, a Taino word for \"Garden\", is a stunning three-level villa offering breathtaking ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
         "og_title": "Casa Guada",
         "og_description": null,
-        "og_image_alt": "Casa Guada entre el bosque",
+        "og_image_alt": "Image of casa guada between the forest",
+        "languages_code": "en-US"
+      },
+      {
+        "name": "Casa Guada",
+        "slug": "casa-guada",
         "eyebrow": "Villas · Villa de dos habitaciones",
         "tagline": "La vecina cercana de Casa Ana, pensada para viajar juntos.",
         "mobile_intro": null,
@@ -582,7 +469,13 @@
         "gallery_alt": "Casa Guada vista de galería",
         "quote": null,
         "reserve_label": "Reserve Casa Guada",
-        "all_villas_label": "Las ocho villas"
+        "all_villas_label": "Las ocho villas",
+        "meta_title": "Casa Guada - OCAMA",
+        "meta_description": "Casa Guada, palabra taína que significa «jardín», es una impresionante villa de tres niveles con vistas espectaculares al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "og_title": "Casa Guada",
+        "og_description": null,
+        "og_image_alt": "Casa Guada entre el bosque",
+        "languages_code": "es-ES"
       }
     ]
   },
@@ -591,51 +484,22 @@
     "sort": 7,
     "status": "published",
     "header_image": {
-      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-bajagu.jpg",
-      "fallback": "https://ocama.com/upload/villas-list/casa-bajagu.jpg"
+      "src": "b436cdca-ce62-4198-a71c-1ff06e0ea6ef"
     },
     "intro_image": {
-      "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_01.JPG",
-      "fallback": "https://ocama.com/upload/villas-list/casa-bajagu.jpg"
+      "src": "b436cdca-ce62-4198-a71c-1ff06e0ea6ef"
     },
-    "gallery": [
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_02.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_03.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_04.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_05.JPG",
-        "hideOnError": true
-      },
-      {
-        "src": "https://ocama.com/upload/villas-gallery/casa-bajagu/casa_bajagu_gallery_06.JPG",
-        "hideOnError": true
-      }
-    ],
+    "gallery": [],
     "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
-    "og_image": "/og/preview_casa-bajacu.jpg",
+    "og_image": "57768cb1-8a53-40cf-af61-8852b2df0c4f",
     "related": [
       "kachi",
       "guama"
     ],
     "translations": [
       {
-        "languages_code": "en-US",
         "name": "Casa Bajacú",
         "slug": "casa-bajacu",
-        "meta_title": "Casa Bajacu - OCAMA",
-        "meta_description": "Casa Bajacu, a Taino word for \"The Morning Light\" is a stunning three-level villa offering intimate ocean views and a garden with hammock. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
-        "og_title": "Casa Bajacu",
-        "og_description": null,
-        "og_image_alt": "Image of casa bajacu between the forest with view to the ocean",
         "eyebrow": "Stay · Three-Bedroom Villa",
         "tagline": "A rare flat lawn and shaded garden, made for families.",
         "mobile_intro": null,
@@ -652,17 +516,17 @@
         "gallery_alt": "Casa Bajacú gallery view",
         "quote": null,
         "reserve_label": "Reserve Casa Bajacú",
-        "all_villas_label": "All Eight Villas"
+        "all_villas_label": "All Eight Villas",
+        "meta_title": "Casa Bajacu - OCAMA",
+        "meta_description": "Casa Bajacu, a Taino word for \"The Morning Light\" is a stunning three-level villa offering intimate ocean views and a garden with hammock. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
+        "og_title": "Casa Bajacu",
+        "og_description": null,
+        "og_image_alt": "Image of casa bajacu between the forest with view to the ocean",
+        "languages_code": "en-US"
       },
       {
-        "languages_code": "es-ES",
         "name": "Casa Bajacú",
         "slug": "casa-bajacu",
-        "meta_title": "Casa Bajacú - OCAMA",
-        "meta_description": "Casa Bajacú, palabra taína que significa «la luz de la mañana», es una impresionante villa de tres niveles con vistas íntimas al mar y un jardín con hamaca. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
-        "og_title": "Casa Bajacú",
-        "og_description": null,
-        "og_image_alt": "Casa Bajacú entre el bosque con vista al mar",
         "eyebrow": "Villas · Villa de tres habitaciones",
         "tagline": "Un raro jardín llano con césped y sombra, pensado para familias.",
         "mobile_intro": null,
@@ -679,7 +543,13 @@
         "gallery_alt": "Casa Bajacú vista de galería",
         "quote": null,
         "reserve_label": "Reserve Casa Bajacú",
-        "all_villas_label": "Las ocho villas"
+        "all_villas_label": "Las ocho villas",
+        "meta_title": "Casa Bajacú - OCAMA",
+        "meta_description": "Casa Bajacú, palabra taína que significa «la luz de la mañana», es una impresionante villa de tres niveles con vistas íntimas al mar y un jardín con hamaca. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "og_title": "Casa Bajacú",
+        "og_description": null,
+        "og_image_alt": "Casa Bajacú entre el bosque con vista al mar",
+        "languages_code": "es-ES"
       }
     ]
   },
@@ -688,50 +558,37 @@
     "sort": 8,
     "status": "published",
     "header_image": {
-      "src": "https://ocama.com/upload/villas-headers/sub-header/casa-kachi.jpg",
-      "fallback": "https://ocama.com/upload/villas-list/casa-kachi.jpg"
+      "src": "65295c9a-545e-4242-97f6-a8425a5120a3"
     },
     "intro_image": {
-      "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_01.JPG",
-      "fallback": "https://ocama.com/upload/villas-list/casa-kachi.jpg"
+      "src": "aaaa7763-7f14-43c8-8f6b-a378313ab790"
     },
     "gallery": [
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_02.JPG",
-        "hideOnError": true
+        "src": "aa432ab3-1a46-43c4-94d7-73a1f1f175e0"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_03.JPG",
-        "hideOnError": true
+        "src": "12115f1f-6df0-4c5f-baac-548c155a7585"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_04.JPG",
-        "hideOnError": true
+        "src": "72dba067-ab0b-4e91-bc36-1475b5055016"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_05.JPG",
-        "hideOnError": true
+        "src": "c5fe7015-e943-4e79-b9ac-ae03aea07769"
       },
       {
-        "src": "https://ocama.com/upload/villas-gallery/casa-kachi/casa_kachi_gallery_06.JPG",
-        "hideOnError": true
+        "src": "82b1dbb5-64f0-4dd9-a92a-699c85cd4fd4"
       }
     ],
     "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
-    "og_image": "/og/preview_casa-kachi.jpg",
+    "og_image": "0d2fb8fd-98fe-4f85-8d93-e3a5cf9918ac",
     "related": [
       "bajacu"
     ],
     "translations": [
       {
-        "languages_code": "en-US",
         "name": "Casa Kachi",
         "slug": "casa-kachi",
-        "meta_title": "Casa Kachi - OCAMA",
-        "meta_description": "Casa Kachi, a Taino word for \"Sun\" is a stunning three-level villa offering majestic panoramic ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
-        "og_title": "Casa Kachi",
-        "og_description": null,
-        "og_image_alt": "Image of casa kachi between the forest with view to the ocean",
         "eyebrow": "Stay · Three-Bedroom Villa",
         "tagline": "\"Sun,\" in the Taíno language. The widest sweep of Rincón Bay at Ocama.",
         "mobile_intro": null,
@@ -748,17 +605,17 @@
         "gallery_alt": "Casa Kachi gallery view",
         "quote": null,
         "reserve_label": "Reserve Casa Kachi",
-        "all_villas_label": "All Eight Villas"
-      },
-      {
-        "languages_code": "es-ES",
-        "name": "Casa Kachi",
-        "slug": "casa-kachi",
+        "all_villas_label": "All Eight Villas",
         "meta_title": "Casa Kachi - OCAMA",
-        "meta_description": "Casa Kachi, palabra taína que significa «sol», es una impresionante villa de tres niveles con majestuosas vistas panorámicas al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "meta_description": "Casa Kachi, a Taino word for \"Sun\" is a stunning three-level villa offering majestic panoramic ocean views. Its open-plan design, featuring luxurious bedrooms, multiple terraces, and an infinity pool, provides the ultimate in relaxation and tranquility.",
         "og_title": "Casa Kachi",
         "og_description": null,
-        "og_image_alt": "Casa Kachi entre el bosque con vista al mar",
+        "og_image_alt": "Image of casa kachi between the forest with view to the ocean",
+        "languages_code": "en-US"
+      },
+      {
+        "name": "Casa Kachi",
+        "slug": "casa-kachi",
         "eyebrow": "Villas · Villa de tres habitaciones",
         "tagline": "\"Sol,\" en la lengua taína. La vista más amplia de la bahía de Rincón en Ocama.",
         "mobile_intro": null,
@@ -775,7 +632,13 @@
         "gallery_alt": "Casa Kachi vista de galería",
         "quote": null,
         "reserve_label": "Reserve Casa Kachi",
-        "all_villas_label": "Las ocho villas"
+        "all_villas_label": "Las ocho villas",
+        "meta_title": "Casa Kachi - OCAMA",
+        "meta_description": "Casa Kachi, palabra taína que significa «sol», es una impresionante villa de tres niveles con majestuosas vistas panorámicas al mar. Su diseño abierto, con lujosas habitaciones, varias terrazas y piscina infinita, ofrece lo máximo en relajación y tranquilidad.",
+        "og_title": "Casa Kachi",
+        "og_description": null,
+        "og_image_alt": "Casa Kachi entre el bosque con vista al mar",
+        "languages_code": "es-ES"
       }
     ]
   }

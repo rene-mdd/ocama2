@@ -1,22 +1,21 @@
 {
   "key": "wellness",
   "status": "published",
-  "date_updated": "2026-10-05T00:00:00Z",
-  "og_image": "/og/preview_wellness.jpg",
+  "date_updated": "",
+  "og_image": "a604ef75-657b-4afc-a817-eecda434a1b6",
   "images": {
-    "hero": "https://ocama.com/upload/wellness-images/massage_couple_1280x580.jpg",
+    "hero": "aee80cab-28d5-47d6-9400-35e06a01bfbb",
     "cards": [
-      "https://ocama.com/upload/wellness-images/massage_couple_1280x580.jpg",
-      "https://ocama.com/upload/wellness-images/massage_package_1280x580.jpg",
-      "https://ocama.com/upload/wellness-images/chocolate_wrap_1280x580.jpg",
-      "https://ocama.com/upload/wellness-images/5-yoga.jpg",
-      "https://ocama.com/upload/wellness-images/pedicure_1280x580.jpg",
-      "https://ocama.com/upload/wellness-images/fitness-equipment.jpg"
+      "aee80cab-28d5-47d6-9400-35e06a01bfbb",
+      "05427b2a-5032-42b1-8107-4cd34d77e0b9",
+      "6f5f8d4d-fa5c-473a-ba8f-464e85566856",
+      "08cd1ffc-500e-4f41-87ec-e7d8bf705dfe",
+      "d20b508a-ac16-421d-a4db-2e0508aa4512",
+      "922fbe1a-de33-41b6-bb0d-4f7afa22e5a9"
     ]
   },
   "translations": [
     {
-      "languages_code": "en-US",
       "title": "Wellness, held by nature.",
       "meta_title": "Wellness - OCAMA",
       "meta_description": "OCAMA’s forest setting turns your villa into a healing haven. Enjoy personalized spa treatments, both indoors and outdoors, tailored to your well-being.",
@@ -66,10 +65,10 @@
         "note": "We are located in a remote area, so wellness services and experiences must be arranged at least 72 hours in advance through our concierge, giving each session the preparation it deserves. Your host handles everything over your private WhatsApp line.",
         "cta_plan": "Plan a Wellness Ritual",
         "cta_hospitality": "How Arrangements Work"
-      }
+      },
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "title": "Bienestar, sostenido por la naturaleza.",
       "meta_title": "Bienestar - OCAMA",
       "meta_description": "El entorno de bosque de OCAMA convierte su villa en un refugio sanador. Disfrute de tratamientos de spa personalizados, en interiores y al aire libre, pensados para su bienestar.",
@@ -119,7 +118,8 @@
         "note": "Estamos en una zona apartada, por lo que los servicios y experiencias de bienestar deben coordinarse con al menos 72 horas de antelación a través de nuestro concierge, dándole a cada sesión la preparación que merece. Su anfitrión se encarga de todo por su línea privada de WhatsApp.",
         "cta_plan": "Reserve un ritual de bienestar",
         "cta_hospitality": "Cómo funcionan las reservaciones"
-      }
+      },
+      "languages_code": "es-ES"
     }
   ]
 }

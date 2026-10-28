@@ -1,10 +1,9 @@
 {
   "key": "press",
   "status": "published",
-  "date_updated": "2026-10-05T00:00:00Z",
+  "date_updated": "",
   "og_image": null,
   "images": {
-    "hero": "https://ocama.com/upload/home-page/ocama-helicopter.jpg",
     "coverage_urls": [
       "https://www.cntraveler.com/hotels/las-galeras/ocama",
       "https://www.nytimes.com/2025/11/20/travel/hotel-flight-deals-black-friday.html",
@@ -13,11 +12,11 @@
       "https://www.travelandleisure.com/ocama-resort-dominican-republic-opening-11864934",
       "https://www.travelweekly.com/Caribbean-Travel/Ocama-Resort-opens-with-villas-overlooking-Rincon-Bay-Dominican-Republic",
       "https://www.caribjournal.com/2025/06/18/dominican-republic-luxury-villa-resort-new/"
-    ]
+    ],
+    "hero": "5683dbc1-52c3-4d48-a0b0-52118d6737a4"
   },
   "translations": [
     {
-      "languages_code": "en-US",
       "title": "The story of a hillside that listens.",
       "meta_title": "Press & Media - OCAMA",
       "meta_description": "Resources for journalists, editors, and creators covering Ocama, Las Galeras, and the Samaná Peninsula.",
@@ -156,10 +155,10 @@
           "instagram_label": "@ocama.rd on Instagram",
           "note": "Please include your outlet, deadline, and the focus of your piece. For image licensing and filming requests, our team responds within two business days."
         }
-      }
+      },
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "title": "La historia de una ladera que escucha.",
       "meta_title": "Prensa y Medios - OCAMA",
       "meta_description": "Recursos para periodistas, editores y creadores que cubren Ocama, Las Galeras y la península de Samaná.",
@@ -298,7 +297,8 @@
           "instagram_label": "@ocama.rd en Instagram",
           "note": "Por favor incluya su medio, su fecha de cierre y el enfoque de su pieza. Para licencias de imagen y solicitudes de filmación, nuestro equipo responde dentro de dos días hábiles."
         }
-      }
+      },
+      "languages_code": "es-ES"
     }
   ]
 }

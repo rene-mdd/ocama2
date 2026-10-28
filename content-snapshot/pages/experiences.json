@@ -1,16 +1,15 @@
 {
   "key": "experiences",
   "status": "published",
-  "date_updated": "2026-10-05T00:00:00Z",
-  "og_image": "/og/preview_activities.jpg",
+  "date_updated": "",
+  "og_image": "416877ba-188c-4a7c-8da6-9e5f435ca65d",
   "images": {
-    "hero": "https://ocama.com/upload/home-page/activities-beach.jpg",
-    "sea": "https://ocama.com/upload/home-page/whale-activities.jpg",
-    "forest": "https://ocama.com/upload/home-page/hummingbird-activities.jpg"
+    "hero": "4262941e-e438-4ec2-b451-2be7693f2bc5",
+    "sea": "5a27882b-cb2b-4361-819d-906e2ed89b44",
+    "forest": "9f1d92ea-a2a1-48e9-aaf4-9eb172458350"
   },
   "translations": [
     {
-      "languages_code": "en-US",
       "title": "The wild beauty of Samaná, quietly opened to you.",
       "meta_title": "Activities - OCAMA",
       "meta_description": "Samaná is a nature lover’s paradise. Enjoy stunning seascapes, lush mountains, cascading waterfalls, and hidden caves on this coastal gem.",
@@ -52,10 +51,10 @@
         "cta_plan": "Shape Your Days With Us",
         "cta_concierge": "How Our Concierge Works",
         "note": "Excursions follow the weather and the sea. Reserve in advance where you can, and let our concierge reshape the day gracefully when the sky decides otherwise."
-      }
+      },
+      "languages_code": "en-US"
     },
     {
-      "languages_code": "es-ES",
       "title": "La belleza indómita de Samaná, que se abre serenamente ante usted.",
       "meta_title": "Actividades - OCAMA",
       "meta_description": "Samaná es un paraíso para los amantes de la naturaleza. Disfrute de paisajes marinos impresionantes, montañas exuberantes, cascadas y cuevas escondidas en esta joya costera.",
@@ -97,7 +96,8 @@
         "cta_plan": "Diseñe sus días con nosotros",
         "cta_concierge": "Cómo trabaja nuestro concierge",
         "note": "Las excursiones dependen del clima y del mar. Reserve con antelación cuando pueda, y deje que nuestro concierge reorganice el día con gracia cuando el cielo decida otra cosa."
-      }
+      },
+      "languages_code": "es-ES"
     }
   ]
 }
