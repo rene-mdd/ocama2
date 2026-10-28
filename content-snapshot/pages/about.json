@@ -2,11 +2,11 @@
   "key": "about",
   "status": "published",
   "date_updated": "",
-  "og_image": "2ffac0ee-da9f-45ca-981f-8fe2f7a08acf",
+  "og_image": "2ffac0ee-da9f-45ca-981f-8fe2f7a08acf.jpg",
   "images": {
-    "hero": "95e192b5-72a4-4e72-a524-f7f32346eae9",
-    "founder": "547deb6e-eb14-451e-b69c-520df78ba277",
-    "map": "6b5ed59d-f434-4bfb-b552-dd69239e6d0a"
+    "hero": "95e192b5-72a4-4e72-a524-f7f32346eae9.jpg",
+    "founder": "547deb6e-eb14-451e-b69c-520df78ba277.jpg",
+    "map": "6b5ed59d-f434-4bfb-b552-dd69239e6d0a.jpg"
   },
   "translations": [
     {

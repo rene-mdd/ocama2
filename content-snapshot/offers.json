@@ -1,18 +1,110 @@
 [
   {
+    "id": "extend",
+    "status": "published",
+    "key": "extend",
+    "sort": 1,
+    "image": {
+      "src": "c4cecf8a-0107-4265-8535-a98f1529e8b0.png"
+    },
+    "booking_url": "https://hotels.cloudbeds.com/en/reservation/mXo8bc?currency=usd",
+    "publish_at": null,
+    "valid_from": null,
+    "valid_until": "2027-06-05",
+    "price": null,
+    "date_updated": "2026-10-28T01:26:40.219Z",
+    "og_image": null,
+    "noindex": false,
+    "canonical_url": null,
+    "translations": [
+      {
+        "id": 1,
+        "offers_id": 1,
+        "languages_code": "en-US",
+        "title": "Extend Your Stay",
+        "slug": "extend-your-stay",
+        "stay_length": "Five-Night Stay",
+        "eyebrow": "Exclusive Offers · Five-Night Stay",
+        "summary": "Enjoy more time above Rincón Bay",
+        "body": "Some places are best experienced slowly. Set between tropical forest and the open view of Rincón Bay, Ocama invites guests to move through the days without hurry. Mornings begin with light over the water, afternoons unfold between the villa and the coast, and evenings settle naturally into the quiet of the landscape. With Extend Your Stay, guests reserving four consecutive nights receive one additional night, creating more time to experience the rhythm of Ocama fully.",
+        "alt_text": "Extend Your Stay at Ocama",
+        "includes_eyebrow": "Your Stay Includes",
+        "inclusions": [
+          "A complimentary night when reserving four consecutive nights",
+          "Daily breakfast"
+        ],
+        "details": [
+          {
+            "summary": "Additional Inclusions",
+            "body": "Dedicated concierge support is available throughout the stay to assist with personalized pacing and planning, with access to in-property shuttle services as needed. Fitness and yoga equipment are also available upon request to support movement and balance during your time at Ocama. Access to Ocama's walking paths and beach trails. Additional experiences, including spa treatments, boat excursions, and in-villa dining, can be arranged prior to arrival or during your stay."
+          },
+          {
+            "summary": "Terms & Conditions",
+            "body": "A minimum stay of five consecutive nights is required. The complimentary night applies once per stay and is reflected in the average nightly rate. This offer is valid for new direct reservations only and cannot be combined with other promotions, negotiated rates, group bookings, travel agent rates, OTA rates, or special rates. Blackout dates apply. Standard cancellation and deposit policies apply and will be confirmed at the time of booking."
+          }
+        ],
+        "terms_note": null,
+        "cta_label": "Check Availability",
+        "speak_label": "Speak With Reservations",
+        "back_label": "Back to Exclusive Offers",
+        "meta_title": "Extend Your Stay - OCAMA",
+        "meta_description": "Reserve four consecutive nights above Rincón Bay and receive a fifth night on us, with daily breakfast, at Ocama in Las Galeras, Samaná.",
+        "og_title": null,
+        "og_description": null,
+        "og_image_alt": null
+      },
+      {
+        "id": 2,
+        "offers_id": 1,
+        "languages_code": "es-ES",
+        "title": "Extienda su estadía",
+        "slug": "extienda-su-estadia",
+        "stay_length": "Estadía de cinco noches",
+        "eyebrow": "Ofertas exclusivas · Estadía de cinco noches",
+        "summary": "Disfrute más tiempo sobre la bahía de Rincón",
+        "body": "Hay lugares que se disfrutan mejor sin prisa. Entre el bosque tropical y la vista abierta de la bahía de Rincón, Ocama invita a sus huéspedes a recorrer los días con calma. Las mañanas comienzan con la luz sobre el agua, las tardes transcurren entre la villa y la costa, y las noches se asientan de forma natural en el silencio del paisaje. Con Extienda su estadía, los huéspedes que reservan cuatro noches consecutivas reciben una noche adicional, y con ella más tiempo para vivir plenamente el ritmo de Ocama.",
+        "alt_text": "Extienda su estadía en Ocama",
+        "includes_eyebrow": "Su estadía incluye",
+        "inclusions": [
+          "Una noche de cortesía al reservar cuatro noches consecutivas",
+          "Desayuno diario"
+        ],
+        "details": [
+          {
+            "summary": "Inclusiones adicionales",
+            "body": "Durante toda la estadía dispondrá de apoyo dedicado de concierge para ayudarle con la planificación y el ritmo de sus días, con acceso a servicios de traslado dentro de la propiedad según lo necesite. También hay equipo de ejercicio y yoga disponible a pedido para acompañar el movimiento y el equilibrio durante su tiempo en Ocama. Acceso a los senderos y caminos de playa de Ocama. Experiencias adicionales, incluidos tratamientos de spa, excursiones en bote y gastronomía en su villa, pueden coordinarse antes de su llegada o durante su estadía."
+          },
+          {
+            "summary": "Términos y condiciones",
+            "body": "Se requiere una estadía mínima de cinco noches consecutivas. La noche de cortesía aplica una vez por estadía y se refleja en la tarifa promedio por noche. Esta oferta es válida únicamente para reservaciones directas nuevas y no puede combinarse con otras promociones, tarifas negociadas, reservas de grupo, tarifas de agencias de viajes, tarifas de OTA ni tarifas especiales. Aplican fechas restringidas. Aplican las políticas estándar de cancelación y depósito, que se confirmarán al momento de reservar."
+          }
+        ],
+        "terms_note": null,
+        "cta_label": "Consultar disponibilidad",
+        "speak_label": "Hable con reservaciones",
+        "back_label": "Volver a ofertas exclusivas",
+        "meta_title": "Extienda su estadía - OCAMA",
+        "meta_description": "Reserve cuatro noches consecutivas sobre la bahía de Rincón y la quinta es nuestra, con desayuno diario, en Ocama, Las Galeras, Samaná.",
+        "og_title": null,
+        "og_description": null,
+        "og_image_alt": null
+      }
+    ]
+  },
+  {
     "id": "taste",
     "status": "published",
     "key": "taste",
     "sort": 2,
     "image": {
-      "src": "4c6f0b2a-dd79-4b02-bc20-61f9de03347c"
+      "src": "4c6f0b2a-dd79-4b02-bc20-61f9de03347c.jpg"
     },
     "booking_url": "https://hotels.cloudbeds.com/en/reservation/mXo8bc?currency=usd",
     "publish_at": null,
     "valid_from": null,
     "valid_until": null,
     "price": null,
-    "date_updated": null,
+    "date_updated": "2026-10-28T00:47:27.145Z",
     "og_image": null,
     "noindex": false,
     "canonical_url": null,
@@ -79,7 +171,7 @@
     "key": "discovery",
     "sort": 3,
     "image": {
-      "src": "4262941e-e438-4ec2-b451-2be7693f2bc5"
+      "src": "4262941e-e438-4ec2-b451-2be7693f2bc5.jpg"
     },
     "booking_url": "https://hotels.cloudbeds.com/en/reservation/mXo8bc?currency=usd",
     "publish_at": null,
@@ -157,7 +249,7 @@
     "key": "romance",
     "sort": 4,
     "image": {
-      "src": "aee80cab-28d5-47d6-9400-35e06a01bfbb"
+      "src": "aee80cab-28d5-47d6-9400-35e06a01bfbb.jpg"
     },
     "booking_url": "https://hotels.cloudbeds.com/en/reservation/mXo8bc?currency=usd",
     "publish_at": null,
@@ -235,7 +327,7 @@
     "key": "longer",
     "sort": 5,
     "image": {
-      "src": "95e192b5-72a4-4e72-a524-f7f32346eae9"
+      "src": "95e192b5-72a4-4e72-a524-f7f32346eae9.jpg"
     },
     "booking_url": "https://hotels.cloudbeds.com/en/reservation/mXo8bc?currency=usd",
     "publish_at": null,
@@ -311,7 +403,7 @@
     "key": "dominican",
     "sort": 6,
     "image": {
-      "src": "f8dbdd68-4df6-415d-86b4-e020d3180539"
+      "src": "f8dbdd68-4df6-415d-86b4-e020d3180539.jpg"
     },
     "booking_url": "https://hotels.cloudbeds.com/en/reservation/mXo8bc?currency=usd",
     "publish_at": null,

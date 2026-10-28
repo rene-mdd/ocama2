@@ -2,12 +2,12 @@
   "key": "dining",
   "status": "published",
   "date_updated": "",
-  "og_image": "d1215edd-21ee-40fd-9751-31ea7ac5d814",
+  "og_image": "d1215edd-21ee-40fd-9751-31ea7ac5d814.jpg",
   "images": {
     "sample_menus_url": "https://ocama.com/menu/",
-    "hero": "7dc97b7d-6542-4907-a933-7fd8c7450e01",
-    "chef": "112a0018-c382-425f-8e4d-412e5118c1fa",
-    "cuisine": "b3b92771-6c8f-476b-9fcb-b05315f50f88"
+    "hero": "7dc97b7d-6542-4907-a933-7fd8c7450e01.jpg",
+    "chef": "112a0018-c382-425f-8e4d-412e5118c1fa.jpg",
+    "cuisine": "b3b92771-6c8f-476b-9fcb-b05315f50f88.jpg"
   },
   "translations": [
     {

@@ -2,21 +2,21 @@
   "key": "home",
   "status": "published",
   "date_updated": "2026-10-28T00:38:06.121Z",
-  "og_image": "0da9b88d-58ae-4837-bd5d-575c777ffbc1",
+  "og_image": "0da9b88d-58ae-4837-bd5d-575c777ffbc1.jpg",
   "images": {
-    "hero_video": "9c5498ab-43ad-4744-9317-3df207ec47d6",
-    "hero_poster": "41ee19af-9894-4117-84c7-ee10a40259d5",
-    "intro": "5ba80dca-9979-4b8b-8f2a-10d8e221895d",
-    "dining": "ce2c7398-3836-497e-81e7-a4270f826c7a",
+    "hero_video": "9c5498ab-43ad-4744-9317-3df207ec47d6.mp4",
+    "hero_poster": "41ee19af-9894-4117-84c7-ee10a40259d5.jpg",
+    "intro": "5ba80dca-9979-4b8b-8f2a-10d8e221895d.jpg",
+    "dining": "ce2c7398-3836-497e-81e7-a4270f826c7a.jpg",
     "villa_cards": [
-      "7f153516-6f0b-4652-b4d5-88dcc7b48f4c",
-      "e070abe6-92a4-448c-b9ec-a1409847af82",
-      "3f825910-e2d8-44d8-bb93-7e3764858601"
+      "7f153516-6f0b-4652-b4d5-88dcc7b48f4c.jpg",
+      "e070abe6-92a4-448c-b9ec-a1409847af82.jpg",
+      "3f825910-e2d8-44d8-bb93-7e3764858601.jpg"
     ],
     "experience_cards": [
-      "5a27882b-cb2b-4361-819d-906e2ed89b44",
-      "fc762be3-9595-4db9-9798-b922f73a6174",
-      "5683dbc1-52c3-4d48-a0b0-52118d6737a4"
+      "5a27882b-cb2b-4361-819d-906e2ed89b44.jpg",
+      "fc762be3-9595-4db9-9798-b922f73a6174.jpg",
+      "5683dbc1-52c3-4d48-a0b0-52118d6737a4.jpg"
     ]
   },
   "translations": [
