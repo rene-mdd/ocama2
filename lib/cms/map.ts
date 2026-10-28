@@ -56,6 +56,22 @@ function nullIfEmpty(v: unknown): unknown {
   return Object.values(out).every((x) => x === null) ? null : out;
 }
 
+const FILE_ID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+/**
+ * Replaces every file id in mapped content with its name in storage (`<id>.<ext>`), so images
+ * can be served straight from the bucket (lib/assets.ts). Ids missing from `names` stay as they are.
+ */
+export function withStoredNames<T>(value: T, names: Map<string, string>): T {
+  const walk = (v: unknown): unknown => {
+    if (typeof v === 'string') return FILE_ID.test(v) ? (names.get(v) ?? v) : v;
+    if (Array.isArray(v)) return v.map(walk);
+    if (isObj(v)) return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, walk(x)]));
+    return v;
+  };
+  return names.size ? (walk(value) as T) : value;
+}
+
 /** Flat Directus columns → nested object (`a__b` paths). */
 export function unflatten(row: Row, skip: Set<string>): Row {
   const out: Row = {};

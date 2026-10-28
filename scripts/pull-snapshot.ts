@@ -2,12 +2,12 @@
  * Rewrites content-snapshot/ from Directus (ARCHITECTURE.md, "Content snapshot"): run it after a
  * successful build and commit the result. `git diff` then shows what content changed, and a
  * build during a Directus outage reproduces the last published site. Images are stored as
- * Directus file ids, resolved through ASSETS_BASE_URL (the bucket) or DIRECTUS_URL.
+ * `<file id>.<ext>`, resolved through ASSETS_BASE_URL (the bucket) or DIRECTUS_URL.
  *   DIRECTUS_URL=… DIRECTUS_BUILD_TOKEN=… npm run snapshot
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { mapOffer, mapPage, mapSiteSettings, mapVilla, type Row } from '../lib/cms/map';
+import { mapOffer, mapPage, mapSiteSettings, mapVilla, withStoredNames, type Row } from '../lib/cms/map';
 import { queries } from '../lib/cms/queries';
 import { pageKeys } from '../lib/routes';
 
@@ -30,10 +30,13 @@ const write = (name: string, data: unknown) => {
 };
 
 // Everything is fetched before anything is written, so a failure never leaves a half-updated snapshot.
-const site = mapSiteSettings(await get<Row>(queries.site()));
-const villas = (await get<Row[]>(queries.villas())).map((r) => mapVilla(r, site.og_image));
-const offers = (await get<Row[]>(queries.offers())).map((r) => mapOffer(r, site.og_image));
-const pages = await Promise.all(pageKeys.map(async (key) => mapPage(key, await get<Row>(queries.page(key)))));
+// Images are stored by their name in storage (`<id>.<ext>`), so a build from the snapshot can
+// serve them from the bucket while Directus is down.
+const names = new Map((await get<{ id: string; filename_disk: string }[]>(queries.files())).map((f) => [f.id, f.filename_disk]));
+const site = withStoredNames(mapSiteSettings(await get<Row>(queries.site())), names);
+const villas = withStoredNames((await get<Row[]>(queries.villas())).map((r) => mapVilla(r, site.og_image)), names);
+const offers = withStoredNames((await get<Row[]>(queries.offers())).map((r) => mapOffer(r, site.og_image)), names);
+const pages = await Promise.all(pageKeys.map(async (key) => withStoredNames(mapPage(key, await get<Row>(queries.page(key))), names)));
 const redirects = await get<Row[]>(queries.redirects());
 
 write('site_settings.json', site);

@@ -9,4 +9,6 @@ export const queries = {
   offers: (draft = false) => `/items/offers?fields=*,translations.*&sort=sort&limit=-1${draft ? '' : filter({ _and: [PUBLISHED, SCHEDULED] })}`,
   page: (key: string) => `/items/page_${key}?fields=*.*`,
   redirects: () => '/items/redirects?fields=from,to,note&sort=from&limit=-1',
+  /** Each file's name in storage (`<id>.<ext>`), which is what the bucket serves. */
+  files: () => '/files?fields=id,filename_disk&limit=-1',
 };

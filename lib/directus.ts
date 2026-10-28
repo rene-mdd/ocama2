@@ -16,7 +16,7 @@ import { cache } from 'react';
 import offersJson from '@/content-snapshot/offers.json';
 import siteJson from '@/content-snapshot/site_settings.json';
 import villasJson from '@/content-snapshot/villas.json';
-import { mapOffer, mapPage, mapSiteSettings, mapVilla, type Row } from './cms/map';
+import { mapOffer, mapPage, mapSiteSettings, mapVilla, withStoredNames, type Row } from './cms/map';
 import { queries } from './cms/queries';
 import { languageCodes, type Locale } from './i18n';
 import { pageKeys } from './routes';
@@ -76,14 +76,14 @@ async function versionFor(collection: string): Promise<string | null> {
 /** After a failure, skip Directus for a minute so a build doesn't wait out the timeout on every page. */
 let directusDownUntil = 0;
 
-async function directus<T>(pathAndQuery: string, tag: string, version: string | null = null): Promise<T> {
+async function directus<T>(pathAndQuery: string, tag: string | string[], version: string | null = null): Promise<T> {
   const { draft } = await preview();
   const url = new URL(DIRECTUS_URL + pathAndQuery);
   if (draft && version) url.searchParams.set('version', version);
   const res = await fetch(url, {
     headers: { Authorization: `Bearer ${draft ? PREVIEW_TOKEN : BUILD_TOKEN}` },
     signal: AbortSignal.timeout(10_000),
-    ...(draft ? { cache: 'no-store' as const } : { cache: 'force-cache' as const, next: { tags: [tag] } }),
+    ...(draft ? { cache: 'no-store' as const } : { cache: 'force-cache' as const, next: { tags: [tag].flat() } }),
   });
   if (!res.ok) throw new Error(`Directus ${res.status} for ${url.pathname}`);
   const { data } = (await res.json()) as { data?: T };
@@ -104,8 +104,27 @@ async function load<T>(what: string, fromDirectus: () => Promise<T>, fromSnapsho
   return fromSnapshot();
 }
 
+/**
+ * File id → name in storage, for bucket URLs. Tagged with every collection, so the save that puts a
+ * new image on a page also refreshes this list. On failure images keep their ids and load
+ * through Directus, as before.
+ */
+const storedNames = cache(async () => {
+  try {
+    const files = await directus<{ id: string; filename_disk: string | null }[]>(queries.files(), Object.values(TAGS));
+    return new Map(files.flatMap((f) => (f.filename_disk ? [[f.id, f.filename_disk] as const] : [])));
+  } catch (e) {
+    console.warn(`[content] Directus file names unavailable, images load through Directus: ${(e as Error).message}`);
+    return new Map<string, string>();
+  }
+});
+
 const loadSite = cache(() =>
-  load('site_settings', async () => mapSiteSettings(await directus<Row>(queries.site(), TAGS.site)), snapshot.site),
+  load(
+    'site_settings',
+    async () => withStoredNames(mapSiteSettings(await directus<Row>(queries.site(), TAGS.site)), await storedNames()),
+    snapshot.site,
+  ),
 );
 
 /** The default share image's id, used where an item has no image of its own. */
@@ -118,7 +137,10 @@ const loadVillas = cache(async () => {
     async () => {
       const rows = await directus<Row[]>(queries.villas(draft), TAGS.villas);
       const fb = await fallbackImage();
-      return rows.map((r) => mapVilla(r, fb));
+      return withStoredNames(
+        rows.map((r) => mapVilla(r, fb)),
+        await storedNames(),
+      );
     },
     snapshot.villas,
   );
@@ -131,7 +153,10 @@ const loadOffers = cache(async () => {
     async () => {
       const rows = await directus<Row[]>(queries.offers(draft), TAGS.offers);
       const fb = await fallbackImage();
-      return rows.map((r) => mapOffer(r, fb));
+      return withStoredNames(
+        rows.map((r) => mapOffer(r, fb)),
+        await storedNames(),
+      );
     },
     snapshot.offers,
   );
@@ -143,10 +168,14 @@ const loadPage = cache((key: string) =>
     async () => {
       const collection = `page_${key}`;
       const version = await versionFor(collection);
-      if (!version) return mapPage(key, await directus<Row>(queries.page(key), TAGS.pages));
-      // Content versions only apply on the by-id route.
-      const { id } = await directus<Row>(`/items/${collection}?fields=id`, TAGS.pages);
-      return mapPage(key, await directus<Row>(`/items/${collection}/${id}?fields=*.*`, TAGS.pages, version));
+      let row: Row;
+      if (!version) row = await directus<Row>(queries.page(key), TAGS.pages);
+      else {
+        // Content versions only apply on the by-id route.
+        const { id } = await directus<Row>(`/items/${collection}?fields=id`, TAGS.pages);
+        row = await directus<Row>(`/items/${collection}/${id}?fields=*.*`, TAGS.pages, version);
+      }
+      return withStoredNames(mapPage(key, row), await storedNames());
     },
     () => nonEmpty(snapshot.page(key), `page ${key}`),
   ),
