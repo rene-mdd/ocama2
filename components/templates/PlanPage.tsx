@@ -1,4 +1,6 @@
 import { A } from '@/components/A';
+import { ContactLabel } from '@/components/ContactLabel';
+import { telUrl, whatsappUrl } from '@/lib/contact';
 import { ArrivalMap } from '@/components/client/ArrivalMap';
 import { HeliCta } from '@/components/client/HeliCta';
 import { InquiryForm } from '@/components/client/InquiryForm';
@@ -50,15 +52,20 @@ export async function PlanPage({ lang }: { lang: Locale }) {
             <div className="mrow b-none pt-p4">
               <h5>{arrival.reservations_title}</h5>
               <p>
-                <a href={`tel:${site.phone.replace(/-/g, '')}`} className="c-sea-deep">
+                <a href={telUrl(site.phone)} className="c-sea-deep">
                   {site.phone_display}
                 </a>{' '}
-                ·{' '}
-                <a href={`tel:${arrival.whatsapp_tel}`} className="c-sea-deep">
-                  {arrival.whatsapp_display}
-                </a>{' '}
-                {arrival.whatsapp_label}
+                <ContactLabel text={site.t.phone_label} />
                 <br />
+                {site.whatsapp && (
+                  <>
+                    <a href={whatsappUrl(site.whatsapp)} target="_blank" rel="noopener" className="c-sea-deep">
+                      {site.whatsapp_display ?? site.whatsapp}
+                    </a>{' '}
+                    <ContactLabel text={site.t.whatsapp_label} />
+                    <br />
+                  </>
+                )}
                 <a href={`mailto:${site.email}`} className="c-sea-deep">
                   {site.email}
                 </a>

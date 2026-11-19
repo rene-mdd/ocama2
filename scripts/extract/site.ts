@@ -54,6 +54,9 @@ export function extractSiteT(lang: Locale): SiteSettingsT {
     footer_copyright: text(base.eq(0)),
     footer_reviews_label: text(base.eq(1)),
     footer_meaning: text(base.eq(2)),
+    // Customer feedback (Nov 2026): both numbers shown and labelled, as on the previous site.
+    phone_label: lang === 'en' ? 'Phone calls' : 'Llamadas',
+    whatsapp_label: 'WhatsApp',
     villa_inclusions,
   };
 }
@@ -65,6 +68,10 @@ export function extractSiteParent(): Omit<SiteSettings, 'translations'> {
   return {
     phone: schema.telephone,
     phone_display: text(plan.find('a[href^="tel:"]')),
+    ...(() => {
+      const wa = load('en', 'plan.html')('main .mrow a[href^="tel:"]').eq(1);
+      return { whatsapp: attr(wa, 'href').replace(/^tel:/, ''), whatsapp_display: text(wa) };
+    })(),
     email: schema.email,
     booking_url: attr($('header .btn'), 'href'),
     google_reviews_url: attr($('footer .foot-base a'), 'href'),

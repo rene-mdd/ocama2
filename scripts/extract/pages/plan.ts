@@ -14,9 +14,7 @@ export function extract(lang: Locale): PageExtract<PlanImages, PlanSections> {
   const air = $('main > section.pad-dark');
   const faq = $('main > section.pad-sand');
   const mrow = arr.find('.mrow');
-  const wa = mrow.find('a[href^="tel:"]').eq(1);
   // Text after the WhatsApp number, before the <br>.
-  const waLabel = (wa.get(0)!.nextSibling as unknown as { data?: string })?.data?.trim() ?? '';
   const airPs = air.find('.reveal > p');
 
   return {
@@ -46,9 +44,6 @@ export function extract(lang: Locale): PageExtract<PlanImages, PlanSections> {
         })),
         road_note: text(arr.children('p.reveal')),
         reservations_title: text(mrow.find('h5')),
-        whatsapp_display: text(wa),
-        whatsapp_tel: attr(wa, 'href').replace(/^tel:/, ''),
-        whatsapp_label: waLabel,
       },
       air: {
         eyebrow: text(air.find('.section-mark .eyebrow')),

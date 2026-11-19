@@ -1,5 +1,6 @@
 /**
- * Parity check: the built site against the approved export, page by page, both languages.
+ * Parity check: the built site against the approved export, page by page, both languages,
+ * with the changes approved since (scripts/parity-changes.ts) applied to the export first.
  *   npm run build && npm run parity [-- <file-filter>]
  * Compares, in document order, the visible text and an element signature (tag, classes with
  * inline styles mapped to their utility classes, mapped link targets, image sources and alt text)
@@ -11,6 +12,7 @@ import * as cheerio from 'cheerio';
 import type { AnyNode, Element } from 'domhandler';
 import offers from '../content-snapshot/offers.json' with { type: 'json' };
 import { classesFor } from './utilities';
+import { applyApprovedChanges } from './parity-changes';
 import { EXPORT_DIR, mapHref, offerSlugs } from './extract/lib';
 import { href, segments, type PageKey } from '../lib/routes';
 import type { Locale } from '../lib/i18n';
@@ -66,6 +68,11 @@ function signature($: cheerio.CheerioAPI, root: cheerio.Cheerio<AnyNode>, side: 
     const el = node as Element;
     if (el.tagName === 'script' || el.tagName === 'template') return;
     if (side === 'export' && el.tagName === 'img' && missingImages.has(el.attribs.src)) return;
+    // …together with the lightbox button wrapped around it (scripts/parity-changes.ts).
+    if (side === 'export' && el.tagName === 'button' && missingImages.size) {
+      const img = el.children.find((c): c is Element => c.type === 'tag' && (c as Element).tagName === 'img');
+      if (img && missingImages.has(img.attribs.src)) return;
+    }
     const a = el.attribs;
     const classes = [...(a.class ?? '').split(/\s+/), ...(side === 'export' && a.style ? classesFor(a.style).split(' ') : [])]
       .filter((c) => c && !IGNORE_CLASS.has(c))
@@ -92,6 +99,7 @@ function compare(lang: Locale, file: string): string[] {
   const builtFile = path.join(BUILD, `${route.slice(1)}.html`);
   if (!existsSync(builtFile)) return [`missing build output ${route}`];
   const ex = cheerio.load(readFileSync(path.join(EXPORT_DIR, lang, file), 'utf8'));
+  applyApprovedChanges(ex, lang, file);
   const bu = cheerio.load(readFileSync(builtFile, 'utf8'));
   // The language switcher is new in the Next.js build and has no export counterpart.
   bu('.lang-switch').remove();

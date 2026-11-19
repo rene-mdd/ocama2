@@ -49,9 +49,10 @@ export function ArrivalMap({ label, lat, lng }: { label: string; lat: number; ln
       const PUJ: LatLng = [18.5675, -68.3634];
       const m = L.map(ref.current, { scrollWheelZoom: false, attributionControl: true });
       map = m;
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; OpenStreetMap &copy; CARTO',
-        subdomains: 'abcd',
+      // OpenStreetMap's own tiles: no key needed (CARTO's basemaps now require one). Toned down
+      // to the site's palette by a CSS filter on the tile pane (styles/site.css).
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 19,
       }).addTo(m);
       const mk = (pos: LatLng, html: string, size: [number, number], anchor: [number, number]) =>

@@ -33,5 +33,20 @@
   "preview": {
     "label": "Preview: unpublished changes are shown",
     "exit": "Exit preview"
+  },
+  "gallery": {
+    "open": "Open image {n} of {total}",
+    "close": "Close",
+    "previous": "Previous image",
+    "next": "Next image",
+    "counter": "{n} / {total}"
+  },
+  "zoom": {
+    "open": "View the map full screen",
+    "close": "Close",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "reset": "Reset zoom",
+    "hint": "Scroll or pinch to zoom · drag to move"
   }
 }

@@ -1,4 +1,6 @@
 import { A } from '@/components/A';
+import { ContactLabel } from '@/components/ContactLabel';
+import { telUrl, whatsappUrl } from '@/lib/contact';
 import type { SiteSettings, SiteSettingsT } from '@/lib/types';
 import type { NavLink } from './Header';
 
@@ -36,8 +38,16 @@ export function Footer({ site, t, explore, planHref }: Props) {
                 <A href={planHref}>{t.footer_plan_getting_here}</A>
               </li>
               <li>
-                <a href={`tel:${site.phone.replace(/-/g, '')}`}>{site.phone_display}</a>
+                <a href={telUrl(site.phone)}>{site.phone_display}</a> <ContactLabel text={t.phone_label} />
               </li>
+              {site.whatsapp && (
+                <li>
+                  <a href={whatsappUrl(site.whatsapp)} target="_blank" rel="noopener">
+                    {site.whatsapp_display ?? site.whatsapp}
+                  </a>{' '}
+                  <ContactLabel text={t.whatsapp_label} />
+                </li>
+              )}
               <li>
                 <a href={`mailto:${site.email}`}>{site.email}</a>
               </li>

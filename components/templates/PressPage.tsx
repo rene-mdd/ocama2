@@ -52,7 +52,8 @@ export async function PressPage({ lang }: { lang: Locale }) {
         </div>
       </section>
 
-      <section className="pad pt-0">
+      {/* Full top padding: Fast Facts needs room after the green Coverage section (customer feedback). */}
+      <section className="pad">
         <div className="wrap">
           <SectionMark className="reveal" eyebrow={s.facts.eyebrow} />
           <div className="grid3 reveal mt-2 gap-2p5">

@@ -1,6 +1,8 @@
 {
   "phone": "+1-849-581-4699",
   "phone_display": "+1 (849) 581-4699",
+  "whatsapp": "+18882574093",
+  "whatsapp_display": "+1 (888) 257-4093",
   "email": "reservations@ocama.com",
   "booking_url": "https://hotels.cloudbeds.com/reservation/mXo8bc",
   "google_reviews_url": "https://www.google.com/maps/place/Ocama/@19.2820975,-69.2286959,17z/data=!4m11!3m10!1s0x8eaedde2a5cc96dd:0x6891fa0a35d9e29c!5m2!4m1!1i2!8m2!3d19.2820975!4d-69.226121!9m1!1b1!16s%2Fg%2F11h2ns2y1z",
@@ -158,6 +160,8 @@
       "footer_copyright": "© Copyright OCAMA · Las Galeras, Samaná, Dominican Republic",
       "footer_reviews_label": "5.0 · Guest Reviews on Google",
       "footer_meaning": "Ocama: \"to listen\" in the Taíno language",
+      "phone_label": "Phone calls",
+      "whatsapp_label": "WhatsApp",
       "villa_inclusions": {
         "eyebrow": "Included in Your Stay at Ocama",
         "headline": "Your villa is private. <em>The experience is entirely Ocama.</em>",
@@ -312,6 +316,8 @@
       "footer_copyright": "© Copyright OCAMA · Las Galeras, Samaná, Dominican Republic",
       "footer_reviews_label": "5.0 · Reseñas de huéspedes en Google",
       "footer_meaning": "Ocama: \"escuchar\" en la lengua taína",
+      "phone_label": "Llamadas",
+      "whatsapp_label": "WhatsApp",
       "villa_inclusions": {
         "eyebrow": "Incluido en su estadía en Ocama",
         "headline": "Su villa es privada. <em>La experiencia es enteramente Ocama.</em>",
