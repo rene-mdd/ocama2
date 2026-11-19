@@ -25,9 +25,6 @@ export type PlanSections = {
     items: { value: string; label: string; text: string }[];
     road_note: string;
     reservations_title: string;
-    whatsapp_display: string;
-    whatsapp_tel: string;
-    whatsapp_label: string;
   };
   air: {
     eyebrow: string;

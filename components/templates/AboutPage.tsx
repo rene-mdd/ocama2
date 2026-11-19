@@ -1,4 +1,6 @@
+import { ZoomableImage } from '@/components/client/ZoomableImage';
 import { Img } from '@/components/Img';
+import { assetUrl } from '@/lib/assets';
 import { Rich } from '@/components/Rich';
 import { SectionMark } from '@/components/SectionMark';
 import { PageHero } from '@/components/sections/PageHero';
@@ -51,7 +53,7 @@ export async function AboutPage({ lang }: { lang: Locale }) {
             <Rich as="h2" className="display" html={s.retreat.headline} />
             <p className="lede mt-1p2">{s.retreat.body}</p>
           </div>
-          <Img className="reveal wide" image={img.map} alt={s.retreat.image_alt} />
+          <ZoomableImage className="reveal wide map-full" src={assetUrl(img.map)} alt={s.retreat.image_alt} />
         </div>
       </section>
     </main>

@@ -1,4 +1,6 @@
 import { A } from '@/components/A';
+import { VillaGallery } from '@/components/client/VillaGallery';
+import { assetUrl } from '@/lib/assets';
 import { Img } from '@/components/Img';
 import { Rich } from '@/components/Rich';
 import { SectionMark } from '@/components/SectionMark';
@@ -64,11 +66,14 @@ export async function VillaPage({ lang, villa }: { lang: Locale; villa: Localize
       <section className="pad">
         <div className="wrap">
           <SectionMark className="reveal" eyebrow={t.gallery_eyebrow} />
-          <div className="gal reveal">
-            {villa.gallery.map((g) => (
-              <Img key={g.src} image={g} alt={t.gallery_alt} loading="lazy" />
-            ))}
-          </div>
+          <VillaGallery
+            alt={t.gallery_alt}
+            images={villa.gallery.map((g) => ({
+              src: assetUrl(g.src),
+              fallback: g.fallback ? assetUrl(g.fallback) : null,
+              hideOnError: g.hideOnError,
+            }))}
+          />
           {t.quote && (
             <p className="reveal mt-2p6 ff-serif fst-italic fs-1p15 maxw-34em">
               {t.quote.text}{' '}

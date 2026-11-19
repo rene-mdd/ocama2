@@ -54,13 +54,21 @@ export type SiteSettingsT = {
   footer_copyright: string;
   footer_reviews_label: string;
   footer_meaning: string;
+  /** Labels shown after each number in the footer and on Plan Your Stay (optional until the
+   * 2026-11 migration has run on a Directus instance). */
+  phone_label?: string | null;
+  whatsapp_label?: string | null;
   /** "Included in your stay" block shared by every villa page. */
   villa_inclusions: { eyebrow: string; headline: Rich; items: string[]; note: string };
 };
 
 export type SiteSettings = Translated<SiteSettingsT> & {
+  /** Number for calls, E.164 (tel: link), and as displayed. */
   phone: string;
   phone_display: string;
+  /** WhatsApp number, E.164 (wa.me link), and as displayed. Optional: the item is hidden without it. */
+  whatsapp?: string | null;
+  whatsapp_display?: string | null;
   email: string;
   booking_url: string;
   google_reviews_url: string;
