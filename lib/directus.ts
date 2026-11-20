@@ -73,21 +73,42 @@ async function versionFor(collection: string): Promise<string | null> {
   return c === collection && key ? key : null;
 }
 
-/** After a failure, skip Directus for a minute so a build doesn't wait out the timeout on every page. */
+/** After Directus proves unreachable, skip it for a minute so a build doesn't wait out the timeout on every page. */
 let directusDownUntil = 0;
+
+/** Waits before the 2nd and 3rd attempt. A build asks Directus for many pages at once, and a busy
+ * server can be slow for a moment; one slow answer must not put a page on the snapshot. */
+const RETRY_DELAYS_MS = [1_000, 3_000];
+
+/** Worth another try: timeouts, network errors, rate limits and server errors. Not 401/403/404. */
+const retryable = (status: number | null) => status === null || status === 408 || status === 429 || status >= 500;
 
 async function directus<T>(pathAndQuery: string, tag: string | string[], version: string | null = null): Promise<T> {
   const { draft } = await preview();
   const url = new URL(DIRECTUS_URL + pathAndQuery);
   if (draft && version) url.searchParams.set('version', version);
-  const res = await fetch(url, {
-    headers: { Authorization: `Bearer ${draft ? PREVIEW_TOKEN : BUILD_TOKEN}` },
-    signal: AbortSignal.timeout(10_000),
-    ...(draft ? { cache: 'no-store' as const } : { cache: 'force-cache' as const, next: { tags: [tag].flat() } }),
-  });
-  if (!res.ok) throw new Error(`Directus ${res.status} for ${url.pathname}`);
-  const { data } = (await res.json()) as { data?: T };
-  return nonEmpty(data, `${url.pathname} (Directus)`);
+  for (let attempt = 0; ; attempt++) {
+    let status: number | null = null;
+    try {
+      const res = await fetch(url, {
+        headers: { Authorization: `Bearer ${draft ? PREVIEW_TOKEN : BUILD_TOKEN}` },
+        signal: AbortSignal.timeout(10_000),
+        ...(draft ? { cache: 'no-store' as const } : { cache: 'force-cache' as const, next: { tags: [tag].flat() } }),
+      });
+      status = res.status;
+      if (!res.ok) throw Object.assign(new Error(`Directus ${res.status} for ${url.pathname}`), { status: res.status });
+      const { data } = (await res.json()) as { data?: T };
+      if (data == null || (Array.isArray(data) && data.length === 0)) {
+        throw Object.assign(new Error(`Content returned empty data for ${url.pathname} (Directus)`), { status: res.status });
+      }
+      return data;
+    } catch (e) {
+      const delay = RETRY_DELAYS_MS[attempt];
+      if (delay === undefined || !retryable(status)) throw e;
+      console.warn(`[content] Directus attempt ${attempt + 1} failed for ${url.pathname}, retrying: ${(e as Error).message}`);
+      await new Promise((r) => setTimeout(r, delay));
+    }
+  }
 }
 
 /** Directus first, snapshot on failure. Without Directus configured, the snapshot only. */
@@ -97,7 +118,9 @@ async function load<T>(what: string, fromDirectus: () => Promise<T>, fromSnapsho
       return await fromDirectus();
     } catch (e) {
       if ((await preview()).draft) throw e; // a broken preview should say so
-      directusDownUntil = Date.now() + 60_000;
+      // Unreachable (timeout, network): skip Directus for a minute. An HTTP error for one item
+      // says nothing about the others, so they still try (their pages stay refreshable).
+      if (!(e as { status?: number }).status) directusDownUntil = Date.now() + 60_000;
       console.warn(`[content] Directus unavailable for ${what}, using content-snapshot: ${(e as Error).message}`);
     }
   }

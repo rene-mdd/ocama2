@@ -10,16 +10,25 @@ const DIRECTUS_URL = process.env.DIRECTUS_URL?.replace(/\/$/, '');
 /** Redirects come from the Directus `redirects` collection at build, the snapshot if it's unreachable. */
 async function redirectRows(): Promise<RedirectRow[]> {
   if (DIRECTUS_URL && process.env.DIRECTUS_BUILD_TOKEN) {
-    try {
-      const res = await fetch(`${DIRECTUS_URL}/items/redirects?fields=from,to&limit=-1`, {
-        headers: { Authorization: `Bearer ${process.env.DIRECTUS_BUILD_TOKEN}` },
-        signal: AbortSignal.timeout(10_000),
-      });
-      if (!res.ok) throw new Error(`Directus ${res.status}`);
-      const { data } = (await res.json()) as { data: RedirectRow[] };
-      if (data.length) return data;
-    } catch (e) {
-      console.warn(`[content] Directus unavailable for redirects, using content-snapshot: ${(e as Error).message}`);
+    // Same retry policy as lib/directus.ts: a moment of slowness must not drop recent redirects.
+    for (const delay of [1_000, 3_000, null]) {
+      try {
+        const res = await fetch(`${DIRECTUS_URL}/items/redirects?fields=from,to&limit=-1`, {
+          headers: { Authorization: `Bearer ${process.env.DIRECTUS_BUILD_TOKEN}` },
+          signal: AbortSignal.timeout(10_000),
+        });
+        if (res.status === 401 || res.status === 403) throw Object.assign(new Error(`Directus ${res.status}`), { final: true });
+        if (!res.ok) throw new Error(`Directus ${res.status}`);
+        const { data } = (await res.json()) as { data: RedirectRow[] };
+        if (data.length) return data;
+        break;
+      } catch (e) {
+        if (delay === null || (e as { final?: boolean }).final) {
+          console.warn(`[content] Directus unavailable for redirects, using content-snapshot: ${(e as Error).message}`);
+          break;
+        }
+        await new Promise((r) => setTimeout(r, delay));
+      }
     }
   }
   return redirectsSnapshot as RedirectRow[];
