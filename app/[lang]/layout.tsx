@@ -29,6 +29,13 @@ const jost = Jost({ weight: ['300', '400', '500'], subsets: ['latin'], variable:
 // No dynamicParams = false here: it is inherited by child routes and would stop offers published
 // after the build from rendering. Unknown locales are rejected below with notFound().
 
+// Safety net, not the normal path: a save in Directus refreshes pages immediately through
+// /api/revalidate. But a page built while Directus was unreachable came from content-snapshot/,
+// made no tagged fetch, and so never hears about saves. Re-rendering every page at most hourly
+// lets such a page pick up Directus (and its tags) again instead of staying stale until the next
+// deploy. Cached Directus data is reused, so this costs little.
+export const revalidate = 3600;
+
 export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
 }

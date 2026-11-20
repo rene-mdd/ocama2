@@ -53,3 +53,9 @@ header.solid .lang-switch,header.scrolled .lang-switch,body.menu-open .lang-swit
 .zoomview .zv-controls button:disabled{opacity:.35;cursor:default}
 .zoomview .zv-hint{position:absolute;top:1.5rem;left:50%;transform:translateX(-50%);color:rgba(246,242,233,.6);font-size:.72rem;letter-spacing:.08em;white-space:nowrap;pointer-events:none}
 @media(max-width:960px){.zoomview .zv-stage img{max-width:100vw;max-height:calc(100vh - 11rem)}.zoomview .zv-hint{top:4.2rem}}
+
+/* Image heroes: Bone eyebrow with a soft shadow, and a Jungle gradient over the lower part of the
+   image for legibility. Layered over the export's overlay, which still darkens the top for the header.
+   Sea stays for eyebrows on solid backgrounds (.pad-dark etc.). */
+.phero::after{background:linear-gradient(to top,rgba(22,36,28,.72) 0%,rgba(22,36,28,.5) 40%,transparent 75%),linear-gradient(180deg,rgba(15,25,20,.45),rgba(15,25,20,.1) 45%,rgba(15,25,20,.72))}
+.phero .eyebrow{color:var(--bone);font-size:.78125rem;letter-spacing:.36em;text-shadow:0 1px 8px rgba(0,0,0,.45)}
